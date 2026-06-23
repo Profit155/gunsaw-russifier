@@ -1,0 +1,122 @@
+// Реплики MilkyEnemy (вид Milky, шрифт Sansation_Regular) — дисциплинированные военные/спецназ
+// Категории: alert (держит позицию) · spot (засёк цель) · reload (тактич. команды) · allyDeath (потеря бойца) · death (предсмертные) · ouch (потеря конечности)
+// Общие ключи в chatter_base_enemy.txt (не дублируем): CRAP!, OUUCH!!, AAAAHHH!!, GRAAHHH!!, MY LIMBS!!!, Enemy!, Cover me!, I need cover!, Reloading!, Man down!, We lost one!, Help..., N... No...
+// Внимание: «Cover me!» (воскл.) — общий ключ, а «Cover me.» (точка) — отдельный, переводится здесь.
+
+// --- alert: насторожён, держит позицию (сухой радиоэфир) ---
+Unknown presence...=Засёк постороннего...
+Something's off.=Обстановка нештатная.
+On standby.=В готовности.
+Holding ground.=Держу рубеж.
+Waiting confrontation.=Ожидаю контакта.
+In position.=Занял позицию.
+I'm in position.=Я на позиции.
+Holding zone.=Держу сектор.
+Area status unclear.=Обстановка в секторе неясная.
+I know you're here.=Я знаю, что ты здесь.
+I'm waiting for you...=Я жду тебя...
+You won't hide for long.=Ты не можешь прятаться вечно.
+Come out.=Выходи.
+Investigating...=Веду разведку...
+Identifying...=Опознаю...
+Audio anomaly.=Посторонний шум.
+Requesting room clear.=Запрашиваю зачистку помещения.
+I need visual.=Нужен визуальный контакт.
+
+// --- spot: засёк цель, боевые команды (Enemy! — общий ключ) ---
+Calling assistance!=Запрашиваю подкрепление!
+Hostile!=Противник!
+Hostile inbound!=Противник на подходе!
+Area unsecure!=Сектор не зачищен!
+They're on me!=Меня атакуют!
+Hostile in sector!=Противник в секторе!
+Intruder...=Нарушитель...
+Intruder!=Нарушитель!
+Halt!=Стоять!
+I'll take care of this.=Беру на себя.
+You're done for.=Тебе конец.
+Enemy located!=Цель обнаружена!
+Ah!=А!
+I have visual.=Вижу цель.
+Visual on target.=Визуальный контакт с целью.
+Engage the target.=Атаковать цель.
+Engaging.=Атакую.
+Requesting 03 protocol...=Запрашиваю протокол 03...
+Paths have crossed.=Наши пути пересеклись.
+Spotted.=Цель засечена.
+I see them.=Вижу их.
+I see you.=Вижу тебя.
+Take it down.=Уничтожить цель.
+Requesting.=Запрашиваю...
+
+// --- reload: перезарядка / тактич. команды (I need cover!, Reloading!, Cover me! — общие ключи) ---
+Switching mag!=Меняю магазин!
+Seeking cover!=Ухожу в укрытие!
+Weapon's hot!=Ствол раскалён!
+Cover, reloading!=Прикройте, перезаряжаюсь!
+Switching!=Меняю!
+Zone's hot!=Сектор под огнём!
+Drown them!=Подавить их огнём!
+Hold position!=Удерживать позицию!
+Hold them down!=Прижать их!
+Protocol 7.=Протокол 7.
+Article 7.=Статья 7.
+Need some help.=Нужна помощь.
+Need assistance.=Нужна поддержка.
+Dammit... Dammit...=Чёрт... чёрт...
+I'm out, changing.=Пусто, меняю.
+Cover me.=Прикрой меня.
+
+// --- allyDeath: потеря бойца (We lost one!, Man down! — общие ключи) ---
+One down!=Одного потеряли!
+Keep persisting!=Держаться!
+Damn you!=Будь ты проклят!
+Dang! One down!=Чёрт! Одного потеряли!
+Losing ground!=Сдаём позиции!
+This is going to hell!=Всё летит к чертям!
+Squadmate down!=Потеря в отряде!
+We're compromised!=Нас раскрыли!
+We've lost one.=Потеряли одного.
+Hold on a bit longer...=Продержись ещё немного...
+I need a med.=Нужен медик.
+Don't leave me...=Не бросай меня...
+No, not now.=Нет, только не сейчас.
+We.. Almost did it.=Мы... почти справились.
+Why... Why you...=Почему... почему ты...
+I need an article 9.=Запрашиваю статью 9.
+Situation is dire.=Положение критическое.
+Article 9, now!=Статью 9, живо!
+We need help, pronto.=Нужна помощь, живо!
+He's gone...=Его больше нет...
+
+// --- death: предсмертные (доклады по уставу + человечность; приказы союзникам) ---
+I'm not... Gonna make it...=Мне... не выбраться...
+Why... me?=Почему... я?
+Get... away...=Уходите...
+R... run...=Б... бегите...
+Please...=Прошу...
+Sector... overrun.=Сектор... захвачен.
+Squad... is...=Отряд... был...
+I'm d... down...=Я р... ранен...
+I did... my best.=Я... сделал что мог.
+We can d... do it...=Мы... справимся...
+Push... a bit more...=Поднажмите... ещё немного...
+We almost...=Мы почти...
+I'm... losing blood...=Я... истекаю кровью...
+Article... 12...=Статья... 12...
+Help... please...=Помогите... прошу...
+I need... help...=Мне нужна... помощь...
+I'm... done...=Мне... конец...
+Goodbye...=Прощайте...
+You can't... win...=Вам... не победить...
+Need... backup...=Нужна... подмога...
+Just a bit... more...=Ещё... совсем чуть-чуть...
+Please... Don't...=Прошу... не надо...
+I need... a red...=Мне нужен... красный...
+
+// --- ouch: потеря конечности (CRAP!, OUUCH!!, AAAAHHH!!, GRAAHHH!!, MY LIMBS!!! — общие ключи) ---
+I-I NEED HELP! ASSISTANCE!=М-МНЕ НУЖНА ПОМОЩЬ! ПОДКРЕПЛЕНИЕ!
+I L-LOST A LIMB! HELP!=Я П-ПОТЕРЯЛ КОНЕЧНОСТЬ! НА ПОМОЩЬ!
+I'M- Help! HELP!=Я... НА ПОМОЩЬ! ПОМОГИТЕ!
+Gahhhh! Hnng!=Га-а-ах! Хнг!
+Gauuhhhggnn!!!=Га-у-ухггнн!!!

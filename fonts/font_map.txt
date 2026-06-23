@@ -1,0 +1,15 @@
+# Карта: имя шрифтового ассета игры = файл ttf (в папке fonts/)
+# Кириллический фолбэк строится из ttf и цепляется к игровому шрифту.
+Retro Gaming=RetroGamingRu.ttf
+LiberationSans SDF=LiberationSans-Regular.ttf
+LiberationSans SDF - Fallback=LiberationSans-Regular.ttf
+PixelOperator=PixelOperatorRu.ttf
+PixelOperatorOutline=PixelOperatorRu.ttf
+respawn-pro=RespawnProRu.ttf
+Victor=VictorRu.ttf
+Gelatik-Regular SDF=GelatikRu.ttf
+Acidic=AcidicRu.ttf
+Sansation_Regular=SansationRu.ttf
+chloe font v1 SDF=ChloeRu.ttf
+hemi head bd it=HemiHeadRu.ttf
+conthrax-sb=conthrax-sb.ttf

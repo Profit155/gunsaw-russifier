@@ -1,0 +1,15 @@
+[
+  {"key": "Sounds/webSplat", "verdict": "skip", "ru": "", "note": "путь ресурса"},
+  {"key": "SOFTPARTICLES_OFF", "verdict": "skip", "ru": "", "note": "shader keyword / код-токен"},
+  {"key": "SOFTPARTICLES_ON", "verdict": "skip", "ru": "", "note": "shader keyword / код-токен"},
+  {"key": "</color>\\nPress Escape to cancel", "verdict": "translate", "ru": "</color>\\nНажмите Escape для отмены", "note": ""},
+  {"key": "<color=#00FFFF>\\nCLICK TO SWAP", "verdict": "translate", "ru": "<color=#00FFFF>\\nНАЖМИТЕ, ЧТОБЫ ПОМЕНЯТЬ", "note": ""},
+  {"key": "<color=\"red\">\\nCANNOT SWAP", "verdict": "translate", "ru": "<color=\"red\">\\nНЕЛЬЗЯ ПОМЕНЯТЬ", "note": ""},
+  {"key": "<color=yellow>Could not load online levels.\\nCheck your internet connection.</color>", "verdict": "translate", "ru": "<color=yellow>Не удалось загрузить онлайн-уровни.\\nПроверьте подключение к интернету.</color>", "note": ""},
+  {"key": "<color=yellow>Could not load online levels.\\nPlease try again later.</color>", "verdict": "translate", "ru": "<color=yellow>Не удалось загрузить онлайн-уровни.\\nПопробуйте позже.</color>", "note": ""},
+  {"key": "Kill all for rank U\\n& don't die twice", "verdict": "translate", "ru": "Убей всех ради ранга U\\nи не умри дважды", "note": ""},
+  {"key": "Mission locked\\nComplete the previous mission to unlock", "verdict": "translate", "ru": "Миссия заблокирована\\nПройдите предыдущую миссию, чтобы открыть", "note": ""},
+  {"key": "Set the ID to the the same ID \\nas the zone or button you want this trigger \\nto get activated by, and action, number and \\ntext according to this: \\n0: Do nothing\\n1: Kill any entity on the team TEXT\\n2: Ragdoll any entity on the team TEXT for NUMBER seconds\\n3: Finish current mission\\n4: Finish current mission, only if all enemies are dead\\n5: Spawn object from Resources at TEXT path\\n   Format: ObjPath;x;y;rot;size;forcex;forcey;id;activID;team\\n8: RAND() - activates a random number from the team field (i.e, 1,2,3,4,5)", "verdict": "skip", "ru": "", "note": "инспекторский тултип редактора уровней (Set the ID to.../Format/RAND()), в игру не попадает"},
+  {"key": "Weak, frail and unfit for combat\\nBasically hard mode", "verdict": "translate", "ru": "Слабый, хилый и непригодный для боя\\nПо сути, сложный режим", "note": ""},
+  {"key": "\\n\\n", "verdict": "skip", "ru": "", "note": "только переносы строк, не текст"}
+]

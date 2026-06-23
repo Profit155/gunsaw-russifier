@@ -1,0 +1,100 @@
+// Реплики ChompyEnemy (вид Chompy, шрифт respawn-pro) — добродушные дружелюбные простаки-спортсмены
+// Хвалят противника, зовут сдаться по-доброму, переживают за друзей, мягко ругаются (Crumbs/Jeez/goober/dingus). Кусачие, но милые.
+// 98 реплик Chompy — базовый набор Experiment, уже покрыты chatter_base_enemy.txt и др. Здесь только 84 УНИКАЛЬНЫЕ строки.
+// Внимание: ключи "I need help! " и "Oh no! Dude! " имеют ЗНАЧИМЫЙ конечный пробел. Dude! — один ключ (spot+reload), записан один раз.
+
+// --- alert: насторожился (16 базовых строк уже покрыты) ---
+I'm up for a fight.=Я не прочь размяться!
+Lets get this road on the show!=Ну что, берём рога за быка!
+Who's shooting!?=Кто там палит!?
+Not good...=Нехорошо...
+Keep your eyes open.=Гляди в оба.
+We can do this...=Мы справимся...
+Strange noises...=Странные звуки...
+I'm not a fan of this.=Что-то мне это не нравится.
+Hmmm... Oh well...=Хм-м... ну да ладно...
+That was... oddly loud.=Это было... как-то слишком громко.
+Oh... Not good.=Ох... нехорошо.
+Oh, that was loud...=Ох, как громко...
+Uh, is that a problem?=Эм, это плохо?
+What's that noise?=Что за шум?
+Wait, what was that?=Стоп, что это было?
+Ok now...=Так-так...
+Who's being so loud?=Ну кто там так шумит?
+Must be something bad.=Видать, что-то нехорошее.
+
+// --- spot: засёк игрока, дружелюбный задор ---
+Let's dance!=Давай потанцуем!
+Hey pal!=Эй, дружок!
+This will be FUN!=Вот будет ВЕСЕЛО!
+This is troubling.=Дело-то серьёзное.
+I'm ready for this!=Я готов!
+Dude!=Чувак!
+Oh dude!=Эх, чувак!
+Dingus, halt there!=А ну стой, балбес!
+Stop there, man!=Стой, дружище!
+I hope you surrender!=Ты лучше сдавайся!
+Let's not do this...=Может, не надо, а?
+Stop there, doofus!=Стой, олух!
+We got a problem!=У нас проблемка!
+I hate this!=Не люблю я такое!
+I need help! =Мне нужна помощь!
+Hey! You!=Эй! Ты!
+I know you! Stop!=Я тебя знаю! Стой!
+You're trouble!=От тебя одни беды!
+You'll regret this...=Ты об этом пожалеешь...
+
+// --- reload: возится с оружием (Dude! записан в spot) ---
+Playtime's over!=Игры кончились!
+You're putting up a fight.=А ты упёртый.
+I like your attitude!=Мне нравится твой настрой!
+Be patient for me!=Потерпи немножко!
+Ran out again!=Опять кончились!
+Give me cover, guys!=Прикройте, ребят!
+C'mon... I got this...=Ну же... я справлюсь...
+Running out!=Патроны на исходе!
+This darn gun!=Да что ж за пушка!
+You goober!=Ах ты балда!
+Cover me, man!=Прикрой, дружище!
+Please help me!=Помогите мне, пожалуйста!
+Man! This is no good!=Эх! Нехорошо это!
+Quick... C'mon...=Быстрее... ну же...
+Don't goof...=Только бы не напортачить...
+
+// --- allyDeath: переживает за друзей сильнее всех, мягкие эвфемизмы ---
+Crumbs.=Ёлки-палки.
+Jeez.=Боже ж.
+Oh no! Dude! =О нет! Чувак!
+No! Getup!...=Нет! Вставай!...
+Oh man, no! NO!=Эх, нет! НЕТ!
+My... friend...=Мой... друг...
+Oh no! Why?!=О нет! За что?!
+Why! WHY!=За что! ЗА ЧТО!
+WE'RE LOSING FRIENDS!=МЫ ТЕРЯЕМ ДРУЗЕЙ!
+Please no!=Только не это!
+How could you?=Как ты мог?
+Hey, no!=Эй, ну нет!
+This is terrible!=Какой кошмар!
+Ohhhhh... okay.=О-о-ох... ну ладно.
+Welp! We're dead!=Ну всё! Нам крышка!
+Oh my god! No!=О боже! Нет!
+Friend down!=Друг убит!
+
+// --- death: умирает добряком, благодарит за бой как после матча ---
+Good... Fight...=Хороший... бой...
+You... Fought great...=Ты... славно бился...
+Nice... moves...=Классные... приёмчики...
+I need... a hug...=Мне нужны... обнимашки...
+How can this be...?=Как же так...?
+So... drowsy...=Так... в сон клонит...
+My head...=Голова моя...
+I'm sorry...=Прости...
+I can't do it...=Не могу я...
+Yeouch!!!=Й-я-яу!!!
+
+// --- ouch: потеря конечности (CRAP!, OUUCH!!, AAAAHHH!!, GRAAHHH!!, MY LIMBS!!! — общие) ---
+My! My LIMBS!=Мои! Мои КОНЕЧНОСТИ!
+Gahhhggg!!! Ohh!=Га-ахггг!!! О-ох!
+CRUHDD!! AUUHHG!!!=ЁЛ-ЛКИ-И!! А-У-УХГ!!!
+I'M BLEEDING! HELP! HELP!=Я ИСТЕКАЮ КРОВЬЮ! ПОМОГИТЕ! ПОМОГИТЕ!
+AAHHHHHHHH!!=А-А-А-А-АХ!!

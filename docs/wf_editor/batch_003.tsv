@@ -1,0 +1,28 @@
+Striped Door
+Target pos
+Teleport zone
+The players spawn point. If there is none, the player spawns at the world origin
+Waits the set delay after its ID gets activated, then sends a signal to all objects with the selected Target ID
+Wall button. Activates all objects with the same id. Set activate once to 1 to make it a one-time use
+Wall script
+Weapon chest
+Weapon on spawn
+When it's ID is activated, teleports any bodies inside of it to the position specified in Telepos
+When its ID gets called, starts sending activation signals to the Target ID every X seconds. Stops when its ID gets called again
+Acid
+Action
+Button
+Girder
+Grass
+Gravity
+Ice
+Incinerator
+Indestructible
+Lamp
+Locker
+Position
+Sawblade
+Snowifier
+Speed
+Telepos
+Tile

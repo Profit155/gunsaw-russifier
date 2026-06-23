@@ -1,0 +1,22 @@
+bin/
+obj/
+dist/
+__pycache__/
+*.pyc
+*.bak
+*.log
+
+# Файлы игры — не версионируем и не распространяем
+/Gunsaw.exe
+/Gunsaw_Data/
+/MonoBleedingEdge/
+/UnityCrashHandler64.exe
+/UnityPlayer.dll
+/BepInEx/
+/winhttp.dll
+/doorstop_config.ini
+
+# Дев-дампы и скрины (воспроизводимы тулзами)
+docs/fonts-triage/
+docs/_world_render_dump.json
+docs/_world_text_dump.json

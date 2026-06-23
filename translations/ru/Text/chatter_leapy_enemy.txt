@@ -1,0 +1,111 @@
+// Реплики LeapyEnemy (вид Leapy, шрифт Acidic) — театральные задиры-шоумены (играют в боевик/на камеру)
+// Категории: alert · spot · reload · allyDeath · death · ouch (потеря конечности)
+// 17 общих ключей в других файлах (не дублируем): CRAP!, OUUCH!!, AAAAHHH!!, GRAAHHH!!, MY LIMBS!!!, Enemy!, Hostile!, Cover me!, Man down!, Hey!, Come on!, Wait!, Huh?, I heard something..., Crap..., No..., NO!
+// Внимание: ключи различают пунктуацию/регистр — Crap! ≠ Crap. ≠ CRAP!; Uh-oh. ≠ Uh oh.; Ouch... ≠ Ow...
+
+// --- alert: насторожился, уже в образе шоумена ---
+I swear I heard something...=Зуб даю, я что-то слышал...
+What was that?=Что это было?
+...Showtime?=...Шоу начинается?
+Jerry is at it again.=Опять этот Джерри за своё.
+Turn down the volume!=Убавь громкость!
+Silent-er!=Потиш-ше!
+Loud noise!=Громкий звук!
+Is it just me or..?=Это только мне кажется, или..?
+Huh...=Хм...
+What... was that?=Что... это было?
+I'm ready for showtime.=Я готов к шоу.
+I'm ready for action.=Я готов к экшену.
+I'm ready for a fight.=Я готов к драке.
+Someone's breaking in.=К нам кто-то вломился.
+Was that thunder, or...?=Это гром был, или...?
+
+// --- spot: засёк игрока, максимум театра (Hey!, Come on!, Enemy!, Hostile! — общие) ---
+Showtime!=Шоу начинается!
+It's showtime!=Вот это будет шоу!
+Action!=Мотор!
+Time for action!=Время действовать!
+You want a piece of me!?=Нарываешься?!
+Get over here!=А ну иди сюда!
+Hah!=Ха!
+You!=Ты!
+Cease your wrongdoings!=Прекрати свои злодеяния!
+Hey! No!=Эй! Нельзя!
+Back to your room!=А ну марш в свою комнату!
+Cameras ready?=Камеры готовы?
+Anyone recording?=Кто-нибудь снимает?
+Everyone ready?=Все готовы?
+Attack!=В атаку!
+You're over!=Тебе крышка!
+I'm killing you!=Ты труп!
+You're not getting out of this!=Тебе так просто не уйти!
+No you're not!=А вот и нет!
+He's right there!=Да вот же он!
+Shoot at it!=Пали по нему!
+Let's go!=Погнали!
+Wanna dance?!=Потанцуем?!
+This world ain't big enough for the two of us!=Этот мир тесен для нас двоих!
+
+// --- reload: заминка, паясничает (Wait!, Cover me! — общие; Uh-oh. ≠ Uh oh.) ---
+Crap, reloading!=Чёрт, перезаряжаюсь!
+Wait a minute!=Минуточку!
+Gimme a second!=Секундочку!
+Hold on!=Погоди!
+Wait! Brb.=Стой! Я ща вернусь.
+Oh for god's...=Да боже ж ты...
+Shoot already!=Да стреляй уже!
+C'mon c'mon!=Ну же давай, давай!
+Craipe!=Ёкарный!
+Help! Reloading!=На помощь! Перезаряжаюсь!
+Need some cover!=Прикройте кто-нибудь!
+Need some assistance!=Нужна подмога!
+No! Wait!=Нет! Стой!
+This is NOT over!=Это ещё НЕ конец!
+I'm not done yet!=Я ещё не закончил!
+Uh-oh.=Ой-ёй.
+
+// --- allyDeath: смерть союзника (Come on!, NO!, Man down! — общие; Crap! ≠ CRAP!/Crap.) ---
+Weak.=Слабак.
+Oh...=Ох...
+Push!=Дожимай!
+Oh no you don't.=Ну уж нет.
+What! But... they...=Что! Но... они...
+Oh... Oh no...=Ох... о нет...
+Need backup!=Нужна подмога!
+You're gonna PAY for this!=Ты за это ЗАПЛАТИШЬ!
+You! You...=Ты! Ты...
+NO! Not him!=НЕТ! Только не он!
+Man down, i repeat, MAN DOWN!=Боец убит, повторяю, БОЕЦ УБИТ!
+Crap!=Блин!
+Oh you...=Ах ты...
+What a waste of ammo!=Сколько патронов впустую!
+Oh you... Get over here!=Ах ты... А ну иди сюда!
+I'm not letting this happen!=Я этого так не оставлю!
+You'll never get me alive!=Живым меня не возьмёшь!
+
+// --- death: умирает театрально, с запинками (Oh... — дубль из allyDeath; Crap..., No... — общие) ---
+Argh!=Аргх!
+Aghh!=Агх!
+Okay... Laying... O-off...=Ладно... всё... о-отключаюсь...
+That's... e-enough...=Всё... х-хватит...
+Enough...=Хватит...
+N-nope...=Н-неа...
+Ouch...=Ай...
+O-ow...=О-ой...
+My organs...=Мои органы...
+Tell... My d-dad...=Передай... б-бате...
+I... I can't...=Я... я не могу...
+This is... not...=Так... не должно...
+P-plan... B...=П-план... Б...
+Code... I d-don`t...=Код... я н-не...
+You... R-rude...=Ты... г-грубиян...
+I'm dead!=Всё, я труп!
+Oops...=Упс...
+b-bad...=х-хреново...
+
+// --- ouch: потеря конечности, бравада шоумена (CRAP!, OUUCH!!, AAAAHHH!!, GRAAHHH!!, MY LIMBS!!! — общие) ---
+H-HEY! HELP! AHHHG!=Э-ЭЙ! НА ПОМОЩЬ! А-АХГ!
+AHH! OH! WHAT THE HELL!!=АХ! ОЙ! ДА КАКОГО ЧЁРТА!!
+AAAAAHHH! That hurts!!=А-А-А-А! Как же больно!!
+I NEEDED THAT! AHHHHG!=ОНА МНЕ ЕЩЁ НУЖНА БЫЛА! А-А-АХГ!
+Didn't hurt! AWWWHHHHHHHGGG!=Не больно! А-А-АУ-УХГГГ!

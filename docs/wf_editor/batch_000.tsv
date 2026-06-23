@@ -1,0 +1,28 @@
+A moving background tile. Moves when its ID gets activated. Set the target pos to your desired position
+A moving tile. Moves when its ID gets activated. Set the target pos to your desired position
+A point for the camera to move to after finishing the level
+Activate once
+Activation zone
+AI Ally follow
+AI no-no zone
+AIs try to stay out of it. Make sure it extends a bit over the edge
+An enemy. If Move Idle is 0, they won't move when not fighting. If Crate Damage is 0, they won't take damage from falling crates. Set team to goodguys to make them an ally
+Background element. Has collision
+Background grass, but snowy. Randomly varies when level is loaded
+Background grass. Randomly varies when level is loaded
+Background info screen. Set the team to your desired text
+Basic colored lamp. Change the team to a name or HEX color value. Don't overdo them
+Basic explosive barrel
+Basic lamp. Don't overdo them
+Basic, scalable background. Only editable in background edit mode
+Basic, scalable walkable ground
+Camera Finish Point
+Changes the fog intensity (0-1) when activated
+Changes the rain intensity (0-1) when activated
+Changes the snow intensity (0-1) when activated
+Changes the world gravity when activated. Default is -25. Sideways gravity works too.
+Connects to other nearby ground points of the same ID to create gray, gravel ground. Make sure to put them in a close line for them to connect correctly
+Crate damage
+Cycle time (X)
+Damages bodies, destroys most things that fall into it
+Delay (X)

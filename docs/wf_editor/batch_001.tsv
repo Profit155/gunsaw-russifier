@@ -1,0 +1,28 @@
+Destructible metal crate. Always drops a weapon, as long as someone has been killed
+Destructible pallet that slides on the ground
+Destructible wooden crate. Drops no weapons
+Distorts the screen when the player is close to it. Distance dictates how far away from the object the camera starts getting distorted
+Does a variety of things when triggered. Set the action to 3 to end the level. See the guide channel for details!!!
+Door ID
+Door Target Changer
+End sign
+Enemy Turn Around
+Enemy weapon changer
+Exit sign
+Explosive barrel
+Flies into any nearby enemies with a different team
+Fog setter
+Gib Head
+Gravity trigger
+Hello, world!
+Intensity (X)
+Kills any living being that touches it
+Ladder left
+Ladder right
+Ladder. Climbmable from the left side
+Ladder. Climbmable from the right side
+Lets only one side through. Works with rotation
+Makes all uncovered crates and such snow-covered. Use in snow levels
+Makes any entities within it slowly suffocate
+Moves anything lying on it. Set the speed X and Y to your desired move direction
+Number (X)

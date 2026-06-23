@@ -1,0 +1,115 @@
+// Реплики OrangeEnemy (вид Orange, шрифт Victor) — туповатые грубые здоровяки-танки
+// Категории: alert (насторожился) · spot (засёк игрока) · reload (возится с оружием) · allyDeath (смерть союзника) · death (предсмертные) · ouch (потеря конечности)
+// 7 общих реплик/воплей (CRAP!, OUUCH!!, AAAAHHH!!, GRAAHHH!!, MY LIMBS!!!, I'm reloading!, Uh oh.) уже в chatter_base_enemy.txt — здесь не дублируются.
+
+// --- alert: что-то услышал, насторожился ---
+I smell something!=Чую, чем-то пахнет!
+Where are you...=Ну где ты...
+Come and get it...=Ну давай, выходи...
+C'mon... Where?=Да где же...
+I'll wait here.=Подожду здесь.
+I'm looking for them.=Ищу их где-то тут.
+I'll find you!=Всё равно найду!
+They're here...=Они где-то здесь...
+I'll kill 'em...=Прикончу гадов...
+I heard that...=Слыхал я что-то...
+I hate loud noises.=Ненавижу шум.
+Urrrhh... I'll wait.=Уррх... обожду.
+That wasn't one of our own... Right?=Это ж не наш был... да?
+Can someone check that out?=Гляньте кто-нибудь, а?
+That didn't sound like our own...=Что-то на нашего не похоже...
+Where did that come from?=Это откуда было?
+Keep it down!=А ну потише там!
+I'll have their head if that was another misfire...=Башку оторву вам, если это опять осечка...
+
+// --- spot: засёк игрока ---
+I SEE YOU!=ВИЖУ ТЕБЯ!
+HEY! YOU!=ЭЙ! ТЫ!
+You're in trouble!=Ну всё, допрыгался!
+I'll rip you apart!=Ща на тряпки порву!
+This ends here!=Тут тебе и конец!
+I'll crush you!=В лепёшку раскатаю!
+C'mere!=А ну сюда!
+Die!=Сдохни!
+Prepare thyself!=Узри погибель свою!
+I'll kill you!=Прикончу тебя!
+Hold still!=Стой смирно!
+You're done for!=Кранты тебе!
+Time to die!=Пора подыхать!
+Guess this isn't your lucky day!=Не твой денёк, видать!
+You there! prepare to be... died!=Эй, ты! Готовься быть... убитым!
+I see them!=Вон они!
+Today ain't your day, pal!=Не повезло тебе сегодня, дружок!
+Hey! Stop right there!=Эй! А ну стоять!
+Woah, wait a minute!=Опа, обождика!
+
+// --- reload: возится с оружием / огрызается (I'm reloading! — общий ключ) ---
+It's not shooting!=Оно не стреляет!
+Filling my gun!=Набиваю пушку!
+Fixing my gun!=Чиню пушку!
+Loading!=Заряжаю!
+Give me cover!=Прикройте!
+That's not all!=Это ещё не всё!
+Is that all you got?=И это всё, что можешь?
+You think I'm done?=Думаешь, я выдохся?
+This isn't over!=Это ещё не конец!
+Stay there!=Стой там!
+Reloading my gun!=Пушку перезаряжаю!
+MY GUN ISN'T SHOOTING.=МОЯ ПУШКА НЕ СТРЕЛЯЕТ.
+Help, what's the reload button?=Помогите, на какую кнопку перезаряжаться?
+I'm spent!=Всё, выдохся!
+I'm burnt out!=Сдулся я!
+Someone cover me!=Прикройте меня кто-нибудь!
+Need some help here!=Тут помощь нужна!
+I'm all out!=Всё, пусто!
+How are you still alive?!=Ты как ещё живой-то?!
+
+// --- allyDeath: смерть союзника (Uh oh. — общий ключ; «That's not good...» один на две реплики) ---
+You were weak!=Слабак ты был!
+Pathetic.=Жалкое зрелище.
+HOW!?=КАК!?
+How DARE you!=Да как ты СМЕЕШЬ!
+I'll kill you for that!=Убью за это!
+You're next!=Ты следующий!
+That's not enough!=Маловато будет!
+NOOOOO!=НЕ-Е-Е-ЕТ!
+HEY!=ЭЙ!
+THAT WAS MY FRIEND!=ЭТО Ж БЫЛ МОЙ КОРЕШ!
+You'll pay for that!=Ты за это заплатишь!
+Idiot!=Идиот!
+We're losing!=Мы проигрываем!
+That's not good...=Дело плохо...
+Uh... Whoops...=Э... упс...
+Really?=Да ладно?
+Another one down!=Ещё одного завалили!
+He'll walk it off...=Да оклемается...
+Thinning the masses.=Меньше ртов.
+
+// --- death: предсмертные (детскость и обида сквозь грубость) ---
+HRRNGH!=ХРРНГХ!
+ARGH!=А-АРГХ!
+AHH!=А-АХ!
+I... No...=Я... нет...
+My blood...=Кровь... моя...
+That's.. My blood...=Это... моя кровь...
+I'll.. k... you...=Я... уб... тебя...
+I'm... sleepy...=Спать... охота...
+I need... a nap...=Подремать бы... мне...
+THAT... hurt...=Вот это... больно...
+MY SPLEEN!=СЕЛЕЗЁНКА МОЯ!
+MY BODY!=ТЕЛО МОЁ!
+I'm... Melting...=Я... таю...
+What a world...=Ну и мир...
+You... Jerk...=Ты... гад...
+Tell... My dad...=Передайте... бате...
+...Rude.=...Грубиян.
+Why me!?=За что мне!?
+God...=Господи...
+That's... ow...=Это... ай...
+
+// --- ouch: потеря конечности (CRAP!, OUUCH!!, AAAAHHH!!, GRAAHHH!!, MY LIMBS!!! — общие ключи) ---
+GRAHHHGH!!!=ГРА-АХГХ!!!
+NAHHHHGG!!!=НА-А-АХГГ!!!
+GUUHUHHGHGGN!!!=ГУ-УХУХГХГГН!!!
+AAAHHHHGGG!!!=А-А-АХГГГ!!!
+NOOOOOOHH!!!=НЕ-Е-Е-ЕТ!!!

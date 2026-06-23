@@ -1,0 +1,72 @@
+// UI: экран настроек (вкладки звук/видео/геймплей/управление). Метки, описания, переназначение.
+// Вкладки Audio/Video/Gameplay/Controls/Character и Game Volume/Music volume — в _test_menu.txt.
+
+// --- под-заголовки секций ---
+Crosshair=Прицел
+Sound Volume=Громкость звука
+Control rebinding=Переназначение клавиш
+
+// --- звук ---
+Tinnitus volume=Громкость тиннитуса
+Pain Sounds=Звуки боли
+Overall sound volume of the game=Общая громкость звука в игре
+Overall music volume (also affected by game volume)=Общая громкость музыки (зависит и от громкости игры)
+Volume of the high-pitched tinnitus effect heard after explosions=Громкость высокочастотного звона в ушах после взрывов
+
+// --- видео ---
+Windowed/Borderless=Windowed/Borderless
+Desaturation=Desaturation
+Underwater blur=Underwater blur
+Bloom=Bloom
+Film grain=Film grain
+Tonemapping=Tonemapping
+Simple weather=Simple weather
+Simple lighting=Simple lighting
+Splatter amount=Splatter amount
+V-Sync=V-Sync
+Interpolation=Interpolation
+Resizable window if off, borderless fullscreen when on=Выкл: окно с изменяемым размером, вкл: полноэкранный режим без рамки
+Makes the screen will lose saturation when close to death/drowning=Экран теряет насыщенность при смерти или утоплении
+Makes the screen will be slightly blurred when underwater=Экран слегка размывается под водой
+Adds grain to the screen=Добавляет зернистость на экран
+Limits the FPS to your monitor's refresh rate, helps with screen tearing.=Ограничивает FPS частотой монитора, убирает разрывы изображения.
+Smooths out the movement of crates/dropped guns=Сглаживает движение ящиков и брошенного оружия
+
+// --- геймплей / прицел ---
+Crosshair size=Размер прицела
+Crosshair color=Цвет прицела
+X crosshair=Х-образный прицел
+Scarf start color=Цвет шарфа (начало)
+Scarf end color=Цвет шарфа (конец)
+The general thickness of the crosshair=Общая толщина прицела
+The color of the crosshair, dot and deviation line=Цвет прицела, точки и линии отклонения
+If on, the crosshair is laid out in an X shape instead of a + shape.=Если включено, прицел в форме X вместо +.
+Your character's scarf start/end color, gradiented=Начальный и конечный цвет шарфа персонажа (градиент)
+
+// --- управление: действия ---
+Move left=Влево
+Move right=Вправо
+Move up=Вверх
+Move down/crouch=Вниз/присесть
+Jump=Прыжок
+Fire=Огонь
+Levitate=Левитация
+Reload=Перезарядка
+Kick=Пинок
+Slot 1=Слот 1
+Slot 2=Слот 2
+Slot 3=Слот 3
+Slow motion=Слоу-мо
+Ragdoll=Обмякнуть
+Walk/drop/spit=Шаг/сброс/плевок
+Show ammo=Показать патроны
+Use=Использовать
+Enter vehicle=Сесть в транспорт
+Restart=Заново
+Toggle UI=Интерфейс
+Toggle timer=Таймер
+Skip song=Пропустить трек
+Pick up weapon=Взять оружие
+Unarmed=Без оружия
+Reset to defaults=Сбросить
+Not binding anything=Ничего не привязывается
