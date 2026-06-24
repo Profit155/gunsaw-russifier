@@ -6,7 +6,6 @@ __pycache__/
 *.bak
 *.log
 
-# Файлы игры — не версионируем и не распространяем
 /Gunsaw.exe
 /Gunsaw_Data/
 /MonoBleedingEdge/
@@ -16,7 +15,6 @@ __pycache__/
 /winhttp.dll
 /doorstop_config.ini
 
-# Дев-дампы и скрины (воспроизводимы тулзами)
 docs/fonts-triage/
 docs/_world_render_dump.json
 docs/_world_text_dump.json
