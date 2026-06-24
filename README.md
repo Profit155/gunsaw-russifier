@@ -66,28 +66,26 @@
 <table>
   <tr>
     <td width="50%">
-      <video src="https://github.com/Profit155/gunsaw-russifier/raw/main/assets/media/roza.mp4" poster="https://github.com/Profit155/gunsaw-russifier/raw/main/assets/media/roza.jpg" controls muted loop width="100%"></video>
+      <img src="assets/media/roza.gif" width="100%" alt="Роза: реплика и взрыв бочки">
       <br><sub>🌹 <b>Роза</b> (шрифт Chloe): ящик → реплика → бочка → 💥</sub>
     </td>
     <td width="50%">
-      <video src="https://github.com/Profit155/gunsaw-russifier/raw/main/assets/media/expie.mp4" poster="https://github.com/Profit155/gunsaw-russifier/raw/main/assets/media/expie.jpg" controls muted loop width="100%"></video>
+      <img src="assets/media/expie.gif" width="100%" alt="Эксперимент: устранение и реплики">
       <br><sub>🧪 <b>Эксперимент</b>: устранение и болтовня на фоне текста уровня</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <video src="https://github.com/Profit155/gunsaw-russifier/raw/main/assets/media/abomination.mp4" poster="https://github.com/Profit155/gunsaw-russifier/raw/main/assets/media/abomination.jpg" controls muted loop width="100%"></video>
+      <img src="assets/media/abomination.gif" width="100%" alt="Абоминация">
       <br><sub>🧟 <b>Абоминация</b></sub>
     </td>
     <td width="50%">
-      <video src="https://github.com/Profit155/gunsaw-russifier/raw/main/assets/media/action.mp4" poster="https://github.com/Profit155/gunsaw-russifier/raw/main/assets/media/action.jpg" controls muted loop width="100%"></video>
+      <img src="assets/media/action.gif" width="100%" alt="Геймплей: диалоги, бодисвап, смерть">
       <br><sub>⚔️ <b>Геймплей</b>: диалоги, смена тел (бодисвап) и смерть</sub>
     </td>
   </tr>
 </table>
 </div>
-
-> Не проигрывается прямо здесь? Нажми на превью — видео откроется отдельно.
 
 ---
 
