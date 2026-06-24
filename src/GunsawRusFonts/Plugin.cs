@@ -22,12 +22,31 @@ namespace GunsawRusFonts
             LayoutRules = LoadLayoutRules(Path.Combine(FontsDir, "layout_rules.txt"));
             Log.LogInfo($"font_map: {FontMap.Count} entries; layout_rules: {LayoutRules.Count} rules; dir={FontsDir}");
 
+            BindTuningConfig();
+
             var harmony = new Harmony("gunsaw.rusfonts");
             harmony.PatchAll();
             PatchFallbackOutlineFix(harmony);
             LayoutService.Hook();
             EnableMatchMaterialPresets();
             Log.LogInfo("GunsawRusFonts initialized");
+        }
+
+        // Вес грани/обводки кириллицы в контурных шрифтах (PixelOperatorOutline = баннер главы).
+        // Вынесено в конфиг, чтобы подбирать под ширину английской латиницы без пересборки DLL.
+        private void BindTuningConfig()
+        {
+            var dilate = Config.Bind("Banner", "FaceDilate", 0.33f,
+                "Вес белой грани кириллицы в контурных шрифтах (напр. баннер главы). " +
+                "Оригинал = 0.67 (на нашем атласе выглядит жирно), 0 = тонко. " +
+                "Подбери под ширину английской латиницы. Разумный диапазон 0..0.67.");
+            FallbackMaterialOutlineFix.FaceDilateCap = dilate.Value;
+
+            var outline = Config.Bind("Banner", "OutlineWidth", 0.28f,
+                "Толщина чёрной обводки кириллицы в контурных шрифтах. 0 = без обводки, больше = толще кант.");
+            FallbackMaterialOutlineFix.OutlineCap = outline.Value;
+
+            Log.LogInfo($"tuning: Banner.FaceDilate={dilate.Value}, Banner.OutlineWidth={outline.Value}");
         }
 
         private static FontMap LoadFontMap(string path)

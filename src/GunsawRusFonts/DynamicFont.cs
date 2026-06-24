@@ -198,7 +198,15 @@ namespace GunsawRusFonts
         // Полностью гасить — теряется тонкий кант, который есть у латиницы. Поэтому
         // ОГРАНИЧИВАЕМ ширину небольшим значением: остаётся тонкий чёрный кант, без заливки.
         // Значение подобрано визуально (кант как у латиницы, без заливки штриха).
-        private const float OutlineCap = 0.28f;
+        // Переопределяется из конфига (секция Banner, ключ OutlineWidth).
+        internal static float OutlineCap = 0.28f;
+
+        // Грань оригинала тоже раздута: у PixelOperatorOutline _FaceDilate=0.67 (рассчитан на
+        // атлас gradientScale=31). На нашем рантайм-атласе (gradientScale=Padding=9) тот же
+        // дилейт раздувает белую грань — баннер главы выходил «жирным белым». Занижаем грань
+        // (только вниз — тонкие/нераздутые материалы не трогаем). Подбирается под ширину
+        // английской латиницы; переопределяется из конфига (секция Banner, ключ FaceDilate).
+        internal static float FaceDilateCap = 0.33f;
 
         internal static void Postfix(Material targetMaterial, Material __result)
         {
@@ -208,6 +216,11 @@ namespace GunsawRusFonts
             {
                 float w = __result.GetFloat("_OutlineWidth");
                 if (w > OutlineCap) __result.SetFloat("_OutlineWidth", OutlineCap);
+            }
+            if (__result.HasProperty("_FaceDilate"))
+            {
+                float d = __result.GetFloat("_FaceDilate");
+                if (d > FaceDilateCap) __result.SetFloat("_FaceDilate", FaceDilateCap);
             }
         }
     }
