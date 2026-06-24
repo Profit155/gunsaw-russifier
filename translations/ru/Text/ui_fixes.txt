@@ -91,7 +91,7 @@ object(s)...</color>=объект(ов)...</color>
 // === Наведение на оружие: stats.name + ", " + ammoAmount + " rounds" (декомпил 15482). ===
 // 37 реальных WeaponPreset.name (tools/dump_weapon_names.py). Per-weapon regex — иначе имя
 // проходит в $1 по-английски. Значение имени = соответствующий плейн-ключ (HUD оружия).
-// Добор недостающих плейн-ключей (HUD): Vitya. PDW оставлен латиницей (акроним).
+// Добор недостающих плейн-ключей (HUD): Vitya. PDW → ПОС.
 Vitya=Витя
 r:"^Assault\s+rifle,\s+(\d+)\s+rounds$"=Штурмовая винтовка, $1 патр.
 r:"^Bullpup\s+rifle,\s+(\d+)\s+rounds$"=Винтовка булл-пап, $1 патр.
@@ -111,9 +111,9 @@ r:"^Sawed\s+Off,\s+(\d+)\s+rounds$"=Обрез, $1 патр.
 r:"^Semi\-auto\s+shotgun,\s+(\d+)\s+rounds$"=Полуавтоматический дробовик, $1 патр.
 r:"^Sniper\s+rifle,\s+(\d+)\s+rounds$"=Снайперская винтовка, $1 патр.
 r:"^Spec\-ops\s+rifle,\s+(\d+)\s+rounds$"=Винтовка спецназа, $1 патр.
-r:"^Stench\s+Gun,\s+(\d+)\s+rounds$"=Вонючка, $1 патр.
+r:"^Stench\s+Gun,\s+(\d+)\s+rounds$"=Газомёт, $1 патр.
 r:"^Tactical\s+rifle,\s+(\d+)\s+rounds$"=Тактическая винтовка, $1 патр.
-r:"^Tactical\s+SMG,\s+(\d+)\s+rounds$"=Тактический пистолет-пулемёт, $1 патр.
+r:"^Tactical\s+SMG,\s+(\d+)\s+rounds$"=Тактический ПП, $1 патр.
 r:"^Trench\s+Sweeper,\s+(\d+)\s+rounds$"=Окопная метла, $1 патр.
 r:"^go\s+away,\s+(\d+)\s+rounds$"=уйди, $1 патр.
 r:"^Carbine,\s+(\d+)\s+rounds$"=Карабин, $1 патр.
@@ -123,7 +123,7 @@ r:"^Governor,\s+(\d+)\s+rounds$"=Губернатор, $1 патр.
 r:"^Magnum,\s+(\d+)\s+rounds$"=Магнум, $1 патр.
 r:"^Operator,\s+(\d+)\s+rounds$"=Оператор, $1 патр.
 r:"^Papasha,\s+(\d+)\s+rounds$"=Папаша, $1 патр.
-r:"^PDW,\s+(\d+)\s+rounds$"=PDW, $1 патр.
+r:"^PDW,\s+(\d+)\s+rounds$"=ПОС, $1 патр.
 r:"^Pistol,\s+(\d+)\s+rounds$"=Пистолет, $1 патр.
 r:"^Prototype,\s+(\d+)\s+rounds$"=Прототип, $1 патр.
 r:"^Revolver,\s+(\d+)\s+rounds$"=Револьвер, $1 патр.
