@@ -3,7 +3,7 @@
 
 // --- под-заголовки секций ---
 Crosshair=Прицел
-Sound Volume=Громкость звука
+Sound Volume=Громкость
 Control rebinding=Переназначение клавиш
 
 // --- звук ---
