@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Режет docs/_review_corpus.json на батч-файлы по тирам для воркфлоу-ревью.
+"""Режет docs/_review_corpus.json на батч-файлы по тирам для ревью.
 Пишет docs/_review_batches/<tier>_<nn>.json и манифест docs/_review_manifest.json."""
 import os, json, sys
 
@@ -32,7 +32,7 @@ for tier, items in tiers.items():
             json.dump(chunk, f, ensure_ascii=False, indent=1)
         manifest.append({'path': os.path.abspath(path), 'tier': tier, 'n': len(chunk)})
 
-# Сводный файл всех длинных (для агентов согласованности)
+# Сводный файл всех длинных (для сверки согласованности)
 long_all = os.path.abspath(os.path.join(ROOT, 'docs', '_review_long_all.json'))
 with open(long_all, 'w', encoding='utf-8') as f:
     json.dump(tiers['long'], f, ensure_ascii=False, indent=1)

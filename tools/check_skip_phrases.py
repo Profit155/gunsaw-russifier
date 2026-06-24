@@ -15,7 +15,7 @@ for fp in glob.glob('docs/wf_out/out_*.json'):
     for r in json.load(io.open(fp, encoding='utf-8')):
         if r.get('verdict') == 'skip':
             skip.append(r['key'])
-print('skip всего (из workflow):', len(skip))
+print('skip всего:', len(skip))
 
 
 def is_path(k):

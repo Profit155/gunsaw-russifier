@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""Сборка словаря секции имён из вывода воркфлоу перевода.
+"""Сборка словаря секции имён из вывода перевода.
 Читает JSON результата (result.base[] = [{eng,ru,category,flag,note}]), применяет ручные
-OVERRIDES, пишет tools/names_data/<section>.json (eng->ru) и docs/names_<section>_review.tsv.
-Запуск: python tools/gen_names_from_workflow.py <output.json> <SECTION>
+OVERRIDES, пишет tools/names_data/<section>.json (eng->ru).
+Запуск: python tools/gen_names.py <output.json> <SECTION>
 """
 import os, sys, json, io
 
@@ -11,7 +11,7 @@ DATADIR = os.path.join(ROOT, 'tools', 'names_data')
 DOCDIR = os.path.join(ROOT, 'docs')
 os.makedirs(DATADIR, exist_ok=True)
 
-# Ручные правки поверх перевода агента (по секциям).
+# Ручные правки поверх чернового перевода (по секциям).
 OVERRIDES = {
   "BASE": {
     "Etho": "Этхо",   # 'Это' читается как рус. "это"

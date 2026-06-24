@@ -45,7 +45,7 @@ print('=== примеры пропущенного (первые 50) ===')
 for s in missing[:50]:
     print('  ', repr(s[:90]))
 
-# записываем значимые пропущенные строки кода (без чистых символов) для добавления в workflow
+# записываем значимые пропущенные строки кода (без чистых символов) для добавления в перевод
 keep = [s for s in missing if re.search(r'[A-Za-z]', s) and len(s.strip()) > 3]
 io.open('docs/strings_code_runtime.txt', 'w', encoding='utf-8', newline='\n').write('\n'.join(keep) + '\n')
 print('\nзаписано docs/strings_code_runtime.txt:', len(keep), 'строк')

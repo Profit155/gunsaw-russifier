@@ -1,2662 +1,0 @@
-* glass shattering sound *	[ErrorDetector~raw]
-*Not recommended\nif you're scared\nof heights	[TMPro.TextMeshPro]
-*Restrictions apply	[TMPro.TextMeshPro]
-- A beautiful, fluffy snowy-fox creature.\n- Statistically very similar to an experiment, with comparably stronger legs and dexterous hands.\n- Beautiful, soft fur, a large finned tail, pretty pink eyes.... and head spikes?\n- Very feminine compared to other species, and often proud. Quite a soft and rotund speciwomen.\n- Their natural extremely low body temperature makes them immune to the cold, and resist great heat. \n- Often times, their weapons and ammunition freeze in their hands, making their bullets sting and slow targets\n- Though a little jumpy at times... they are very socially pleasant and friendly! Very sisterly, and fairly intelligent.\n- Canine\n\nBullets cause leg injury.\nSupportive unit. Fodder.	[MainMenuManager]
-- A bizzare water-dwelling insect creature.\n- Slim, flexible, and fragile body, evolved with gills, natural sand camouflage, and highly adaptive black eyes.\n- Their gils keep them comfortable in water, allowing for lengthy travel and water combat.\n- With a simple mind, they keep clear-headed, making them efficient and quick thinkers with guns and combat.\n- Nothing goes on in their head, much. Utterly unable to empathize or make connections. Driven purely by hunger.\n- They'll do anything to keep themselves fed, including cannibalism and traitorism.\n- Being socially disconnected and mentally stunted, they never reach high ranks, despite great skill.\n- Insectoid.\n\n\nHigh level skill ; High level threat.\nDo not treat lightly.	[MainMenuManager]
-- A crystaline-scaled horned lizard.\n- Very average in combat capabilities. Comparable to an Experiment.\n- Their large brutish hands make them clumsy with weaponry.\n- Their lengthy tongue is incredibly strong and sticky. Made to catch insects.\n- Naturally feminine in physique, with unique crystal-like growths all over.\n- Though they put on a tough and protective facade, deep down they are gentle hearted.\n- Considerably dense-minded... May brush off orders or rebel.\n- Reptile.\n\n\nWatch for their tongue.\nDangerous at close range.	[MainMenuManager]
-- A shark hybrid, but not sure what type of shark exactly.\n- Having an aquatic body, they have fins, rubbery skin, and a large tail geared for swimming.\n- With gills and great aquatic senses, they cannot drown, and flourish underwater.\n- Their aquatic-built physique grants them natural strength and endurance. Handy.\n- Though, they are unfit for land, and are somewhat sluggish. That big tail is very cumbersome...\n- Incredibly kind, gentle, never judging and only having empathy for others, they are truly the best friend one can have.\n- Or are they?\n- Hybrid Selachii.\n\nBeware of them in water.\nFound around water as well.	[MainMenuManager]
-- A strange feminine spider-like creature.\n- Large in size, wide-shouldered, and heavyhanded, though sluggish as a result.\n- 4 large legs grow from their back, all lacking practical use besides inspiring fear.\n- Can projectile-launch a dense cobweb from the mouth to immobilize targets and prepare meals.\n- They use their motherly voice and welcoming facade to lure others... to their horrible deaths.\n- Velvet's are extremely unempathetic and sadistic, using combat to fulfill cannibalistic desires. Terrifying.\n- Although psychotic, they have a considerably average intelligence, and remain calm in combat.\n- Arachnid.\n\nIf spat on, hold your ground.\nBeware their endurance.	[MainMenuManager]
-- A towering, and terrifying kind of Goat people\n- An absolute wall of meat and muscle. Incredible durability and frightening strength, at the expense of poor regenerative abilities from bad metabolism.\n- Despite stature, they are very formal and gentle, with endearing social behavior.\n- Highly protective of their kind, and fearless in combat. With great care for their people, they often sacrifice themselves.\n- As their name suggests, they often corral and lead others with great moral and enthusiasm.\n- Bovidae.\n\n\nUse heavy weapons, and gain distance.\nHit them first, and hit them hard.	[MainMenuManager]
-- An agile, aggressive rabbit-man.\n- With a very powerful lower body, they use their agility for complex movement and striking powerful kicks.\n- Their upper body is weak to their many falls and tumbles. Their well-worn bandages are evident of this.\n- Injuries enrage Ickes, the closer to death they are. Their blood is overloaded with Adrenaline.\n- Their considerably lower intelligence leads them to overestimate themselves, and to act before thinking.\n- Selfish, inconsiderate, and aggressive, Ickes are at least a bully to peers, and at most a genuine liability to leadership.\n- Asshole.\n- Leporidae.\n\n\nThey will rush you.\nSet an ambush.	[MainMenuManager]
-- An elusive and beautiful species of moth people.\n- Using their tail and wing-like appendages, they can jump multiple times in the air and glide safely in falls.\n- They strive in the air and the dark, having enhanced aim-speed and agility after jumping. Their antennae provides enhanced senses.\n- Naturally slender, delicate, and even beautiful. Their body is flexible and their hands precise... but fragile in return.\n- Considerably intelligent and mentally capable of tactics and complex thought. Overshadowed by a...\n-...sly, serious, and at times, mean personality. Often self-centered. They mess with people sometimes. Unempathetic.\n- Insectoid\n\n\nWatch the skies.\nPredict aerial ambushes.	[MainMenuManager]
-- An unusually colored feline creature.\n- Good weapon handling and light-footed, but somewhat frail.\n- Typically carries a cloaking device to hide/sneak up on potential targets.\n- Quite intelligent, almost as much as a milky. They'd be leaders too, if they weren't...\n- Arrogant, disrespectful, egotistical. Not the nicest, to say the least.\n- Extremely biased against other species, the pricks. Narcicissm, probably.\n- They respect a good fighter, at least. They'll respect that much.\n\n\nArrogant assholes.\nHelpful tech, though.	[MainMenuManager]
-- Reminiscent of an experiment in some ways, messed up in others.\n- While born with four arms, many cut off two to reduce workload on the mind.\n- Large claws, thick enough to tear into flesh. Animalistic in both social behavior and physical attributes.\n- Bulkier than most, along with being quite tall and brutish. Clumsy and large.\n- Mentally slow. Tend to be too brave and naive for their own good. Sweet at heart.\n- Good at taking commands, and highly loyal, despite apparent stupidity.\n- Canine.\n\n\nSlow and stupid brute.\nDangerously tough. Resilient.	[MainMenuManager]
-- Reminiscent of an experiment in some ways, messed up in some others.\n- Born with four arms, but many cut off two to reduce workload on the mind.\n- Large claws, enough to tear into flesh.\n- Bulkier than most, along with being quite tall and brutish.\n- Not the smartest. Tend to be too brave and naive for their own good.\n- Rather kindly, though clumsy.\n- Canine.\n\n\nSlow and stupid.\nTough, though. Resilient.	[TMPro.TextMeshProUGUI]
-- Some kind of aquatic experiment? Unsure on that.\n- Excellent sleight of hand. Nimble and efficient with precise and calculated movement.\n- Their unnatural dark eyes are vulnerable to the sky's changing colors. Wonder what causes that, actually...\n- Weaker and frail, with a short stature and low weight. Even when physically overshadowed, their presence is respected and feared among peers.\n- Strict and firm, yet respectful and fair. Logical thinkers, and fearsome tactical fighters.\n- Emotionally awkward and close-minded, preferring to keep a professional mindset and personality.\n- Canine.\n\n\nGood marksmen.\nUsually have the best guns.	[MainMenuManager]
-- Some sort of glowing, radiant scorpion creature.\n- Protected by large, hard and heavy shells and scales. Oddly feminine, despite their threatening armored appearance.\n- Their exoskeleton provides cushioning for falls, protection from flames, and other dangers.\n- They lack a digestive system, as their body is fueled by absorbing radiation present in the air.\n- Due to this, they lack a mouth, and are therefore mute.\n- They're surprisingly calm and level-headed, with pleasant social behavior and high intelligence, despite the lack of mouth.\n- Arachnid.\n\n\nNo easy way around them.\nExcessive force required.	[MainMenuManager]
-- Some sort of strange plant-like species.\n- One of the lightest and fastest known species on land, able to infinitely roll-pounce and easily scale terrain.\n- Plantigrade legs, rather than digitigrade. This doesn't hinder them whatsoever.\n- They are hyper-regenerative, with a powerful and instant metabolism. Dangerous in combat!\n- Competent at one-on-one combat and gun usage, but tactically braindead. They often just run in... blind.\n- Egotistical and arrogant show-offs, acting cocky and dangerous for attention and fun.\n- They often roughhouse with others and make terrible jokes. Despite their behavior, they have no real malice.\n- Plant-Canine Hybrid\n\nGlass cannon.\nGood to get a job done quick.	[MainMenuManager]
-- The original artificial hybrid, and the base for all other species. All others are in one way or another, related to it. \n- Tend to be quite skinny, medium height.\n- Average in just about every way. Intelligence, skill, endurance. Mentally sensitive in comparison.\n- Their darker fur makes them better at hiding, though not by much. Supports their cowardly nature.\n- Less social than others, and odd-minded. Can act a bit mischievous at times. Good at cracking jokes.\n- Being the first to arrive, they are very high in numbers. Low ranking cannon fodder.\n- Canine.\n\nThe one we all come from?\nProbably not natural.	[MainMenuManager]
--- THE RIDE --	[TMPro.TextMeshPro]
--Death\n-Concussion\n-Brain death\n-Fractures\n-Damage\n-Pain\n-Dismissal\n-Injury\n-Scarring\n-PTSD\n-Eye damage\n-Fear\n-Strong pain\n-Agony\n-Cataracts\n-Bleeding\n-Coma\n-Bad stuff\n-Don't fall\n-Please\n-Ouchies\n-Sickness\n-A cold\n-Eye strain\n-FOOSH\n-Gravity\n-Dislocation\n-Screaming\n-Sobbing\n-Depression\n-Expulsion\n-Dementia\n-Headache\n-Eye pain\n-Leg pain\n-Wounds\n-Blood clots\n-Death\n-Concussion\n-Brain death\n-Fractures\n-Damage\n-Pain\n-Dismissal\n-Injury\n-Scarring\n-PTSD\n-Eye damage\n-Fear\n-Strong pain\n-Agony\n-Cataracts\n-Bleeding\n-Coma\n-Bad stuff\n-Don't fall\n-Please\n-Ouchies\n-Sickness\n-A cold\n-Eye strain\n-FOOSH\n-Gravity\n-Dislocation\n-Screaming\n-Sobbing\n-Depression\n-Expulsion\n-Dementia\n-Headache\n-Eye pain\n-Leg pain\n-Wounds\n-Blood clots	[TMPro.TextMeshPro]
-// CHAPTER 1 //\n// BADLANDS //	[TMPro.TextMeshProUGUI]
-0 deaths	[TMPro.TextMeshProUGUI]
-0 kills	[TMPro.TextMeshProUGUI]
-0 shots fired	[TMPro.TextMeshProUGUI]
-0% no blood spawns, 100% is almost all particles create splats.\nDefault 90%	[TMPro.TextMeshProUGUI]
-1... 2... there...	[Chatter~raw]
-1000pts to\nrank C	[TMPro.TextMeshProUGUI]
-12/67 kills	[TMPro.TextMeshProUGUI]
-2/8 characters unlocked	[TMPro.TextMeshProUGUI]
-50 Million Year Trip	[MusicClip]
-50.6 seconds	[TMPro.TextMeshProUGUI]
-5th time this week...	[Chatter~raw]
-:warning: should not be\ncapturing when there is\na hotcontrol	[TMPro.TextMeshPro]
-< Panel Title >	[UnityEngine.UI.Text]
-<color="green">Bullets slow down enemies	[MainMenuManager]
-<color="green">Can jump mid-air multiple times\nMuch higher aimspeed mid-air\nSlow fall	[MainMenuManager]
-<color="green">Crouch over corpses to eat them and heal\nBreathes underwater</color>\n<color="red">Lowered health regeneration	[MainMenuManager]
-<color="green">Fire immune\n80% explosion resistance\n25% fall damage resistance</color>\nVery tanky\n<color="red">Very sluggish\nLowered health regeneration	[MainMenuManager]
-<i><color="red">*<color="white">Brutal mode changes</i></color></color>\n-Can X-rank levels\n-Dying causes you to drop all weapons\n-Drop your held weapon when K/O'd\n-No levitation when K/O'd\n-Camera movement is much more intense\n-Enemies have lower reaction times and are generally more combat capable\n-Enemies investigate gunshots more\n-More leg injury from fall damage	[TMPro.TextMeshProUGUI]
-<I>GAMEPLAY</I>\nA D - Move\nSPACE - Jump\nR - Reload\nRMB - Levitate\n1-3 - Switch weapon\nF - Kick\nQ - Slowmotion\nS - Drop ledge/Crouch\n\n<I>MISC GAMEPLAY</I>\nX - Ragdoll\nCTRL - Walk\nTAB - View ammo\nE - Use button\nG - Enter vehicle\nCtrl + V - Drop weapon\n\n<I>MISC</I>\n0 - Restart\nF2 - Toggle UI\n\\ - Toggle timer\nK - Skip track\nControls (F1)	[TMPro.TextMeshProUGUI]
-[BASE]\nAdin\nAl\nAlan\nAlex\nAlly\nAlt\nAlva\nAlyx\nAmos\nAoi\nAqer\nArden\nAres\nAri\nArid\nAriel\nArlo\nAron \nArth\nAshe\nAshyam\nAudi\nAve\nAvery\nAvory\nAvro\nAzar\nBaba\nBeck\nBeken\nBer\nBerry\nBiff\nBlixen\nBlood\nBlue\nBo\nBodie\nBofa\nBox\nBram\nBurr\nByrn\nCade\nCain\nCal\nCaps\nCarey\nCarn\nCasey\nCass \nCaster\nCedar\nCeil\nCesar\nChain\nChas\nChase\nClaude\nCleo\nClicker\nClif\nClue\nCohn\nCola\nComa\nCon\nConscript\nConvict\nCopper\nCorpo\nCory\nCove\nCoven\nCree\nCric\nCy \nCybil\nCyril\nCyro\nDaley\nDam\nDamie\nDan\nDane\nDarv\nDarvie\nDax\nDeez\nDeimos\nDeion\nDek\nDeka\nDes\nDevi\nDewy\nDex\nDia\nDiaz\nDidi\nDior\nDirk\nDoja\nDom\nDon\nDonny\nDot\nDupe\nDye\nDyl \nEa\nEan\nEbby\nEbe\nEcu\nEd\nEddy\nEden\nEdge\nEfi\nEgg\nEight\nEike\nEira\nElin\nElliot\nElm\nElon\nEmbryn\nEmmet\nEnot\nEnid\nEnil\nEnsign\nEqi\nErikson\nEru\nEsme\nEthel\nEtho\nEtro\nEule\nEvelyn\nEver\nEzio\nFaer\nFan\nFang\nFara\nFaro\nFart\nFarth\nFaulty\nFay\nFiddle\nFinely\nFive\nFlo\nFol\nFores\nFork\nFour\nFox\nFrance\nFrank\nFugu\nGael\nGal\nGavi\nGavin\nGen\nGeorge\nGerry\nGiggler\nGiv\nGladius\nGlaggle\nGlay\nGlee\nGlen\nGoner\nGore\nGradi\nGravel\nGreer\nGuard\nGunner\nGus\nGuts\nGyro\nHachi\nHal\nHans\nHarp\nHayd\nHeaven\nHellen\nHem\nHemn\nHeron\nHoli\nHollis\nHolt\nHugger\nHutson\nIan\nIcar\nIcor\nIdon\nIdris\nIlo\nImai\nInco\nIndi \nIndus\nInge\nInkeri\nInky\nInti\nIo\nIon\nIra\nIri\nIris\nIron\nIsle\nIsley\nIyah\nJael\nJaime\nJamie\nJax\nJay\nJett\nJody\nJoss\nJubal\nJul\nJuly\nJune\nJupiter\nKai\nKal\nKale\nKeir\nKelly\nKen\nKenji\nKenny\nKerry\nKeven\nKim\nKin\nKindle\nKip\nKiran \nKoi\nKoli\nKov\nKris\nKylin\nLain\nLandry\nLane\nLann\nLanny\nLasiye\nLav\nLayman\nLea\nLee\nLen\nLenn\nLennox\nLeo\nLep\nLeslie\nLevi\nLinc\nLiv \nLix\nLoc\nLon\nLond\nLoner\nLori\nLuca\nLuke\nLumi\nLux\nLyn\nLyric\nLys\nMac\nMack\nMais\nMal\nMarley\nMarv\nMaurice\nMedi\nMer \nMerit \nMerv\nMew\nMica\nMika\nMike\nMiles\nMilita\nMio\nMoe\nMon\nMonday\nMono\nMonroe\nMort\nMud\nMule\nMusa\nMusk\nNad\nNal\nNameless\nNao\nNar\nNark\nNarry\nNat\nNate\nNaught\nNava\nNavy\nNeal \nNell\nNeo\nNeon\nNia\nNilo\nNine\nNirro\nNitro\nNiu\nNix\nNoah\nNoam\nNoek\nNoi\nNoor\nNort\nNorth\nNosin\nNova\nNull\nNun\nNutt\nOak\nOakly\nOne\nOny \nOran\nOreo\nOro\nOss\nOwen\nOxy\nOyi\nOz\nOzul\nPan\nPana\nParis\nParke\nParry\nParthy\nPas\nPaw\nPea\nPebbles\nPepper\nPey\nPeyt\nPhobe\nPinto\nPio\nPitt\nPluto\nPoe\nPoly\nPop\nPoppy\nPorch\nPot\nPres\nPum\nPunte\nPvt.\nPyro\nQuan\nQue\nQuest\nQuin\nRa\nRae \nRain\nRavi\nRayy\nRebel\nRed\nReed\nReese\nReg\nReid\nReign\nRend\nRene\nReno\nRex\nRher\nRhys\nRib\nRider\nRiley\nRine\nRiver\nRob\nRodahn\nRoe\nRohan\nRolo\nRon\nRoots\nRote\nRowan\nRowen\nRoyal\nRuby\nRyl\nRylen\nSaf\nSage\nSage\nSal\nSam\nSaturn\nSaw\nSelmi\nSen\nSeni\nSeth\nSeyvn\nShay\nShey\nShield\nSid\nSilly\nSinclair\nSix\nSkie\nSky\nSkylar\nSloan\nSmoke\nSoda\nSoder\nSol\nSolo\nSolv\nSorb\nSpecs\nSpeen\nSpinny\nSpoon\nSteel\nStrom\nSucker\nSugo\nSun\nSundau\nSy\nSyd\nSyl\nTad\nTae\nTage\nTanker\nTaqu\nTark\nTatum\nTaylor\nTele\nTeo\nTess\nThad\nTheo\nTie\nTin\nTine\nTio\nTish\nToby\nTon\nTorq\nTrey\nTru\nTwo\nTyde\nUl\nUla\nUltra\nUlva\nUmar\nUna\nUni\nUqus\nUri\nUriah\nUriel\nUthur\nVada\nVago\nVanu\nVar\nVargo\nVasili\nVasily\nVass\nVaw\nVay\nVere\nVero \nVesa\nVew\nVic\nVick\nVin\nVinson\nVio\nVirgel\nVis \nVivi\nVivian\nVoss\nVrad\nWal\nWalt\nWei\nWest\nWeye\nWhit\nWilt\nWince\nWoo\nWren\nWynn\nX\nXed\nXey\nXiu\nXo\nYael\nYannick\nYelli\nYiik\nYil\nYin\nYith\nYith\nYolo\nYona\nYoro\nYuki\nYukto\nYuri\nZain\nZayn \nZel\nZero\nZick\nZie\nZinc\nZion\nZit\nZon\n[EXPERIMENT]\nAJ\nAcke\nAddi\nAlbert\nAlf\nAnder\nAndrew\nAnim\nAnon\nAspy\nBasil\nBean\nBee\nBeta\nBeverly\nBlack\nBobo\nBolt\nBon\nBrook\nCJ\nCarlos\nCarrot\nCenn\nChoi\nCiar\nClay\nClover\nClyde\nCoal\nCoco\nCocoa\nCole\nColt\nCoward\nCraw\nCrawler\nCri\nCrieg\nD\nDaan\nDoub\nDude\nDusty\nEasel\nEast\nEavi\nEinar\nElwin\nEmber\nEnby\nEndy\nEric\nEwa\nExi\nExper\nExpi\nExun\nFelix\nFinian\nFlint\nFodder\nFox\nFranky\nFuzzy\nGabri \nGlare\nGrey\nHernandez\nHidden\nHik\nInigo\nInky\nIro\nIrvin\nJan\nJoker\nJolly\nJr.\nKel\nKoda\nKoy\nLau\nLink\nLinus\nLonely\nLoni\nLoser\nLouis\nMK\nMario\nMatt\nMaverick\nMeat\nMoon\nMorty\nNaia\nNathan\nNavii\nNemo\nNevin\nNobody\nNoke\nNo Significant Harrassment\nOli\nOliver\nOmero\nOmori\nOnyx\nOpti\nOrsi\nOrson\nOrtho\nOscar\nOtto\nPaige\nPal\nPate\nPeanut\nPeeper\nPelly\nPepper\nPeter\nPeyton\nPhil\nPhilip\nPibb\nPion\nPip\nPoltri\nPoyo\nPrisoner\nPup\nQuilly\nRacoon\nRigby\nRunner\nScarf\nScrungle\nScuggly\nSergei\nShrub\nSimon\nSlime\nSoldier\nSolo\nSoul\nSpot\nStephen\nStitch\nStoke\nSurvivor\nTJ\nTobia\nTod\nTommy\nTory\nTrash\nTrashboat\nTweaker\nTyler\nUseless\nVani\nWalker\nWally\nWeak\nWeazel\nWess\nYoinky\n[ORANGE] \nAJ\nAaron\nAndrew\nArmstrong\nArnold\nBacon\nBam\nBarrel\nBear\nBenry\nBiggie\nBilbo\nBilly\nBlaze\nBoar\nBodhi\nBoe\nBogdan\nBogo\nBoom\nBoxy\nBrad\nBrent\nBrett\nBruce\nBrute\nBrutus\nBryan\nBuck\nBucket\nBuddy\nBullet\nButt\nButtcheeks\nCady\nCarl\nCheeks\nCheeseball\nChubbs\nChuck\nChum\nCoinflip\nCoward\nCrieg\nDaniel\nDeker\nDingus\nDoofus\nDoub\nDrunkard\nDumbass\nDummy\nDumpy\nDusty\nEllis\nErick\nFatass\nFood\nFort\nGary\nGibby\nGoofer\nGourmand\nGrizzly\nGuburt\nGumbo\nGump\nGumpy\nGunther\nHain\nHalter\nHank\nHeavy\nHenry\nHitch\nHorrace\nHoward\nImbecile\nIsaac\nJacob\nJames\nJameson\nJerry\nJoe\nJohnny\nJolly\nJorge\nJosh\nKaleb\nKevin\nKoda\nKrinkels\nLacky\nLandon\nLester\nMaccer\nMarvin\nMatt\nMax\nMitch\nMitchel\nNathan\nNomen\nNoob\nNumbskull\nOdell\nOrange\nOtto\nPaper\nPate\nPickles\nPoob\nPoop\nPuro\nRaig\nRandal\nRhett\nRingo\nRocky\nRoot\nRoph\nRumpel\nSamuel\nSanford\nSergey\nSoldier\nSteve\nSteven\nStew\nStinky\nStupid\nT\nTank\nTerry\nThomas\nThuld\nThumper\nTod\nToler\nUlof\nWade\nWalter\nWyatt\nXavier\nYapper\nZander\nZare\n[MILKY]\nAdder\nAgent\nAlexander\nAlpha\nAlpha-0\nAnim\nAnon\nArct\nArtificer\nBeta\nBeta-1\nBishop\nBoss\nCalibre\nCaptain\nCarbine\nChef\nChurch\nCoach\nCodename 7\nConwell\nCorporal\nCoward\nCpt.\nCyrus\nDeacon\nDelta\nDelta-3\nDevan\nDext\nDoc\nDopple\nEast\nEdgar\nElite\nElwin\nEndy\nFable\nFelix\nFive Pebbles\nFreeman\nFrisk\nGarand\nGauss\nGerson\nGlock\nGoober\nGunsmith\nHitman\nHunter\nIsiah\nJebediah\nJess\nJesse\nJoseph\nKasey\nKel\nKleiner\nL33T\nLance\nLancer\nLass\nLeet\nLlamar\nManuel\nMedic\nMendel\nMessiah\nMilton\nMitri\nMuldraugh\nMyker\nNirvana\nOfficer\nOmega\nOperator\nOrion\nOrtho\nOverseer\nPate\nPeyton\nPheonix\nPhil\nPiercer\nPoland\nPrice\nPriest\nProto\nQuincy\nRandy\nReader\nReuben\nReymond\nRocket\nRosenburg\nRude\nSaint\nSarge\nSavant\nScanner\nSci\nScientist\nScrungle\nSergey\nShorty\nSimon\nSirvat\nSlinger\nSmith\nSniper\nSnow\nSnowball\nSoap\nSocrates\nSong\nSpecialist\nStrelok\nSulfur\nSylvia\nTactician\nTinkerer\nTod\nTory\nTrapper\nTrill\nUnion\nUnit\nValen\nVance\nVernon\nVesper\nVise\nVise\nVutan\nWalker\nWatcher\nWayne\nWhite\nWick\n[LEAPY] \nAaron\nAchilie\nAndrew\nAnon\nArcher\nAustin\nBam\nBasil\nBaxter\nBlake\nBlaster\nBlythe\nBode\nBoom\nBoston\nBrandon\nBrent\nBrett\nBrock\nBryce\nBullet\nBushy\nCarlos\nChad\nChicago\nCliff\nClimber\nClove\nColt\nCommando\nCooper\nCourier\nCrash\nCrieg\nDavid\nDenim\nDenise\nDew\nDominic\nDragon\nDude\nDuncan\nDylan\nEast\nElwood\nEric\nEverett\nFern\nFlorian\nFrisk\nFritz\nFungus\nGabe\nGardener\nGonzales\nGrass\nGreen\nGrove\nGump\nHopper\nHorns\nHunter\nJack\nJacob\nJagger\nJared\nJeremy\nJohnny\nJoker\nJosh\nJumper\nKaleb\nKebab\nKeith\nKyle\nLacky\nLance\nLandon\nLazlow\nLeaf\nLebron\nLester\nLlamar\nLuken\nMK\nManny\nMatt\nMelvin\nMitch\nMitchel\nMitri\nMossy\nNailer\nNathan\nPalmer\nPedro\nRambo\nRandy\nRay\nReif\nReymond\nRhett\nRigby\nRingo\nRipply\nRocket\nRoland\nRoller\nRude\nRunner\nRusher\nScout\nShrub\nSimon\nSlinger\nSoldier\nSpencer\nSpruce\nTanner\nTeri\nTheo\nThomas\nTiger\nTimmy\nTopher\nTrent\nVenis\nWade\nWaldo\nWally\nWalter\nWeazel\nWesson\nWeston\nWildy\nWill\nWoody\nXavier\nYapper\nYoinky\nZack\n[CHOMPY] \nAJ\nAaron\nAlli\nAmi\nAno\nAshley\nAzula\nBaby\nBam\nBaxter\nBay\nBeachy\nBibi\nBiter\nBlubby\nBlue\nBobo\nBohbi\nBombom\nBonnie\nBro\nBrook\nBubbles\nBubby\nBuddy\nCarlos\nCarpi\nChamp\nChewy\nChoi\nChum\nClyde\nCobalt\nCole\nCrieg\nDaan\nDancer\nDarthi\nDarvin\nDarwin\nDeker\nDopple\nDude\nElliot\nEwa\nFabi\nFate\nFeri\nFin\nFinley\nFishstick\nFishy\nFriend\nGil\nGilly\nGummy\nGumpy\nHandy\nHappy\nHope\nHydro\nIrwin\nJC\nJackie\nJayci\nJelly\nJeth\nJethro\nJoi\nJolly\nJosh\nKinni\nKirby\nKissy\nKoy\nKoykoy\nLogan\nMatt\nMaxxy\nMeica\nMelvin\nMisty\nMitty\nMonk\nMuddie\nMurder\nNailer\nNathan\nNick\nNoami\nOcean\nOli\nOliver\nOrthi\nOtter\nPaige\nPal\nPatchy\nPate\nPawni\nPeace\nPersi\nPhil\nPibb\nReggie\nRegy\nRex\nRipply\nRiver\nRivey\nRivulet\nRoofi\nRoph\nRoti\nRusy\nSalty\nSea\nSeal\nShark\nShrimp\nSlimmi\nSlippy\nSong\nSqueaky\nStar\nSurfer\nSwimmer\nTacti\nTobia\nToothy\nTorbi\nToro\nTot\nTrill\nTrim\nTropi\nTuffy\nTural\nValen\nWaterfall\nWavey\nWilly\nWiwi\nWoozie\nYapper\nZander\n[ROZA] \nAbby\nAddy\nAlice\nAnna\nAnnie\nArct\nAria\nAshley\nAspy\nBay\nBeatrice\nBella\nBeth\nBeverly\nBolt\nBombom\nBonnie\nBrenda\nBritney\nBrook\nCarla\nCasi\nCassia\nCassie\nCatalina\nCelsi\nChoi\nCivi\nClaudia\nCloudy\nClover\nCocoa\nCrystal\nCutie\nDancer\nDeker\nDenim\nEevee\nElie\nEliza\nElsa\nEmber\nEngie\nEspresso\nEwa\nFable\nFeri\nFrancine\nFrisk\nFrost\nGabby\nGauss\nGirly\nGlock\nGunsmith\nHazel\nHolly\nHope\nIcey\nImani\nIsabelle\nIvi\nIvy\nJC\nJess\nJolly\nJoy\nJude\nJudy\nJulie\nKJ\nKandy\nKasey\nKate\nKele\nKella\nKinley\nKirsi \nLady\nLass\nLily\nLola\nLooks To The Moon\nLue\nLyra\nMary\nMia\nMilly\nMisty\nMom\nMoral\nMoxxy\nMyra\nNaomi\nNeve\nNoonoo\nNorthie\nPeach\nPeyton\nPlum\nProxy\nQuilly\nQuincy\nQuinn\nRaymi\nRobin\nRory\nRose\nRosie\nRosyln\nRuth\nSeason\nSherbert\nShila\nShiver\nSilver\nSkylar\nSnow\nSnowball\nSofia\nSong\nStar\nStarla\nStella\nStephany\nSweetheart\nSylvia\nTacti\nTiffany\nTrishi\nTruth \nTural\nVesper\nWinter\nYuki\nZio\nZoey\nZondker\n[ROZA_TRANS] \nAija\nAlaska\nAllen\nAnim\nArron\nAspen\nAster\nBenry\nBentley\nBeverly\nBlaster\nBlayde\nBlythe\nBrent\nBrett\nBuddy\nBullet\nBuzz\nCeleste\nCloud\nClovi\nCobalt\nCoda\nCoward\nDaan\nDancer\nDione\nEast\nEli\nElliot\nEngie\nEri\nExton\nFable\nForzen\nFrost\nGabriel\nGalvin\nGauss\nGrove\nGunsmith\nHulk\nHydro\nIcyln\nIver\nJack\nJackie\nJessie\nJude\nKJ\nKirabo\nKoch\nLink\nLuni\nLynn \nMatt\nMelvin\nMox\nNail\nNathan\nNatu\nNevada\nNeve\nNikolai\nNoel\nNorth\nNortho\nOren\nOri\nOrtho\nOtto\nPal\nPate\nPeeper\nRayde\nRaymon\nRingo\nRobin\nRocket\nRoph\nRosyln\nSherman\nSimon\nSinclair\nSkylar\nSmith\nSnow\nSoul\nStorm\nT\nTammy\nTate\nTeri\nTobia\nTorbi\nTory\nTrim\nTruth \nVance\nVesper\nWally\nWarrin\nWhite\nWill\nWinter\nYale\nZare\nZhang\nZio\n[VOYAGER] \nAarus\nAdachi\nAgent\nAlgernon\nAnoth\nArct\nArtificer\nArgant\nArnold\nAssassin\nAtticus\nBarnaby\nBartholomew\nBastard\nBenedict\nBishop\nBlackout\nBlade\nBlaster\nBlaze\nBluesteel\nBlythe\nBoss\nBreaker\nBrett\nBurn\nCat\nChuck\nChurch\nChurch\nClaw\nColdsteel\nConquer\nCorvus\nCyanide\nDarkness\nDeacon\nDelvac\nDesmond\nDesmos\nDext\nElmer\nElwood\nEnoch\nFelice\nFelix\nForzen\nFurball\nGabriel\nGauss\nGhost\nGlock\nGregori\nGrowler\nHector\nHonor\nHunter\nIndigo\nIngrid\nJethro\nKatana\nKeegan\nKele\nKent\nKiller\nKitty\nKnife\nLeopold\nLlewellyn\nLucille\nLuthor\nMachete\nMajul\nMantis\nManuel\nMask\nMilton\nMitchel\nMitri\nMontgomery\nMorose\nMortis\nNevadan\nNight\nNightfall\nNik\nOcelot\nOrtho\nOscar\nPhantom\nPiercer\nPreston\nPriest\nPurble\nPurple\nPurpy\nRandal\nRandolph\nRaymon\nRazor\nRender\nRichard\nRipper\nRon\nRonin\nRonteal\nSawblade\nScorch\nScratch\nShadow\nShredder\nSilence\nSimeon\nSinclair\nSlayer\nSnake\nSnatcher\nSpecialist\nSpy\nSterling\nSulfur\nSullivan\nSword\nThalamore\nTheno\nTorrent\nTruth \nUmbra\nVance\nVenus\nVernon\nVilard\nViolet\nVoodoo\nVutan\nWayne\nWesson\nWhisker\nYseult\nZander\nZebco\n[BARON]\nAegis\nAlexander\nAlfred\nAlphred\nArmstrong\nArnold\nArticulated In Wisdom\nAtticus\nAugustus\nAzazel\nBarrett\nBeast\nBenjamin\nBertrand\nBishop\nBoar\nBoulder\nBrawn\nBrutus\nBuck\nBuddy\nBull\nBurke\nCaptain\nCeasar\nChef\nChurch\nClaymore\nCommando\nConwell\nCordius\nCorvus\nCrusher\nCyrus\nDavid\nDeacon\nDesmond\nDiesal\nDuke\nEasel\nEzekiel\nFortus\nFreckles\nFrederick\nGabriel\nGanymede\nGaston\nGermaine\nGerson\nGiant\nGodric\nGolem\nGregori\nGriffan\nGustav\nHammer\nHammerhead\nHarold\nHenry\nHercules\nHulk\nIferit\nJebediah\nJoel\nJoseph\nJulius\nKing\nKnight\nKrinkels\nLast Poem\nLeviathan\nLord\nLordran\nLuthor\nMagnus\nManuel\nMarcus\nMendel\nMichael\nNapoleon\nNjord\nOdell\nOrion\nOrthus\nOverlord\nOverseer\nPhil\nPriest\nProfessor\nRaymon\nRhino\nRonteal\nRosenburg\nRussell\nSaint\nSaladin\nSalvadore\nSanchez\nSanctus\nSanford\nSenior\nSergey\nSeven Red Suns\nShephard\nSigmund\nSimeon\nSinclair\nSmith\nSocrates\nSolomon\nSword\nThomas\nTitus\nTower\nTyrant\nUlof\nUlyesses\nVernon\nVinny\nWarhead\nWarrior\nWeston\nWinston\nWise One\nWolzal\nXerxes\nXulthur\nYseult\nZeus\nZweihander\n[CHIK]\nAdachi\nAija\nAmbrose\nAnim\nAnoth\nArct\nArtificer\nAshley\nBailey\nBeverly\nBriar\nBrook\nBugeye\nBuzz\nCandle\nCandy\nCasi\nCassidy\nCeleste\nChef\nChiki\nChoi\nCocoa\nCorvi\nCorwin\nCricket\nDancer\nDew\nDext\nDust\nEllie\nElliot\nElwood\nEmber\nEngie\nEwan\nFable\nFeri\nFern\nFlappy\nFoxtrot\nFuzzy\nGabe\nGalvan\nGarand\nGlimmer\nGlock\nGrace\nGump\nGunsmith\nHunter\nIgnius\nIrwin\nIsaac\nIsaiah\nIxin\nJourney\nKaleb\nKasey\nKeon\nKirby\nKoy\nKurfus\nLachlan\nLampy\nLanian\nLaz\nLennon\nLeon\nLint\nLlamar\nLordran\nLynn \nM\nMajori\nMajul\nMedic\nMelvin\nMessiah\nMicah\nMisha\nMoth\nMuldraugh\nMx\nNabi\nNico\nNightwatcher\nOfficer\nOmega\nOperator\nOscar\nOwl\nPate\nPeyton\nPheonix\nPhilip\nPincer\nPink\nPinky\nPittie\nPretty\nProto\nPunk\nQuincy\nRadi\nReaver\nReese\nRobin\nRoux\nSavvy\nShelby\nShia\nSnappy\nSolar\nStark\nStitch\nTacti\nTali\nThomi\nTinkerer\nTrill\nTrim\nUmbra\nUnit\nVex\nVibi\nVirgo\nWanderer\nWatcher\nWeston\nWick\nWing\nYuliea\nZeal\nZey\nZhang\n[CRYSTAL]\nAdder\nAija\nAllen\nAmber\nAmelia\nAmethyst\nAnanke\nAnnie\nAnya\nAthena\nAurora\nAzula\nBeatrix\nBeretta\nBertha\nBeverly\nBolt\nBrook\nCadmi\nCeleste\nChum\nClara\nCocoa\nColette\nCrest\nCrettin\nCrystal\nDanaa\nDaphne\nDaria\nDarthy\nDeker\nDelli\nDiamond\nDragonite\nDreamfyre\nDrogon\nDude\nEavi\nElara\nErsa\nFreckles\nFrida\nGabby\nGali\nGarnet\nGizzy\nGloria\nGraphite\nGrowler\nHarriet\nHeather\nHelike\nHornet\nIsy\nIvie\nJade\nJane\nJean\nKendl\nKeon\nKeystone\nKira\nKirin\nLacky\nLapis\nLaz\nLeda\nLeia\nLicker\nLizard\nLizzy\nLyubov\nMantis\nMay\nMetii\nMisty\nMorgan\nNera\nOnyx\nOpal\nPandia\nPearl\nPheobe\nPibb\nPolina\nPunk\nRadi\nRaven\nRhea\nRoph\nRuby\nRuth\nRyker\nSaphira\nSasha\nScaley\nScar\nScratch\nShelby\nShenron\nSkylar\nSlunki\nSnatcher\nSphinx\nStormfly\nTanya\nTeymac\nThebe\nThomi\nThorn\nTina\nTobia\nTopaz\nTopher\nTrapper\nTrish\nTrudy\nTural\nVal\nVenus\nVesper\nViktoria\nVise\nWaidie\nWesson\nWyvern\nXenia\nYoinky\nZoie\nZora\n[CRYSTAL_TRANS]\nAdder\nAllen\nAndrew\nAzazel\nBeverly\nBlythe\nBlythe\nBolt\nBrent\nBuddy\nCameron\nCarl\nCarlos\nCatch\nChum\nChurch\nClog\nCole\nCrettin\nDavid\nDell\nDenise\nDero\nDesmond\nDevan\nDexter\nDiamond\nDino\nDraco\nDragon\nDragonite\nDreamfyre\nDrogon\nDude\nEdgar\nElmer\nEric\nFelix\nFly-Eater\nFort\nGeck\nGoss\nGravel\nGrey\nGrowler\nGumpy\nGunsmith\nHook\nHornet\nIsiah\nIvan\nIver\nIxin\nJC\nJack\nJames\nJameson\nJerry\nJorge\nJoseph\nKaleb\nKalesh\nKent\nKoch\nKolov\nLacky\nLandon\nLazlow\nLeon\nLester\nLink\nLizard\nLizus\nLuken\nLynn \nMantis\nMatt\nMicah\nMilikan\nMillar\nMisha\nMitch\nMitchel\nMitri\nNathan\nNathon\nNerret\nNiko\nOdell\nOnyx\nOpal\nPeyton\nPeyton\nPhilip\nPhobos\nPunk\nPuzzle\nQuartz\nQuincy\nRandal\nRaymon\nRipply\nRonteal\nRoph\nRubin\nRumpel\nSamus\nScaley\nScar\nScratch\nSergey\nShrub\nSimeon\nSimon\nSkylar\nSlider\nSlunki\nSnatcher\nSoldier\nSteel\nSteven\nTaegen\nTeri\nTerrin\nTeymac\nTheo\nThomas\nTogu\nToler\nTony\nTopaz\nTrapper\nTrish\nUlysses\nVal\nValeria\nValonov\nVector\nVesper\nVicktor\nVilard\nVince\nVise\nVutan\nWade\nWally\nWalter\nWesson\nWick\nWill\nYoinky\nYuki\nZander\n[VELVET] \n6 Eyes\n6 Legs\nAbigail\nAchlys\nAmber\nAnoth\nBaker\nBanshee\nBeauty\nBertha\nBlight\nBrackie\nCarna\nCatherine\nChef\nChopper\nColette\nCrawler\nCreature\nCrest\nCrimson\nDaisy\nDarthy\nDementia\nDerra\nDianne\nDonna\nElma\nElvira\nEuropa\nEwa\nFabi\nForelli\nGail\nGrowler\nHazel\nHeather\nHissy\nHunter\nIsabelle\nIver\nJudy\nKathy\nKele\nKentty\nKuru\nLilith\nLily\nLola\nLucia\nLue\nLurker\nLysine\nMajul\nMania\nMargaret\nMargot\nMartha\nMarthus\nMerle\nMilly\nMisty\nMonarch\nMoon\nMorose\nMother\nMuffet\nMura\nNancy\nNox\nNyx\nObserver\nOctavia\nOdette\nOphelia\nPenelope\nProwler\nQueen\nQuelaag\nQuelana\nQuilly\nQuintana\nRaven\nRue\nSamantha\nScarlett\nSeraphina\nShadow\nSherrea\nSilence\nSister\nSnake\nSnatcher\nSong\nSpider\nSquimbly\nStalker\nSweetheart\nSweetie\nSylvia\nTerra\nThalia\nThomi\nThora\nTranch\nTrapper\nTulip\nTural\nUmbra\nVelvet\nVenus\nVeronica\nVestina\nVillie\nVillie\nVoodoo\nWrath\nWeaver\nWebber\nWhisper\nWine\nZondker\n[VELVET_TRANS]\n6 Eyes\n6 Legs\nAbaddon\nAbraxas\nAcheron\nAjax\nAkuma\nAnoth\nAnwir\nAzazel\nBalor\nBane\nBastard\nBienor\nBlack\nBlythe\nBracken\nCarnate\nCarne\nCeasar\nCerebus\nChef\nChuck\nChurch\nCorbus\nCrawler\nCreature\nCrone\nDaemon\nDante\nDesmond\nDevan\nDeyth\nDolion\nDorien\nDraven\nDuke\nEdgar\nElijah\nElliot\nElmer\nEris\nFabian\nFather\nForelli\nFort\nGhost\nGod\nGoss\nGregori\nGrowler\nHades\nHecate\nHelge\nHitch\nHunter\nIdris\nIsiaus\nIxion\nJethro\nKalon\nKeegan\nKuru\nLarkus\nLeonne\nLoomis\nLucian\nLuken\nLurker\nMadhu\nMajorie\nMan-Eater\nMantis\nMathius\nMillar\nMilton\nMorgoth\nMoros\nMorose\nMortis\nNatu\nNemisis\nNeonty\nNephilim\nNirvana\nNixxin\nNox\nNurse\nObserver\nOrcian\nOrmr\nPalathin\nPatriarch\nPhantom\nPhobos\nPlague\nPrince\nProwler\nPsyche\nQuelan\nQueluin\nReaper\nRender\nRigor\nRonteal\nRonteal\nSephtis\nSerpent\nSeth\nSigmund\nSindacco\nSkull\nSnake\nSnatcher\nStalker\nSword\nTaegen\nTaliama\nTerror\nThemis\nThomas\nThorn\nTitan\nToler\nTorris\nTranch\nTrapper\nUlsar\nVilard\nVito\nVutan\nWeaver\nWebber\nZagan\nZedd\n[ICKE]\nAdder\nAsshat\nBam\nBastard\nBenry\nBlythe\nBo\nBolter\nBoston\nBrandon\nBrawler\nBrent\nBrett\nBrock\nBrute\nBryce\nBryson\nBuck\nBully\nBunny\nBuster\nCalibre\nCarl\nCarrot\nChad\nChet\nChuck\nCody\nCrash\nDavid\nDell\nDenise\nDevan\nDominic\nDuke\nDylan\nEasel\nEdlan\nEnzo\nFighter\nFletcher\nFloyd\nFritz\nGerson\nGlock\nGrove\nGumpy\nHain\nHitch\nHopper\nHunter\nIsiah\nJack\nJacob\nJagger\nJeremy\nJericho\nJeter\nJethro\nJoe\nJohnny\nJumper\nJustin\nKaige\nKaleb\nKent\nKicker\nKyle\nLandon\nLeon\nLink\nLito\nManuel\nMax\nMitch\nNailer\nNecksnapper\nNolan\nOdell\nPalmer\nPeyton\nPotato\nPunk\nRafeal\nRaig\nRandal\nRandy\nRandy\nRingo\nRipply\nRoamer\nRonteal\nRude\nRyder\nRyne\nSanchez\nScout\nSebastian\nSigmund\nSkipper\nSmith\nSniper\nSoldier\nSpencer\nTaegen\nThug\nThumper\nToler\nTophat\nToreno\nTrickster\nTrodder\nTucker\nTurner\nWally\nWayne\nWowza\nZare\nZayne\nZeke\n[SHELLY] \nAcid\nAegis\nAlexandra\nAraceli\nArian\nArmageddon\nArmor\nAstrid\nAthena\nBeast\nBertha\nBethany\nBexley\nBlight\nBridget\nBuddy\nBulwark\nCalamity\nCassidy\nChoi\nCorbus\nCrest\nCyrene\nDaraus\nDeca\nDecius\nDenali\nDianne\nEavi\nEcho\nElexa\nEnkil\nEwa\nFernanda\nFort\nFrankie\nGina\nGlowy\nGuardian\nHannath\nHeather\nHermione\nHornet\nHydra\nHyedri\nImara\nImogen\nIsadora\nIshva\nIvy\nIxii\nJade\nJosephine\nKara\nKaratus\nKassie\nKatara\nKate\nKel\nKele\nKelsii\nKendl\nKeon\nKifflom\nKirsten\nLeah\nLeonne\nLilain\nLime\nLindsey\nLue\nMantis\nMarina\nMaritus\nMatilda\nMijo\nMildred\nMisty\nMolly\nMusa\nNovia\nOctavia\nOlexa\nOrion\nOrkin\nPaige\nPhobie\nPinchy\nQueen\nQuilly\nQuincy\nQuintana\nRadi\nRadian\nRaig\nRazor\nRocket\nRumplet\nSanford\nSaran\nScorch\nScorpian\nSeverus\nShale\nSigmus\nSigmus\nSolara\nSolarius\nSong\nSphinx\nStomper\nSulfur\nSummer\nSylvia\nTaliama\nTerra\nThumper\nThyra\nTomo\nTower\nTrinity\nTrish\nUlceria\nUlsar\nUnit\nValerie\nVenom\nVernon\nVillie\nWilma\nWylda\nXandra\nXargo\nXenia\nZaila\nZhora\nZolaie\nZondker\nZorom\nZully\nZulmea\n[DUNE]\nA\nAcid\nAgash\nAnimal\nAxe\nBaal\nBam\nBarrel\nBastard\nBibby\nBlade\nBleeder\nBlight\nBlood\nBoom\nBrain\nBurrow\nCane\nCannibal\nCarlos\nCarne\nChum\nClaw\nCleaver\nClog\nCog\nCraw\nCrawler\nCreature\nCyanide\nDagger\nDemon\nDestroyer\nDog\nDrone\nDune\nE\nEater\nEyeball\nFailure\nFallen\nFood\nGaar\nGho\nGhug\nGleeb\nGlock\nGnat\nGod\nGolon\nGon\nGoopy\nGorgon\nGorlock\nGoss\nGrungler\nGug\nGul\nGulgo\nGun\nGurgler\nGutter\nHavoc\nHeart\nHook\nHornet\nI\nIbilis\nIgor\nIvan\nJelly\nKel\nKidney\nKifflom\nKnife\nKoy\nLicker\nLiver\nLoobie\nLurker\nMadhu\nMalkeeth\nMan-Eater\nManiac\nMantis\nMijo\nMindless\nMog\nMolug\nNerve\nNimue\nO \nPal\nPancreas\nPayne\nPeeper\nPhilip\nPiercer\nPlague\nPrototype\nQuangus\nQueef\nQuilly\nRabid\nRaider\nRambo\nRender\nRipper\nRivulet\nRoot\nRouge\nRumpel\nSandy\nSawblade\nScorch\nScrungle\nScuggly\nShrub\nSkull\nSpiker\nSpine\nSpleen\nSquimbly\nStoic\nStomach\nStriker\nSulfur\nSword\nTheno\nThorax\nToothy\nTraitor\nTwitchy\nTyphon\nU\nUhl\nUlsar\nVandal\nVein\nWicked\nWolzal\nX\nY\nZ\nZagan\nZolag\n[G4A]\n0-DEFECT\n00-G4A\n1-G4A\n2-G4A\n3-G4A\n4-DEFECT\n4-G4A\n5-G4A\n6-G4A\n7-G4A\n8-G4A\n9-DEFECT\n9-G4A\nA-G4A\nAA-G4A\nB-G4A\nB-G4A-1\nB-G4A-2\nB-G4A-3\nB-G4A-4\nB-G4A-9\nB-G4A-CIV\nDEF\nE-G4A\nE-G4A-CIV\nENFORCER\nERR-00\nERR-01\nERR-404\nGAMER\nG4A\nG4A-CIV\nMK2\nMK3-9\nHELPME\nM-G4A\nM-G4A-CIV\nMM-G4A\nNULL\nO-G4A\nOMITTED\nOPPRESSOR\nPRO-G4A\nPRO-G4A\nPROTO-G4A\nT-G4A\nTERMINATOR\nU-G4A\nUNK\nUNK-00\nUNK-ERR\nUNKNOWN\nY-G4A\nZ-G4A\n[	[TextAsset:NameList]
-[R] to REFORM BODY	[TMPro.TextMeshProUGUI]
-A high up outpost gives some rivals a vantage point, making work hard for us.\nMake your way in through the back, work your way up through the outpost, simple stuff.\nWord is that they've got those orange ones around the place now. Bulky ones, might take a bit more punishment to put down than an experiment.\nGood luck.\n- Z	[MissionSelect]
-A moving background tile. Moves when its ID gets activated. Set the target pos to your desired position	[LevelPartGame]
-A moving tile. Moves when its ID gets activated. Set the target pos to your desired position	[LevelPartGame]
-A point for the camera to move to after finishing the level	[LevelPartGame]
-A true assassin...	[Chatter~raw]
-A-D to switch characters	[TMPro.TextMeshProUGUI]
-AAAAAHHH! That hurts!!	[Chatter~raw]
-AAHHHHHHH! Help! Help PLEASE!	[Chatter~raw]
-According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let's shake it up a little. Barry! Breakfast is ready! Coming! Hang on a second. Hello? Barry? Adam? Can you believe this is happening? I can't. I'll pick you up. Looking sharp. Use the stairs, Your father paid good money for those. Sorry. I'm excited. Here's the graduate. We're very proud of you, son. A perfect report card, all B's. Very proud. Ma! I got a thing going here. You got lint on your fuzz. Ow! That's me! Wave to us! We'll be in row 118,000. Bye! Barry, I told you, stop flying in the house! Hey, Adam. Hey, Barry. Is that fuzz gel? A little. Special day, graduation. Never thought I'd make it. Three days grade school, three days high school. Those were awkward. Three days college. I'm glad I took a day and hitchhiked around The Hive. You did come back different. Hi, Barry. Artie, growing a mustache? Looks good. Hear about Frankie? Yeah. You going to the funeral? No, I'm not going. Everybody knows, sting someone, you die. Don't waste it on a squirrel. Such a hothead. I guess he could have just gotten out of the way. I love this incorporating an amusement park into our day. That's why we don't need vacations. Boy, quite a bit of pomp under the circumstances. Well, Adam, today we are men. We are! Bee-men. Amen! Hallelujah! Students, faculty, distinguished bees, please welcome Dean Buzzwell. Welcome, New Hive City graduating class of 9:15. That concludes our ceremonies And begins your career at Honex Industries! Will we pick our job today? I heard it's just orientation. Heads up! Here we go. Keep your hands and antennas inside the tram at all times. Wonder what it'll be like? A little scary. Welcome to Honex, a division of Honesco and a part of the Hexagon Group. This is it! Wow. Wow. We know that you, as a bee, have worked your whole life to get to the point where you can work for your whole life. Honey begins when our valiant Pollen Jocks bring the nectar to The Hive. Our top-secret formula is automatically color-corrected, scent-adjusted and bubble-contoured into this soothing sweet syrup with its distinctive golden glow you know as... Honey! That girl was hot. She's my cousin! She is? Yes, we're all cousins. Right. You're right. At Honex, we constantly strive to improve every aspect of bee existence. These bees are stress-testing a new helmet technology. What do you think he makes? Not enough. Here we have our latest advancement, the Krelman. What does that do? Catches that little strand of honey that hangs after you pour it. Saves us millions. Can anyone work on the Krelman? Of course. Most bee jobs are small ones. But bees know that every small job, if it's done well, means a lot. But choose carefully because you'll stay in the job you pick for the rest of your life. The same job the rest of your life? I didn't know that. What's the difference? You'll be happy to know that bees, as a species, haven't had one day off in 27 million years. So you'll just work us to death? We'll sure try. Wow! That blew my mind! "What's the difference?" How can you say that? One job forever? That's an insane choice to have to make. I'm relieved. Now we only have to make one decision in life. But, Adam, how could they never have told us that? Why would you question anything? We're bees. We're the most perfectly functioning society on Earth. You ever think maybe things work a little too well here? Like what? Give me one example. I don't know. But you know what I'm talking about. Please clear the gate. Royal Nectar Force on approach. Wait a second. Check it out. Hey, those are Pollen Jocks! Wow. I've never seen them this close. They know what it's like outside The Hive. Yeah, but some don't come back. Hey, Jocks! Hi, Jocks! You guys did great! You're monsters! You're sky freaks! I love it! I love it! I wonder where they were. I don't know. Their day's not planned. Outside The Hive, flying who knows where, doing who knows what. You can't just decide to be a Pollen Jock. You have to be bred for that. Right. Look. That's more pollen than you and I will see in a lifetime. It's just a status symbol. Bees make too much of it. Perhaps. Unless you're wearing it and the ladies see you wearing it. Those ladies? Aren't they our cousins too? Distant. Distant. Look at these two. Couple of Hive Harrys. Let's have fun with them. It must be dangerous being a Pollen Jock. Yeah. Once a bear pinned me against a mushroom! He had a paw on my throat, and with the other, he was slapping me! Oh, my! I never thought I'd knock him out. What were you doing during this? Trying to alert the authorities. I can autograph that. A little gusty out there today, wasn't it, comrades? Yeah. Gusty. We're hitting a sunflower patch six miles from here tomorrow. Six miles, huh? Barry! A puddle jump for us, but maybe you're not up for it. Maybe I am. You are not! We're going 0900 at J-Gate. What do you think, buzzy-boy? Are you bee enough? I might be. It all depends on what 0900 means. Hey, Honex! Dad, you surprised me. You decide what you're interested in? Well, there's a lot of choices. But you only get one. Do you ever get bored doing the same job every day? Son, let me tell you about stirring. You grab that stick, and you just move it around, and you stir it around. You get yourself into a rhythm. It's a beautiful thing. You know, Dad, the more I think about it, maybe the honey field just isn't right for me. You were thinking of what, making balloon animals? That's a bad job for a guy with a stinger. Janet, your son's not sure he wants to go into honey! Barry, you are so funny sometimes. I'm not trying to be funny. You're not funny! You're going into honey. Our son, the stirrer! You're gonna be a stirrer? No one's listening to me! Wait till you see the sticks I have. I could say anything right now. I'm gonna get an ant tattoo! Let's open some honey and celebrate! Maybe I'll pierce my thorax. Shave my antennae. Shack up with a grasshopper. Get a gold tooth and call everybody "dawg"! I'm so proud. We're starting work today! Today's the day. Come on! All the good jobs will be gone. Yeah, right. Pollen counting, stunt bee, pouring, stirrer, front desk, hair removal... Is it still available? Hang on. Two left! One of them's yours! Congratulations! Step to the side. What'd you get? Picking crud out. Stellar! Wow! Couple of newbies? Yes, sir! Our first day! We are ready! Make your choice. You want to go first? No, you go. Oh, my. What's available? Restroom attendant's open, not for the reason you think. Any chance of getting the Krelman? Sure, you're on. I'm sorry, the Krelman just closed out. Wax monkey's always open. The Krelman opened up again. What happened? A bee died. Makes an opening. See? He's dead. Another dead one. Deady. Deadified. Two more dead. Dead from the neck up. Dead from the neck down. That's life! Oh, this is so hard! Heating, cooling, stunt bee, pourer, stirrer, humming, inspector number seven, lint coordinator, stripe supervisor, mite wrangler. Barry, what do you think I should... Barry? Barry! All right, we've got the sunflower patch in quadrant nine... What happened to you? Where are you? I'm going out. Out? Out where? Out there. Oh, no! I have to, before I go to work for the rest of my life. You're gonna die! You're crazy! Hello? Another call coming in. If anyone's feeling brave, there's a Korean deli on 83rd that gets their roses today. Hey, guys. Look at that. Isn't that the kid we saw yesterday? Hold it, son, flight deck's restricted. It's OK, Lou. We're gonna take him up. Really? Feeling lucky, are you? Sign here, here. Just initial that. Thank you. OK. You got a rain advisory today, and as you all know, bees cannot fly in rain. So be careful. As always, watch your brooms, hockey sticks, dogs, birds, bears and bats. Also, I got a couple of reports of root beer being poured on us. Murphy's in a home because of it, babbling like a cicada! That's awful. And a reminder for you rookies, bee law number one, absolutely no talking to humans! All right, launch positions! Buzz, buzz, buzz, buzz! Buzz, buzz, buzz, buzz! Buzz, buzz, buzz, buzz! Black and yellow! Hello! You ready for this, hot shot? Yeah. Yeah, bring it on. Wind, check. Antennae, check. Nectar pack, check. Wings, check. Stinger, check. Scared out of my shorts, check. OK, ladies, let's move it out! Pound those petunias, you striped stem-suckers! All of you, drain those flowers! Wow! I'm out! I can't believe I'm out! So blue. I feel so fast and free! Box kite! Wow! Flowers! This is Blue Leader, We have roses visual. Bring it around 30 degrees and hold. Roses! 30 degrees, roger. Bringing it around. Stand to the side, kid. It's got a bit of a kick. That is one nectar collector! Ever see pollination up close? No, sir. I pick up some pollen here, sprinkle it over here. Maybe a dash over there, a pinch on that one. See that? It's a little bit of magic. That's amazing. Why do we do that? That's pollen power. More pollen, more flowers, more nectar, more honey for us. Cool. I'm picking up a lot of bright yellow, Could be daisies, Don't we need those? Copy that visual. Wait. One of these flowers seems to be on the move. Say again? You're reporting a moving flower? Affirmative. That was on the line! This is the coolest. What is it? I don't know, but I'm loving this color. It smells good. Not like a flower, but I like it. Yeah, fuzzy. Chemical-y. Careful, guys. It's a little grabby. My sweet lord of bees! Candy-brain, get off there! Problem! Guys! This could be bad. Affirmative. Very close. Gonna hurt. Mama's little boy. You are way out of position, rookie! Coming in at you like a missile! Help me! I don't think these are flowers. Should we tell him? I think he knows. What is this?! Match point! You can start packing up, honey, because you're about to eat it! Yowser! Gross. There's a bee in the car! Do something! I'm driving! Hi, bee. He's back here! He's going to sting me! Nobody move. If you don't move, he won't sting you. Freeze! He blinked! Spray him, Granny! What are you doing?! Wow... the tension level out here is unbelievable. I gotta get home. Can't fly in rain. Can't fly in rain. Can't fly in rain. Mayday! Mayday! Bee going down! Ken, could you close the window please? Ken, could you close the window please? Check out my new resume. I made it into a fold-out brochure. You see? Folds out. Oh, no. More humans. I don't need this. What was that? Maybe this time. This time. This time. This time! This time! This... Drapes! That is diabolical. It's fantastic. It's got all my special skills, even my top-ten favorite movies. What's number one? Star Wars? Nah, I don't go for that... kind of stuff. No wonder we shouldn't talk to them. They're out of their minds. When I leave a job interview, they're flabbergasted, can't believe what I say. There's the sun. Maybe that's a way out. I don't remember the sun having a big 75 on it. I predicted global warming. I could feel it getting hotter. At first I thought it was just me. Wait! Stop! Bee! Stand back. These are winter boots. Wait! Don't kill him! You know I'm allergic to them! This thing could kill me! Why does his life have less value than yours? Why does his life have any less value than mine? Is that your statement? I'm just saying all life has value. You don't know what he's capable of feeling. My brochure! There you go, little guy. I'm not scared of him.It's an allergic thing. Put that on your resume brochure. My whole face could puff up. Make it one of your special skills. Knocking someone out is also a special skill. Right. Bye, Vanessa. Thanks. Vanessa, next week? Yogurt night? Sure, Ken. You know, whatever. You could put carob chips on there. Bye. Supposed to be less calories. Bye. I gotta say something. She saved my life. I gotta say something. All right, here it goes. Nah. What would I say? I could really get in trouble. It's a bee law. You're not supposed to talk to a human. I can't believe I'm doing this. I've got to. Oh, I can't do it. Come on! No. Yes. No. Do it. I can't. How should I start it? "You like jazz?" No, that's no good. Here she comes! Speak, you fool! Hi! I'm sorry. You're talking. Yes, I know. You're talking! I'm so sorry. No, it's OK. It's fine. I know I'm dreaming. But I don't recall going to bed. Well, I'm sure this is very disconcerting. This is a bit of a surprise to me. I mean, you're a bee! I am. And I'm not supposed to be doing this, but they were all trying to kill me. And if it wasn't for you... I had to thank you. It's just how I was raised. That was a little weird. I'm talking with a bee. Yeah. I'm talking to a bee. And the bee is talking to me! I just want to say I'm grateful. I'll leave now. Wait! How did you learn to do that? What? The talking thing. Same way you did, I guess. "Mama, Dada, honey." You pick it up. That's very funny. Yeah. Bees are funny. If we didn't laugh, we'd cry with what we have to deal with. Anyway... Can I... get you something? Like what? I don't know. I mean... I don't know. Coffee? I don't want to put you out. It's no trouble. It takes two minutes. It's just coffee. I hate to impose. Don't be ridiculous! Actually, I would love a cup. Hey, you want rum cake? I shouldn't. Have some. No, I can't. Come on! I'm trying to lose a couple micrograms. Where? These stripes don't help. You look great! I don't know if you know anything about fashion. Are you all right? No. He's making the tie in the cab as they're flying up Madison. He finally gets there. He runs up the steps into the church. The wedding is on. And he says, "Watermelon? I thought you said Guatemalan. Why would I marry a watermelon?" Is that a bee joke? That's the kind of stuff we do. Yeah, different. So, what are you gonna do, Barry? About work? I don't know. I want to do my part for The Hive, but I can't do it the way they want. I know how you feel. You do? Sure. My parents wanted me to be a lawyer or a doctor, but I wanted to be a florist. Really? My only interest is flowers. Our new queen was just elected with that same campaign slogan. Anyway, if you look... There's my hive right there. See it? You're in Sheep Meadow! Yes! I'm right off the Turtle Pond! No way! I know that area. I lost a toe ring there once. Why do girls put rings on their toes? Why not? It's like putting a hat on your knee. Maybe I'll try that. You all right, ma'am? Oh, yeah. Fine. Just having two cups of coffee! Anyway, this has been great. Thanks for the coffee. Yeah, it's no trouble. Sorry I couldn't finish it. If I did, I'd be up the rest of my life. Are you...? Can I take a piece of this with me? Sure! Here, have a crumb. Thanks! Yeah. All right. Well, then... I guess I'll see you around. Or not. OK, Barry. And thank you so much again... for before. Oh, that? That was nothing. Well, not nothing, but... Anyway... This can't possibly work. He's all set to go. We may as well try it. OK, Dave, pull the chute. Sounds amazing. It was amazing! It was the scariest, happiest moment of my life. Humans! I can't believe you were with humans! Giant, scary humans! What were they like? Huge and crazy. They talk crazy. They eat crazy giant things. They drive crazy. Do they try and kill you, like on TV? Some of them. But some of them don't. How'd you get back? Poodle. You did it, and I'm glad. You saw whatever you wanted to see. You had your "experience." Now you can pick out yourjob and be normal. Well... Well? Well, I met someone. You did? Was she Bee-ish? A wasp?! Your parents will kill you! No, no, no, not a wasp. Spider? I'm not attracted to spiders. I know it's the hottest thing, with the eight legs and all. I can't get by that face. So who is she? She's... human. No, no. That's a bee law. You wouldn't break a bee law. Her name's Vanessa. Oh, boy. She's so nice. And she's a florist! Oh, no! You're dating a human florist! We're not dating. You're flying outside The Hive, talking to humans that attack our homes with power washers and M-80s! One-eighth a stick of dynamite! She saved my life! And she understands me. This is over! Eat this. This is not over! What was that? They call it a crumb. It was so stingin' stripey! And that's not what they eat. That's what falls off what they eat! You know what a Cinnabon is? No. It's bread and cinnamon and frosting. They heat it up... Sit down! ...really hot! Listen to me! We are not them! We're us. There's us and there's them! Yes, but who can deny the heart that is yearning? There's no yearning. Stop yearning. Listen to me! You have got to start thinking bee, my friend. Thinking bee! Thinking bee. Thinking bee. Thinking bee! Thinking bee! Thinking bee! Thinking bee! There he is. He's in the pool. You know what your problem is, Barry? I gotta start thinking bee? How much longer will this go on? It's been three days! Why aren't you working? I've got a lot of big life decisions to think about. What life? You have no life! You have no job. You're barely a bee! Would it kill you to make a little honey? Barry, come out. Your father's talking to you. Martin, would you talk to him? Barry, I'm talking to you! You coming? Got everything? All set! Go ahead. I'll catch up. Don't be too long. Watch this! Vanessa! We're still here. I told you not to yell at him. He doesn't respond to yelling! Then why yell at me? Because you don't listen! I'm not listening to this. Sorry, I've gotta go. Where are you going? I'm meeting a friend. A girl? Is this why you can't decide? Bye. I just hope she's Bee-ish. They have a huge parade of flowers every year in Pasadena? To be in the Tournament of Roses, that's every florist's dream! Up on a float, surrounded by flowers, crowds cheering. A tournament. Do the roses compete in athletic events? No. All right, I've got one. How come you don't fly everywhere? It's exhausting. Why don't you run everywhere? It's faster. Yeah, OK, I see, I see. All right, your turn. TiVo. You can just freeze live TV? That's insane! You don't have that? We have Hivo, but it's a disease. It's a horrible, horrible disease. Oh, my. Dumb bees! You must want to sting all those jerks. We try not to sting. It's usually fatal for us. So you have to watch your temper. Very carefully. You kick a wall, take a walk, write an angry letter and throw it out. Work through it like any emotion: Anger, jealousy, lust. Oh, my goodness! Are you OK? Yeah. What is wrong with you?! It's a bug. He's not bothering anybody. Get out of here, you creep! What was that? A Pic 'N' Save circular? Yeah, it was. How did you know? It felt like about 10 pages. Seventy-five is pretty much our limit. You've really got that down to a science. I lost a cousin to Italian Vogue. I'll bet. What in the name of Mighty Hercules is this? How did this get here? cute Bee, Golden Blossom, Ray Liotta Private Select? Is he that actor? I never heard of him. Why is this here? For people. We eat it. You don't have enough food of your own? Well, yes. How do you get it? Bees make it. I know who makes it! And it's hard to make it! There's heating, cooling, stirring. You need a whole Krelman thing! It's organic. It's our-ganic! It's just honey, Barry. Just what?! Bees don't know about this! This is stealing! A lot of stealing! You've taken our homes, schools,hospitals! This is all we have! And it's on sale?! I'm getting to the bottom of this. I'm getting to the bottom of all of this! Hey, Hector. You almost done? Almost. He is here. I sense it. Well, I guess I'll go home now and just leave this nice honey out, with no one around. You're busted, box boy! I knew I heard something. So you can talk! I can talk. And now you'll start talking! Where you getting the sweet stuff? Who's your supplier? I don't understand. I thought we were friends. The last thing we want to do is upset bees! You're too late! It's ours now! You, sir, have crossed the wrong sword! You, sir, will be lunch for my iguana, Ignacio! Where is the honey coming from? Tell me where! Honey Farms! It comes from Honey Farms! Crazy person! What horrible thing has happened here? These faces, they never knew what hit them. And now they're on the road to nowhere! Just keep still. What? You're not dead? Do I look dead? They will wipe anything that moves. Where you headed? To Honey Farms. I am onto something huge here. I'm going to Alaska. Moose blood, crazy stuff. Blows your head off! I'm going to Tacoma. And you? He really is dead. All right. Uh-oh! What is that?! Oh, no! A wiper! Triple blade! Triple blade? Jump on! It's your only chance, bee! Why does everything have to be so doggone clean?! How much do you people need to see?! Open your eyes! Stick your head out the window! From NPR News in Washington, I'm Carl Kasell. But don't kill no more bugs! Bee! Moose blood guy!! You hear something? Like what? Like tiny screaming. Turn off the radio. Whassup, bee boy? Hey, Blood. Just a row of honey jars, as far as the eye could see. Wow! I assume wherever this truck goes is where they're getting it. I mean, that honey's ours. Bees hang tight. We're all jammed in. It's a close community. Not us, man. We on our own. Every mosquito on his own. What if you get in trouble? You a mosquito, you in trouble. Nobody likes us. They just smack. See a mosquito, smack, smack! At least you're out in the world. You must meet girls. Mosquito girls try to trade up, get with a moth, dragonfly. Mosquito girl don't want no mosquito. You got to be kidding me! Mooseblood's about to leave the building! So long, bee! Hey, guys! Mooseblood! I knew I'd catch y'all down here. Did you bring your crazy straw? We throw it in jars, slap a label on it, and it's pretty much pure profit. What is this place? A bee's got a brain the size of a pinhead. They are pinheads! Pinhead. Check out the new smoker. Oh, sweet. That's the one you want. The Thomas 3000! Smoker? Ninety puffs a minute, semi-automatic. Twice the nicotine, all the tar. A couple breaths of this knocks them right out. They make the honey, and we make the money. "They make the honey, and we make the money"? Oh, my! What's going on? Are you OK? Yeah. It doesn't last too long. Do you know you're in a fake hive with fake walls? Our queen was moved here. We had no choice. This is your queen? That's a man in women's clothes! That's a drag queen! What is this? Oh, no! There's hundreds of them! Bee honey. Our honey is being brazenly stolen on a massive scale! This is worse than anything bears have done! I intend to do something. Oh, Barry, stop. Who told you humans are taking our honey? That's a rumor. Do these look like rumors? That's a conspiracy theory. These are obviously doctored photos. How did you get mixed up in this? He's been talking to humans. What? Talking to humans?! He has a human girlfriend. And they make out! Make out? Barry! We do not. You wish you could. Whose side are you on?	[TMPro.TextMeshPro]
-Acid Plant	[MissionSelect]
-Activate once	[LevelPartGame]
-Activation zone	[LevelPartGame]
-Additive with Mask	[UnityEngine.Experimental.Rendering.Universal.Renderer2DData]
-Adds grain to the screen	[TMPro.TextMeshProUGUI]
-Advanced info	[TMPro.TextMeshProUGUI]
-Advanced info [SPACE]	[TMPro.TextMeshProUGUI]
-Agent 471	[MusicClip]
-Agile and fragile	[BodyScript]
-Ah, again?	[Chatter~raw]
-Ah... well... done...	[Chatter~raw]
-AHH! OH! WHAT THE HELL!!	[Chatter~raw]
-AHHH!!! I NEED HELP- PLEASE!	[Chatter~raw]
-AI Ally follow	[LevelPartGame]
-AI no-no zone	[LevelPartGame]
-Aim speed: 100%	[TMPro.TextMeshProUGUI]
-AIs try to stay out of it. Make sure it extends a bit over the edge	[LevelPartGame]
-Albino experiment	[LevelPartGame]
-Alert enemies have quicker reaction times than non-alert ones, and can see you behind them.	[SceneLoader~raw]
-All characters were made\nspecifically for Gunsaw.	[TMPro.TextMeshProUGUI]
-All for me~	[Chatter~raw]
-All for nothing!	[Chatter~raw]
-All of you! Do something!	[Chatter~raw]
-Allows you to swap weapons with the scrollwheel	[TMPro.TextMeshProUGUI]
-ALLY DOWN	[Chatter~raw]
-Ally down!	[Chatter~raw]
-Alot of noise today. Meh.	[Chatter~raw]
-Alright, who did it?!	[Chatter~raw]
-Alright... I've got this...	[Chatter~raw]
-Always pick up ammo from any dropped weapons.	[SceneLoader~raw]
-Always reload your weapons. Especially after picking one up.	[SceneLoader~raw]
-Am I paranoid or?...	[Chatter~raw]
-Ammo is a scarce\nresource.\nWalk near dropped\nweapons to\nunload their ammo	[TMPro.TextMeshPro]
-Ammo is a scarce resource.\nPress TAB to see your spare ammo.\n\nYou can only reload weapons if you have\nenough ammo of the type the weapon uses.	[TMPro.TextMeshPro]
-AMMO WASTED	[Chatter~raw]
-An abomination\nLow stats	[BodyScript]
-An enemy. If Move Idle is 0, they won't move when not fighting. If Crate Damage is 0, they won't take damage from falling crates. Set team to goodguys to make them an ally	[LevelPartGame]
-An error has occured. The game might be unstable.\nReport this to Orson!!	[TMPro.TextMeshProUGUI]
-And so, time has halted...	[GameManager~raw]
-ANOMALY DETECTED	[Chatter~raw]
-Another issue? Really?	[Chatter~raw]
-Another one down!	[Chatter~raw]
-Another, take his place!	[Chatter~raw]
-Anyone going to uhm... check on that?	[Chatter~raw]
-Anyone recording?	[Chatter~raw]
-Apply pressure!	[Chatter~raw]
-Aquatic entity\nMediocre on land\nExcellent in water	[BodyScript]
-Archer was here	[TMPro.TextMeshPro]
-Are you\nsure?	[TMPro.TextMeshProUGUI]
-Are you even trying!?	[Chatter~raw]
-Are you serious?!	[Chatter~raw]
-Area status unclear.	[Chatter~raw]
-Area unsecure!	[Chatter~raw]
-Aren't you cute?	[Chatter~raw]
-Aren't you just precious?	[Chatter~raw]
-Armored entity\nVery slow and sturdy	[BodyScript]
-Art by Yellowmellow	[TMPro.TextMeshProUGUI]
-Arthropod entity\nProcudes codweb	[BodyScript]
-Article 7.	[Chatter~raw]
-Article 9, now!	[Chatter~raw]
-Article... 12...	[Chatter~raw]
-As reported, stay alert.	[Chatter~raw]
-Assault rifle	[WeaponPreset]
-AUDIO ABNORMALITY	[Chatter~raw]
-AUDIO ANOMALY	[Chatter~raw]
-Audio anomaly.	[Chatter~raw]
-Auto reload	[TMPro.TextMeshProUGUI]
-Automatically reload your weapon after running out	[TMPro.TextMeshProUGUI]
-Avenge... me!	[Chatter~raw]
-Back to\nmain menu	[TMPro.TextMeshProUGUI]
-Back to editor (B)	[TMPro.TextMeshProUGUI]
-BACK TO LEVEL	[TMPro.TextMeshProUGUI]
-BACK TO TITLE	[TMPro.TextMeshProUGUI]
-Back to your room!	[Chatter~raw]
-Background edit	[TMPro.TextMeshProUGUI]
-Background edit ON	[TMPro.TextMeshProUGUI]
-Background element	[LevelPartGame]
-Background element. Has collision	[LevelPartGame]
-Background grass, but snowy. Randomly varies when level is loaded	[LevelPartGame]
-Background grass. Randomly varies when level is loaded	[LevelPartGame]
-Background info screen. Set the team to your desired text	[LevelPartGame]
-Backup, Backup!	[Chatter~raw]
-Bad news, is it?	[Chatter~raw]
-Bad weapon handling, very high jumps\n<color="green">VERY strong kicks\nHigher move, reload and aim speed the lower your HP is	[MainMenuManager]
-Bah! Ammo!	[Chatter~raw]
-Bah, whatever!...	[Chatter~raw]
-Basic colored lamp. Change the team to a name or HEX color value. Don't overdo them	[LevelPartGame]
-Basic entity\nAverage combat abilities	[BodyScript]
-Basic entity\nAverage combat abilities\nHas albinism	[BodyScript]
-Basic explosive barrel	[LevelPartGame]
-Basic lamp. Don't overdo them	[LevelPartGame]
-Basic objects	[TMPro.TextMeshProUGUI,UnityEngine.UI.Button]
-Basic Training	[MissionSelect]
-Basic, scalable background. Only editable in background edit mode	[LevelPartGame]
-Basic, scalable walkable ground	[LevelPartGame]
-Be patient for me!	[Chatter~raw]
-Be patient, I'm reloading!	[Chatter~raw]
-Be Quick or Be Dead	[MusicClip]
-Be still for me...	[Chatter~raw]
-Be still...	[Chatter~raw]
-BEES MAKE HONEY	[TMPro.TextMeshPro]
-Believe it or not, paused.	[GameManager~raw]
-Belt Dropdown	[MissionSelect]
-Better up there than here!	[Chatter~raw]
-Black Rainbows	[MusicClip]
-Blood by Awez	[TMPro.TextMeshProUGUI]
-Blue Sewers	[MissionSelect]
-Box Check	[MissionSelect,TMPro.TextMeshProUGUI]
-Break below me!	[Chatter~raw]
-Breathe in, breathe out.	[GameManager~raw]
-Bring it, tough guy!	[Chatter~raw]
-Brutal Mode	[TMPro.TextMeshProUGUI]
-Buddy... NO!...	[Chatter~raw]
-Building/LabCrate Variant	[LevelPartGame]
-Bullets slow enemies	[BodyScript]
-Bullets... go in here!	[Chatter~raw]
-Bullpup rifle	[WeaponPreset]
-Bully Drone	[LevelPartGame]
-But I'm... not...	[Chatter~raw]
-But you...	[Chatter~raw]
-But... Why?...	[Chatter~raw]
-Button prompts	[TMPro.TextMeshProUGUI]
-C'mon c'mon!	[Chatter~raw]
-C'mon! Let's go!	[Chatter~raw]
-C'mon, fight harder!	[Chatter~raw]
-C'mon... c'mon!	[Chatter~raw]
-C'mon... gun... work!	[Chatter~raw]
-C'mon... I got this...	[Chatter~raw]
-C'mon... Reloading!	[Chatter~raw]
-C'mon... Where?	[Chatter~raw]
-Calling assistance!	[Chatter~raw]
-CALLING FOR BACKUP	[Chatter~raw]
-Camera Finish Point	[LevelPartGame]
-Cameras ready?	[Chatter~raw]
-Can someone check that out?	[Chatter~raw]
-Can't shoot this!	[Chatter~raw]
-Can't... get... up...	[Chatter~raw]
-Cannon fodder	[BodyScript]
-Cannon fodder...?	[BodyScript]
-Cease your wrongdoings!	[Chatter~raw]
-Ch... Cheater...	[Chatter~raw]
-Chainlink fence	[LevelPartGame]
-Changes the fog intensity (0-1) when activated	[LevelPartGame]
-Changes the general object load distance\nHigher values worsen performance but increase stability	[TMPro.TextMeshProUGUI]
-Changes the rain intensity (0-1) when activated	[LevelPartGame]
-Changes the snow intensity (0-1) when activated	[LevelPartGame]
-Changes the world gravity when activated. Default is -25. Sideways gravity works too.	[LevelPartGame]
-chloe font v1 SDF	[TMPro.TMP_FontAsset]
-Chrome Skull	[MusicClip]
-CIRCUITRY DAMAGED	[Chatter~raw]
-Click on an enemy\nto swap.	[TMPro.TextMeshPro]
-Click on an enemy\nto switch.	[TMPro.TextMeshPro]
-CLICK on enemy to SWAP	[TMPro.TextMeshProUGUI]
-Click to shoot.\nR to reload.	[TMPro.TextMeshPro]
-Climb onto lamps\nto slow your fall.	[TMPro.TextMeshPro]
-CODE 4	[Chatter~raw]
-Code, spritework, campaign levels,\nthe game and anything else\nnot listed by Orsoniks	[TMPro.TextMeshProUGUI]
-Code... I d-don`t...	[Chatter~raw]
-Cold entity\nBullets slow enemies	[BodyScript]
-Color Gradient Presets/	[TMPro.TMP_Settings]
-Colored Lamp	[LevelPartGame]
-COMBAT READY	[Chatter~raw]
-Come and get it!	[Chatter~raw]
-Come and get it...	[Chatter~raw]
-Come on out, pansy!	[Chatter~raw]
-Come on!	[Chatter~raw,TMPro.TextMeshProUGUI]
-Come on!~	[TMPro.TextMeshProUGUI]
-Come on, coward!	[Chatter~raw]
-Come on.	[GameManager~raw]
-COME OUT	[Chatter~raw]
-Come out, prick!	[Chatter~raw]
-Come out.	[Chatter~raw]
-Come out... Don't be shy...	[Chatter~raw]
-Come to me!	[Chatter~raw]
-Come to me, and die!	[Chatter~raw]
-Come to meeee~	[Chatter~raw]
-Connection established. I am looking forward to working with you, but we have a job already of high importance.\nSome high-ranks of an opposing group have setup an encampment in an outpost that we were gearing up to take hold of.\nClear it out.\nThose high ranks will be of the milky species. They have powerful weapons and high skill.\nDo not disappoint us on your first job.	[TMPro.TextMeshProUGUI]
-Connection established. I am looking forward to working with you, but we have a job already of high importance.\nSome high-ranks of an opposing group have setup an encampment in an outpost that we were gearing up to take hold of.\nClear it out.\nThose high ranks will be of the milky species. They have powerful weapons and high skill.\nDo not disappoint us on your first job.\n- Y	[MissionSelect]
-CONNECTION SEVERED	[Chatter~raw]
-Connects to other nearby ground points of the same ID to create gray, gravel ground. Make sure to put them in a close line for them to connect correctly	[LevelPartGame]
-CONSIDERABLE PROBLEM	[Chatter~raw]
-Continue (Unstable) [;]	[TMPro.TextMeshProUGUI]
-Control rebinding	[TMPro.TextMeshProUGUI]
-ControlBinder, Assembly-CSharp	[UnityEngine.UI.Button]
-Controls (F1)	[TMPro.TextMeshProUGUI]
-Conveyor belt	[LevelPartGame]
-Copy to clipboard [C]	[TMPro.TextMeshProUGUI]
-CORE DAMAGED	[Chatter~raw]
-Could it be a breach?	[Chatter~raw]
-Could it be another accident?	[Chatter~raw]
-Could've gone better.	[GameManager~raw]
-Couldn't... make it...	[Chatter~raw]
-COVER ME	[Chatter~raw]
-Cover me!	[Chatter~raw]
-Cover me, man!	[Chatter~raw]
-Cover me.	[Chatter~raw]
-Cover, reloading!	[Chatter~raw]
-Crap crap crap!	[Chatter~raw]
-Crap! Wait!	[Chatter~raw]
-Crap, crap!	[Chatter~raw]
-Crap, intruder!	[Chatter~raw]
-Crap, reloading!	[Chatter~raw]
-Crap, they're here!	[Chatter~raw]
-Crash Site	[MusicClip]
-Crate damage	[LevelPartGame]
-Crate spawner	[LevelPartGame]
-Crates rarely drop weapons. Don't waste all your time breaking them.	[SceneLoader~raw]
-Crates sometimes drop weapons,\nbut you should not waste\nhalf your time breaking every crate in sight.	[TMPro.TextMeshPro]
-CRITICAL ERROR	[Chatter~raw,TMPro.TextMeshProUGUI]
-CRITICAL HIT	[Chatter~raw]
-Crosshair color	[TMPro.TextMeshProUGUI]
-Crosshair size	[TMPro.TextMeshProUGUI]
-Crouch to eat and heal\nLow HP regen	[BodyScript]
-Crouch to reduce recoil and aimpunch.	[SceneLoader~raw]
-Crouching reduces recoil,\nspread and aimpunch.	[TMPro.TextMeshPro]
-Crud! Reload!	[Chatter~raw]
-CRUHDD!! AUUHHG!!!	[Chatter~raw]
-Crumble before me!	[Chatter~raw]
-Crush Forces	[MissionSelect]
-Crushed into a million pieces	[ErrorDetector~raw]
-CTRL+D to duplicate objects\nARROWS to move precisely\n<i>B</i> to toggle background edit mode\nL to toggle lighting\nALT to disable grid while dragging\nK to skip music track	[TMPro.TextMeshProUGUI]
-CTRL/LMB\nto spit out web	[BodyScript]
-Currently selected	[TMPro.TextMeshProUGUI]
-Curved pipe	[LevelPartGame]
-Cycle time (X)	[LevelPartGame]
-Cycle trigger	[LevelPartGame]
-Damage ratio: 100%	[TMPro.TextMeshProUGUI]
-Damages bodies, destroys most things that fall into it	[LevelPartGame]
-Dammit... Dammit...	[Chatter~raw]
-Damn inconsistent firearm!	[Chatter~raw]
-Damn you!	[Chatter~raw]
-Damn! it! Ammo!	[Chatter~raw]
-Damn! That's tough!	[Chatter~raw]
-Damn, that's gotta hurt...	[Chatter~raw]
-Damn... it... all....	[Chatter~raw]
-Damned weapon!	[Chatter~raw]
-Dang! One down!	[Chatter~raw]
-Dark crate	[LevelPartGame]
-Darn! Reloading!	[Chatter~raw]
-Dead already?	[GameManager~raw]
-Dealing damage fills up your focus\nmeter (bottom right corner)\n\nPress Q to enter slowmotion, using focus.\n(TEMPORARY: MIGHT CHANGE)	[TMPro.TextMeshPro]
-Dealing damage fills up your FOCUS meter.\nPress Q to use focus (lower right corner),\nand activate slow-motion.	[TMPro.TextMeshPro]
-Dear traveler!\nIf you're reading this:\n\nYou're going to drown.\nDummy.	[TMPro.TextMeshPro]
-Death has Come to Your Sleepy Town	[MusicClip]
-Death zone	[LevelPartGame]
-DEBUG BONUS LEVEL! Infiltrate an active factory. A test level for new object types and decor	[MissionSelect]
-DEBUG BONUS LEVEL! The first level ever made for the game\nVery hard and unfair, contains all the species	[MissionSelect]
-Default Style Sheet	[TMPro.TMP_StyleSheet]
-Delay (X)	[LevelPartGame]
-Delayed trigger	[LevelPartGame]
-Destructible metal crate	[LevelPartGame]
-Destructible metal crate. Always drops a weapon, as long as someone has been killed	[LevelPartGame]
-Destructible pallet	[LevelPartGame]
-Destructible pallet piece	[LevelPartGame]
-Destructible pallet that slides on the ground	[LevelPartGame]
-Destructible steel barrel	[LevelPartGame]
-Destructible vehicle	[LevelPartGame]
-Destructible wooden crate	[LevelPartGame]
-Destructible wooden crate. Drops no weapons	[LevelPartGame]
-Dexterous and frail	[BodyScript]
-Dexterous, but frail	[MainMenuManager]
-Did you hear that?	[Chatter~raw]
-Didn't hurt! AWWWHHHHHHHGGG!	[Chatter~raw]
-Didn't like 'em anyway.	[Chatter~raw]
-Die, prick!	[Chatter~raw]
-Different species have different lung capacities.	[SceneLoader~raw]
-Dimension Shifter	[MusicClip]
-dingu s	[TMPro.TextMeshPro]
-Dingus, halt there!	[Chatter~raw]
-Disables camera smoothing (Instantly snaps to your character and cursor)	[TMPro.TextMeshProUGUI]
-Disables rain/snow particles, which might help with recording\nRecommended to keep off	[TMPro.TextMeshProUGUI]
-Discord Server	[TMPro.TextMeshProUGUI]
-DiscordButton, Assembly-CSharp	[UnityEngine.UI.Button]
-Displays the relevant key when near a weapon/button	[TMPro.TextMeshProUGUI]
-Distortion zone	[LevelPartGame]
-Distorts the screen when the player is close to it. Distance dictates how far away from the object the camera starts getting distorted	[LevelPartGame]
-DO NOT	[Chatter~raw]
-Do not fret!	[Chatter~raw]
-Do not give up!	[Chatter~raw]
-do you really have nothing better to do	[TMPro.TextMeshPro]
-Do you think that's enough?	[Chatter~raw]
-Does a variety of things when triggered. Set the action to 3 to end the level. See the guide channel for details!!!	[LevelPartGame]
-Does anyone need help? That was loud...	[Chatter~raw]
-Don't be scared... I don't bite...	[Chatter~raw]
-Don't be scared... I'm here, for you...	[Chatter~raw]
-Don't choke...	[Chatter~raw]
-Don't freak out... don't freak out...	[Chatter~raw]
-Don't get caught up\non these.	[TMPro.TextMeshPro]
-Don't get too attached to your victims.	[SceneLoader~raw]
-Don't give up!	[Chatter~raw]
-Don't goof...	[Chatter~raw]
-Don't head towards the light!	[Chatter~raw]
-Don't leave me!	[Chatter~raw]
-Don't leave me...	[Chatter~raw]
-Don't let my hands slip...	[Chatter~raw]
-Don't let them DO THAT!	[Chatter~raw]
-Don't make me cranky!	[Chatter~raw]
-Don't make me wait!	[Chatter~raw]
-Don't make this pointless...	[Chatter~raw]
-Don't push me...	[Chatter~raw]
-Don't resist me, morsel...~	[Chatter~raw]
-Don't slip...	[Chatter~raw]
-Don't worry... You'll be put to good use..	[Chatter~raw]
-Don't worry... You're safe here...	[Chatter~raw]
-Don't you die on me!	[Chatter~raw]
-Don't... forget... me...	[Chatter~raw]
-Don't... lose... hope...	[Chatter~raw]
-Dont try me! I'm armed!	[Chatter~raw]
-Door A	[TMPro.TextMeshPro]
-Door ID	[LevelPartGame]
-Door Target Changer	[LevelPartGame]
-DOWN THE DRAIN	[Chatter~raw]
-Drop crates on enemies to kill them silently.	[SceneLoader~raw]
-Drown them!	[Chatter~raw]
-Dude! No!	[Chatter~raw]
-Durable entity\nLess skilled	[BodyScript]
-Dying enemies bleed out quickly.	[SceneLoader~raw]
-Dying enemies can still hurt you.	[SceneLoader~raw]
-Dying lets you \nmind transfer to enemies.	[TMPro.TextMeshPro]
-E. O.	[TMPro.TextMeshPro]
-E. U.	[TMPro.TextMeshPro]
-Eh, I'll just keep an eye out.	[Chatter~raw]
-Ehehe... Come out...	[Chatter~raw]
-Ehehe... Stop hiding...	[Chatter~raw]
-Emergency lockdown\nACTIVATED	[TMPro.TextMeshPro]
-Emergency unlock\nREQUIRED	[TMPro.TextMeshPro]
-EMPLOYEE\nPUBLIC ACID BATH	[TMPro.TextMeshPro]
-EMPLOYEE\nPUBLIC SAW BATH	[TMPro.TextMeshPro]
-End sign	[LevelPartGame]
-ENDING COMBAT	[Chatter~raw]
-Enemies look at thrown crates. You can use this as a distraction.	[SceneLoader~raw]
-Enemy goon!	[Chatter~raw]
-Enemy located!	[Chatter~raw]
-Enemy Turn Around	[LevelPartGame]
-Enemy weapon changer	[LevelPartGame]
-Engage the target.	[Chatter~raw]
-Enough of this!	[Chatter~raw]
-Enter vehicle	[TMPro.TextMeshProUGUI]
-Error alert! Error alert!	[ErrorDetector~raw]
-ErrorDetector, Assembly-CSharp	[UnityEngine.UI.Button]
-Escape has been pressed	[GameManager~raw]
-Every species behaves differently. Beware ones that rush you.	[SceneLoader~raw]
-Everyone ready?	[Chatter~raw]
-Ex... cellent...	[Chatter~raw]
-Exception detected	[ErrorDetector~raw]
-Exit sign	[LevelPartGame]
-Explosive barrel	[LevelPartGame]
-Explosives are very deadly, even if they're in a comfy spot. Respect them.	[SceneLoader~raw]
-Extremely massive health pool\n<color="green">Extremely strong kicks\n<color="red">No health regeneration	[MainMenuManager]
-Face with tears of joy	[TMPro.TMP_SpriteAsset]
-Fall on enemies\nto stun them.	[TMPro.TextMeshPro]
-Fight me like a man!	[Chatter~raw]
-Filling my gun!	[Chatter~raw]
-Film grain	[TMPro.TextMeshProUGUI]
-Finally! I've waited long enough!	[Chatter~raw]
-Finger's on the trigger...	[Chatter~raw]
-Finish... me...	[Chatter~raw]
-Fire is rather harmless when grazed. Don't stay in it for too long.	[SceneLoader~raw]
-First proper job. Small outpost, relatively close-by. Only cannon fodder to be found there.\nDo know that they'll be expecting you this time, after that first hit.\nTraining's over, expect some light resistance.\nShouldn't be much, but don't get careless.\n- Z	[MissionSelect]
-Fix your shitty game!	[ErrorDetector~raw]
-Fixing my gun!	[Chatter~raw]
-Flies into any nearby enemies with a different team	[LevelPartGame]
-Fog setter	[LevelPartGame]
-Foggy Whites	[MissionSelect]
-Fonts & Materials/	[TMPro.TMP_Settings]
-Foreign entity	[BodyScript]
-Forgive me...	[Chatter~raw]
-Found a problem!	[Chatter~raw]
-Found the meanie!	[Chatter~raw]
-Found you! Faker!	[Chatter~raw]
-Found you! Now, c'mere!	[Chatter~raw]
-Friend down!	[Chatter~raw]
-fuck off	[BodyScript]
-fuck off\ntheres nothing here	[TMPro.TextMeshPro]
-Full-auto shotgun	[WeaponPreset]
-G - Semi godmode\nT - Teleport\n5 - No filter\n6 - Rozamode (PERMANENT UNTIL RESTART)\n7 - No arms\n8 - No legs\n9 - Infinite ammo\nI - Infinite swaps\nK - Braindead AI\nNUM5 - Become robot\n<color="red">level finish disabled	[TMPro.TextMeshProUGUI]
-G... Guys... help...	[Chatter~raw]
-G...Get... away...	[Chatter~raw]
-Gaahhhhnnn!... No...	[Chatter~raw]
-Gah... more things to deal with.	[Chatter~raw]
-Gahh! Hnnn..	[Chatter~raw]
-Gahhhggg!!! Ohh!	[Chatter~raw]
-Gahhhh! Hnng!	[Chatter~raw]
-Gahhhhg! You- Monster!	[Chatter~raw]
-game died lmao	[ErrorDetector~raw]
-Game Volume	[TMPro.TextMeshProUGUI]
-GameManager, Assembly-CSharp	[UnityEngine.UI.Button,UnityEngine.UI.Slider]
-Gelatik-Regular SDF	[TMPro.TMP_FontAsset]
-Get back to work!	[GameManager~raw]
-GET BACK UP! PLEASE!	[Chatter~raw]
-Get back, idiot!	[Chatter~raw]
-Get me a soda.	[GameManager~raw]
-Get off! Grrrh	[Chatter~raw]
-Get Out	[MusicClip]
-Get outa here, doofus!	[Chatter~raw]
-Get over here!	[Chatter~raw]
-GET OVER HERE!	[Chatter~raw]
-Get them!	[Chatter~raw]
-Get up! No!	[Chatter~raw]
-Get yourself a snack.	[GameManager~raw]
-Get... away...	[Chatter~raw]
-Getting ammo!	[Chatter~raw]
-Getting shot in the arms results in aimpunch, throwing off your aim. Crouch and don't ragdoll to mitigate this.	[SceneLoader~raw]
-Getting shot in the legs slows you down.	[SceneLoader~raw]
-Ghhn... loud noises.	[Chatter~raw]
-Gib Head	[LevelPartGame]
-Gibbing enemies at close range looks rad as hell, but splatters your screen with blood, making vision difficult.	[SceneLoader~raw]
-Gimme a second!	[Chatter~raw]
-Give me a moment!	[Chatter~raw]
-Give me cover!	[Chatter~raw]
-Give me cover, guys!	[Chatter~raw]
-Gives every character special hats in October/December	[TMPro.TextMeshProUGUI]
-go away	[WeaponPreset]
-go away!!!!	[TMPro.TextMeshPro]
-Go back to playing!	[GameManager~raw]
-Go! Get them!	[Chatter~raw]
-God damn, this gun...	[Chatter~raw]
-Going back?	[GameManager~raw]
-Going down with a fight?	[Chatter~raw]
-Golf cart	[LevelPartGame,VehicleBase]
-Good to see you again! Got some new jobs for you to take on, mercenary.\nOne of our main supply routes has gone dark, and we're struggling to keep operations running in some sectors.\nScouts have come back, told us that there's some drone activity around a set of assumedly abandoned dug-ins in the mountain basins, near where our supplies travel.\nWhether its rivals or bandits ain't important, we just need ya to go take a look, see if it's rival presence or local bandits, and clear it up if so.\nGood luck out there.\n- Z	[MissionSelect]
-Good... Fight...	[Chatter~raw]
-Gosh... I'm... bleeding...	[Chatter~raw]
-Got it.	[TMPro.TextMeshProUGUI]
-Got my eyes open...	[Chatter~raw]
-Gotta reload!	[Chatter~raw]
-Grappling entity\nLong, extendable sticky tongue\nBad with weapons	[BodyScript]
-Gravity trigger	[LevelPartGame]
-Green crates are guaranteed to drop a weapon.	[SceneLoader~raw]
-Green skies	[MissionSelect]
-Grenade Launcher	[WeaponPreset]
-Grinning face	[TMPro.TMP_SpriteAsset]
-Ground point	[LevelPartGame]
-Groups of enemies can occasionally infight.	[SceneLoader~raw]
-Grrrhssh.... Ahhg...	[Chatter~raw]
-Grrrrr... Work!	[Chatter~raw]
-Grrrrrhh... Not today...	[Chatter~raw]
-GRRRRRRH! YOU'LL PAY!	[Chatter~raw]
-Grrrrrrh... stupid!	[Chatter~raw]
-Grrrrrrrhh... work!	[Chatter~raw]
-Guess this isn't your lucky day!	[Chatter~raw]
-Guhh... More noise!	[Chatter~raw]
-Gun ready...	[Chatter~raw]
-Guns with longer barrels may pass through enemies at very close range. Beware of your positioning.	[SceneLoader~raw]
-Gunshots will alert nearby\nenemies, giving them\n360 degree vision.	[TMPro.TextMeshPro]
-Guys! Guys! Watch out!	[Chatter~raw]
-H-HELP ME!! PLEASE!!	[Chatter~raw]
-H-HEY! HELP! AHHHG!	[Chatter~raw]
-H-Hey! Stop!	[Chatter~raw]
-H-hey! Wait! Please! I mean no harm!	[Chatter~raw]
-H... Help me...	[Chatter~raw]
-Ha! HIDE!	[Chatter~raw]
-Ha! Let's fight, me and you!	[Chatter~raw]
-Ha! You? Pathetic!	[Chatter~raw]
-Haha! This is fun!	[Chatter~raw]
-Haha! You're hiding!	[Chatter~raw]
-Half pallet	[LevelPartGame]
-Halt, I say!	[Chatter~raw]
-Happy killings!	[GameManager~raw]
-Hark, I am reloading!	[Chatter~raw]
-Hateful entity\nStrong legs\nBuilds up rage with injuries	[BodyScript]
-Have no fear, Icke is here!	[Chatter~raw]
-He'll walk it off...	[Chatter~raw]
-He's down!	[Chatter~raw]
-He's gone...	[Chatter~raw]
-He's right there!	[Chatter~raw]
-Headshots: 80%	[TMPro.TextMeshProUGUI]
-Health: 100	[TMPro.TextMeshProUGUI]
-Heavier weapons can penetrate multiple enemies.	[SceneLoader~raw]
-Heavy Rifle	[WeaponPreset]
-Hell no!	[Chatter~raw]
-Hello, world!	[LevelPartGame]
-Help me out guys!	[Chatter~raw]
-Help me out here!	[Chatter~raw]
-Help me... Help...	[Chatter~raw]
-Help! Reloading!	[Chatter~raw]
-Help, I need cover!	[Chatter~raw]
-Help, what's the reload button?	[Chatter~raw]
-Help... me...	[Chatter~raw]
-Help... please...	[Chatter~raw]
-Here lie your options	[GameManager~raw]
-Hey pal!	[Chatter~raw]
-HEY! GET EM!	[Chatter~raw]
-Hey! HEY! GET UP!	[Chatter~raw]
-Hey! Jerk! SURRENDER!	[Chatter~raw]
-Hey! Meanie!	[Chatter~raw]
-Hey! No!	[Chatter~raw]
-Hey! Stop right there!	[Chatter~raw]
-Hey! Woah!	[Chatter~raw]
-Hey! You!	[Chatter~raw]
-HEY! YOU!	[Chatter~raw]
-Hey! You're that guy!	[Chatter~raw]
-Hey, no!	[Chatter~raw]
-Hey, you! Wait!	[Chatter~raw]
-Hey- HEY! NO!	[Chatter~raw]
-Hey- No! You meanie!	[Chatter~raw]
-HHHHISSSSSS!!! DIIEEEEE!	[Chatter~raw]
-Hide and seek?~	[Chatter~raw]
-Hiding won't work!	[Chatter~raw]
-Highest rank:	[TMPro.TextMeshProUGUI]
-Hit shots: 100%	[TMPro.TextMeshProUGUI]
-Hither to your death!	[Chatter~raw]
-Hmm... I don't trust that...	[Chatter~raw]
-Hmmm... Oh well...	[Chatter~raw]
-Hold it together...	[Chatter~raw]
-Hold it, idiot!	[Chatter~raw]
-Hold on a bit longer...	[Chatter~raw]
-Hold on!	[Chatter~raw]
-Hold on, I am reloading!	[Chatter~raw]
-Hold on, man!	[Chatter~raw]
-Hold position!	[Chatter~raw]
-Hold RMB on a physical object to levitate it.\nDirect line of sight is needed to levitate.	[TMPro.TextMeshPro]
-Hold S\nto crouch.	[TMPro.TextMeshPro]
-Hold S after a medium fall to roll. Jump right at the end to perform a frontflip.	[SceneLoader~raw]
-Hold S to crouch.\nCrouching reduces\nspread, recoil.\nand<color="black"> aimpunch.	[TMPro.TextMeshPro]
-Hold still!	[Chatter~raw]
-Hold the line!	[Chatter~raw]
-Hold them back! I've got this...	[Chatter~raw]
-Hold them down!	[Chatter~raw]
-Hold them off!	[Chatter~raw]
-Hold X to ragdoll\n\nHold A or D to crawl	[TMPro.TextMeshPro]
-Hold X to ragdoll.\nMove to crawl.	[TMPro.TextMeshPro]
-Holding ground.	[Chatter~raw]
-Holding zone.	[Chatter~raw]
-HOLY CRYSTALS!	[Chatter~raw]
-Holy moly! We need help over here!	[Chatter~raw]
-Holy moly, they're here!	[Chatter~raw]
-Holy smokes! He's down!	[Chatter~raw]
-Hope they're okay down there...	[Chatter~raw]
-Hostile guy!	[Chatter~raw]
-Hostile in sector!	[Chatter~raw]
-Hostile inbound!	[Chatter~raw]
-Hot Plate	[LevelPartGame]
-How are you still alive?!	[Chatter~raw]
-How can this be...?	[Chatter~raw]
-How can this... be?...	[Chatter~raw]
-How could this be??	[ErrorDetector~raw]
-How could this...	[Chatter~raw]
-HOW COULD YOU	[Chatter~raw]
-HOW COULD YOU!	[Chatter~raw]
-HOW COULD YOU! YOU!...	[Chatter~raw]
-How could you!?	[Chatter~raw]
-How could you?	[Chatter~raw]
-How could you?...	[Chatter~raw]
-How cruel!...	[Chatter~raw]
-How dare you!	[Chatter~raw]
-How DARE you!	[Chatter~raw]
-How dare you?! Ahhhg!	[Chatter~raw]
-how did you even get here	[TMPro.TextMeshPro]
-how did you even get here\n\nstop using windowed mode	[TMPro.TextMeshPro]
-How did you...	[Chatter~raw]
-How do I... There!	[Chatter~raw]
-How fun!~	[Chatter~raw]
-How inappropriate!	[Chatter~raw]
-How inappropriate.	[Chatter~raw]
-How is this possible?	[Chatter~raw]
-How odd...	[Chatter~raw]
-How preposterous!	[Chatter~raw]
-How regrettable...	[Chatter~raw]
-How rude!	[Chatter~raw]
-How unwell!	[Chatter~raw]
-How's your day going?	[GameManager~raw]
-How- How rude! Ghhnnn...	[Chatter~raw]
-How... cold...	[Chatter~raw]
-How... could... this... be?...	[Chatter~raw]
-How... did you...	[Chatter~raw]
-How.... did you?...	[Chatter~raw]
-Howdy, Mercenary. It's about time we ask for some 'help' again.... paid in full.\nMonths ago, our enemy, out of nowhere, somehow captured a lot of our key outposts. Seems like they know exactly where to hit us...\n...so why don't we hit back? Specifically, taking one of their main vantage points over us, a location they've used to hold us down for a long time now...\nAn entire acid plant. Used to move troops to our land. I'm not going to sit around while they bit by bit take *our* property.\nGo through the plant and kill *Everyone*. This'll really mess up their flow of troops... get em' right where it hurts.\nThe plant itself is a standard concrete factory... though it's name does raise questions. Might be actual acid in there.\nBe careful. Not that I know anyway.\nShow them what we're about. That plant is ours...\n-Z	[MissionSelect]
-Hrrnnhhg!... Help...	[Chatter~raw]
-Huge health pool\nStrong kicks\nNo HP regen	[BodyScript]
-Hurry up.	[GameManager~raw]
-I ain't even working a sweat!	[Chatter~raw]
-I aint scared!	[Chatter~raw]
-I AM DEAD	[Chatter~raw]
-I AM DISFIGURED	[Chatter~raw]
-I AM RELOADING	[Chatter~raw]
-I am reloading!	[Chatter~raw]
-I bet it's that one guy.	[Chatter~raw]
-I bet you're weak!	[Chatter~raw]
-I call for assistance!	[Chatter~raw]
-I can do this...	[Chatter~raw]
-I can do this... C'mon!	[Chatter~raw]
-I can do this... I can do this...	[Chatter~raw]
-I can handle this.	[Chatter~raw]
-I can hear yoooou~	[Chatter~raw]
-I can hear you, y'know!	[Chatter~raw]
-I can smell you...	[Chatter~raw]
-I can't do it...	[Chatter~raw]
-I can't handle this!	[Chatter~raw]
-I can't take this!	[Chatter~raw]
-I can't wait for this...	[Chatter~raw]
-I can't... believe this...	[Chatter~raw]
-I can't... feel my legs...	[Chatter~raw]
-I can't... get up...	[Chatter~raw]
-I can... help you.	[Chatter~raw]
-I CANNOT FULFILL MY DUTY	[Chatter~raw]
-I could go for a hot pocket.	[GameManager~raw]
-I couldn't... do it?...	[Chatter~raw]
-I did... my best.	[Chatter~raw]
-I didn't need that anyway!	[Chatter~raw]
-I didn't see... that coming...	[Chatter~raw]
-I don't like the sound of this.	[Chatter~raw]
-I don't like this.	[Chatter~raw]
-I don't need help!	[Chatter~raw]
-I found something tough!	[Chatter~raw]
-I found the intruder, guys!	[Chatter~raw]
-I found the problem!	[Chatter~raw]
-I found them!	[Chatter~raw]
-I found them! Look out, guys!	[Chatter~raw]
-I found trouble!	[Chatter~raw]
-I gave it... my all...	[Chatter~raw]
-I gave you a chance!	[Chatter~raw]
-I got this.	[Chatter~raw]
-I hate distractions... Oh well.	[Chatter~raw]
-I hate guns!...	[Chatter~raw]
-I hate loud noises.	[Chatter~raw]
-I hate this thing!	[Chatter~raw]
-I hate this!	[Chatter~raw]
-I hate... this planet...	[Chatter~raw]
-I have visual.	[Chatter~raw]
-I hear them... Writhing...	[Chatter~raw]
-I HEAR YOU	[Chatter~raw]
-I heard something...	[Chatter~raw]
-I heard that...	[Chatter~raw]
-I hope you surrender!	[Chatter~raw]
-I know this is your whole job, but you've been out of the game for a while now.\nAs such, I've found a spot that should be good for you to get back into the swing of things.\nResistance should be a non-factor, there's hardly anyone there.\nGet used to your new tech, get the basics down.\nA bit of practice doesn't hurt, after all.\n- Z	[MissionSelect]
-I know what I heard!	[Chatter~raw]
-I know you! Stop!	[Chatter~raw]
-I know you're here.	[Chatter~raw]
-I know you're here...	[Chatter~raw]
-I L-LOST A LIMB! HELP!	[Chatter~raw]
-I like\nbig\nbutts and i cannot lie\nthis mothe	[TMPro.TextMeshPro]
-I like your attitude!	[Chatter~raw]
-I located that one guy!	[Chatter~raw]
-I must stay on guard.	[Chatter~raw]
-I need a med.	[Chatter~raw]
-I need a moment!	[Chatter~raw]
-I need ammo!	[Chatter~raw]
-I need an article 9.	[Chatter~raw]
-I need assistance!	[Chatter~raw]
-I need backup! Wreck this guy!	[Chatter~raw]
-I need cover!	[Chatter~raw]
-I need help!	[Chatter~raw]
-I need help, guys!	[Chatter~raw]
-I need to reload!	[Chatter~raw]
-I need visual.	[Chatter~raw]
-I need... a hug...	[Chatter~raw]
-I need... a nap...	[Chatter~raw]
-I need... a red...	[Chatter~raw]
-I need... help...	[Chatter~raw]
-I NEEDED THAT! AHHHHG!	[Chatter~raw]
-I plead whoopsie diasy	[TMPro.TextMeshProUGUI]
-I predicted this...	[Chatter~raw]
-I ran out, give me cover!	[Chatter~raw]
-I regret... my life choices...	[Chatter~raw]
-I see them!	[Chatter~raw]
-I see them.	[Chatter~raw]
-I SEE YOU!	[Chatter~raw]
-I see you.	[Chatter~raw]
-I see...	[Chatter~raw]
-I smell something!	[Chatter~raw]
-I suck at coding	[ErrorDetector~raw]
-I swear I heard something...	[Chatter~raw]
-I think I heard trouble.	[Chatter~raw]
-I think we lost one!	[Chatter~raw]
-I think... I can help them...	[Chatter~raw]
-I want to watch you struggle...	[Chatter~raw]
-I want... to live...	[Chatter~raw]
-I was getting impatient!	[Chatter~raw]
-I was having a nice day!	[Chatter~raw]
-I was... a failure...	[Chatter~raw]
-I was... never...	[Chatter~raw]
-I was... too weak...	[Chatter~raw]
-I wasn't... enough?...	[Chatter~raw]
-I wasn't... paid enough...	[Chatter~raw]
-I wish for someone to check on that.	[Chatter~raw]
-I won't go as easy!	[Chatter~raw]
-I won't go easy!	[Chatter~raw]
-I'd appreciate a surrender!	[Chatter~raw]
-I'll avenge you!	[Chatter~raw]
-I'll break your legs!	[Chatter~raw]
-I'll crush you like a brick!	[Chatter~raw]
-I'll crush you!	[Chatter~raw]
-I'll CRUSH YOU! GRRNNHH!	[Chatter~raw]
-I'll enjoy peeling your muscle from the bone!	[Chatter~raw]
-I'll find you!	[Chatter~raw]
-I'll fold you like a folding chair!	[Chatter~raw]
-I'll freeze you!	[Chatter~raw]
-I'll get you! Just... there!	[Chatter~raw]
-I'll get you, you goon!	[Chatter~raw]
-I'll give you a chance!	[Chatter~raw]
-I'll handle this!...	[Chatter~raw]
-I'll have my fun with you...	[Chatter~raw]
-I'll have their head if that was another misfire...	[Chatter~raw]
-I'll help you up! Stay there!	[Chatter~raw]
-I'll just keep guard.	[Chatter~raw]
-I'll just make sure people are okay.	[Chatter~raw]
-I'll just watch out for anything.	[Chatter~raw]
-I'll kill 'em...	[Chatter~raw]
-I'll kill you either way!	[Chatter~raw]
-I'll kill you for that!	[Chatter~raw]
-I'LL KILL YOU!	[Chatter~raw]
-I'll kill you!	[Chatter~raw]
-I'll need help here!	[Chatter~raw]
-I'll play your game...	[Chatter~raw]
-I'll put up a fight!	[Chatter~raw]
-I'll rip you apart!	[Chatter~raw]
-I'll shut you down!	[Chatter~raw]
-I'll slow them down!	[Chatter~raw]
-I'll strip you to the bone!	[Chatter~raw]
-I'll take care of this.	[Chatter~raw]
-I'll tear your throat out!	[Chatter~raw]
-I'll toss you like a handbag!	[Chatter~raw]
-I'll wait here.	[Chatter~raw]
-I'll wipe that look off your face!	[Chatter~raw]
-I'll.. k... you...	[Chatter~raw]
-I'll... be back...	[Chatter~raw]
-I'll... gahh...	[Chatter~raw]
-I'll... miss you... guys...	[Chatter~raw]
-I'm afraid of you!	[Chatter~raw]
-I'm all out!	[Chatter~raw]
-I'M BLEEDING! HELP! HELP!	[Chatter~raw]
-I'm burnt out!	[Chatter~raw]
-I'm d... down...	[Chatter~raw]
-I'm dead!	[Chatter~raw]
-I'm doomed!	[Chatter~raw]
-I'm gettin' impatient...	[Chatter~raw]
-I'm hungry! Die already!	[Chatter~raw]
-I'm in position.	[Chatter~raw]
-I'm killing you!	[Chatter~raw]
-I'm looking for them.	[Chatter~raw]
-I'm made for this... Come on!	[Chatter~raw]
-I'm not a fan of this.	[Chatter~raw]
-I'm not afraid of you!	[Chatter~raw]
-I'm not dealing with this.	[Chatter~raw]
-I'm not done with you yet!	[Chatter~raw]
-I'm not done with you, meat bag!	[Chatter~raw]
-I'm not done yet!	[Chatter~raw]
-I'm not letting this happen!	[Chatter~raw]
-I'm not made for this!	[Chatter~raw]
-I'm not ready to die!	[Chatter~raw]
-I'm not- done with you...	[Chatter~raw]
-I'm not... Gonna make it...	[Chatter~raw]
-I'm not... gonna make it...	[Chatter~raw]
-I'm not... hnng...	[Chatter~raw]
-I'm on the lookout.	[Chatter~raw]
-I'm out!	[Chatter~raw]
-I'm out, changing.	[Chatter~raw]
-I'm ready for a fight.	[Chatter~raw]
-I'm ready for action.	[Chatter~raw]
-I'm ready for showtime.	[Chatter~raw]
-I'm ready for this!	[Chatter~raw]
-I'm reloading!	[Chatter~raw]
-I'm sorry about this.	[Chatter~raw]
-I'm sorry...	[Chatter~raw]
-I'm spent!	[Chatter~raw]
-I'm spoiling for a fight.	[Chatter~raw]
-I'm stronger, faster, and better!	[Chatter~raw]
-I'm unsure of this...	[Chatter~raw]
-I'm up for a fight.	[Chatter~raw]
-I'm waiting for you...	[Chatter~raw]
-I'M- Help! HELP!	[Chatter~raw]
-I'm- I'm bleeding... I'M BLEEDING!	[Chatter~raw]
-I'm... bleeding...	[Chatter~raw]
-I'm... done...	[Chatter~raw]
-I'm... down...	[Chatter~raw]
-I'm... I'm out...	[Chatter~raw]
-I'm... losing blood...	[Chatter~raw]
-I'm... Melting...	[Chatter~raw]
-I'm... not... done...	[Chatter~raw]
-I'm... sleepy...	[Chatter~raw]
-I'm... sorry...	[Chatter~raw]
-I've failed you...	[Chatter~raw]
-I've failed...	[Chatter~raw]
-I've failed... you all...	[Chatter~raw]
-I've got a bad itch for this...	[Chatter~raw]
-I've got more bullets!	[Chatter~raw]
-I've got this!	[Chatter~raw]
-I've got this! I think...	[Chatter~raw]
-I've got time	[GameManager~raw]
-I've made a lapse in my judgment!	[Chatter~raw]
-I've waited for you!	[Chatter~raw]
-I've waited for you~	[Chatter~raw]
-I've waited... long enough.	[Chatter~raw]
-I've- Lost a limb! I need help!	[Chatter~raw]
-I've... failed you... all...	[Chatter~raw]
-I've... failed... again...	[Chatter~raw]
-I've... fallen...	[Chatter~raw]
-I've... Lost a limb! I need help!	[Chatter~raw]
-I- HATE THIS! NO!	[Chatter~raw]
-I-I NEED HELP! ASSISTANCE!	[Chatter~raw]
-I... Concede...	[Chatter~raw]
-I... Concussion...	[Chatter~raw]
-I... couldn't...	[Chatter~raw]
-I... I can't...	[Chatter~raw]
-I... Impressive...	[Chatter~raw]
-I... lost...	[Chatter~raw]
-I... need... meddiicc...	[Chatter~raw]
-I... No...	[Chatter~raw]
-If it isn't you! Ha!	[Chatter~raw]
-If off, uses the <color=red>UNFINISHED* </color>procedural music system (*not final)\n*Very few combat tracks are done so far	[TMPro.TextMeshProUGUI]
-If on, the crosshair is laid out in an X shape instead of a + shape.	[TMPro.TextMeshProUGUI]
-If on, whines are heard when someone gets hurt	[TMPro.TextMeshProUGUI]
-IF YOU FALL HERE\nYOU WILL DIE	[TMPro.TextMeshPro]
-if you're seeing this, i broke the settings quote selector	[GameManager~raw]
-Ill get to you in a moment!	[Chatter~raw]
-Im stopping you HERE AND NOW!	[Chatter~raw]
-Im... sorry... guys...	[Chatter~raw]
-Impressive, morsel!	[Chatter~raw]
-In position.	[Chatter~raw]
-Info screen	[LevelPartGame]
-Insectoid entity\nCombat experienced\nHigh mid-air mobility	[BodyScript]
-Insectoid entity\nGreatly skilled\nEats corpses\nHas gills	[BodyScript]
-Instability detected	[ErrorDetector~raw]
-Insurance won't cover this!	[Chatter~raw]
-Intelligent entity\nCombat capable\nLower endurance	[BodyScript]
-Intensity (X)	[LevelPartGame]
-Interdimensional Horrors	[MusicClip]
-Intruder alert!	[Chatter~raw]
-Intruder! INTRUDER ALERT!	[Chatter~raw]
-Is it happening again?...	[Chatter~raw]
-Is it just me or..?	[Chatter~raw]
-Is someone hurt?	[Chatter~raw]
-Is that a challenge??	[Chatter~raw]
-Is that all you got?	[Chatter~raw]
-Is this... another drill?	[Chatter~raw]
-IT HURTS! IT HUURRRTSS!	[Chatter~raw]
-IT HURTS!!	[Chatter~raw]
-It hurts...	[Chatter~raw]
-It was fun...	[Chatter~raw]
-It was only a matter of time...	[ErrorDetector~raw]
-It's been a while since I've required you, Assassin.\nI'll get to the point. Our recent losses have forced my hand. Your services will be well paid for.\nIn our current state, we need to quickly expand our territory and possessions, starting with a set of towers overseeing the east side of the Gravel-lands.\nSimply clear it out, and prepare it for radar installation. We have interesting plans... and you will prime them.\nBeware of the Roza's that our enemy have acquired this winter. Their affinity for the cold makes them a considerable threat in the winter.\n- Y	[MissionSelect]
-It's best not to use 2 weapons at once which share the same ammo type.	[SceneLoader~raw]
-It's futile to resist~	[Chatter~raw]
-It's happening, is it?	[Chatter~raw]
-It's not shooting!	[Chatter~raw]
-It's only a matter of time...	[Chatter~raw]
-It's showtime!	[Chatter~raw]
-It's them!	[Chatter~raw]
-It's you!	[Chatter~raw]
-It's you...!	[Chatter~raw]
-It's... It's still going..?	[TMPro.TextMeshPro]
-It's... too cold..	[Chatter~raw]
-It... it hurts...	[Chatter~raw]
-It... It hurts...	[Chatter~raw]
-Jammed! Again!	[Chatter~raw]
-Jerry is at it again.	[Chatter~raw]
-Jump force: 100%	[TMPro.TextMeshProUGUI]
-Jump full speed into a wall\nand press space\nright after to walljump.	[TMPro.TextMeshPro]
-Jump right after hitting a wall at running speed to do a walljump.	[SceneLoader~raw]
-Just a bit... more...	[Chatter~raw]
-Just a little while longer...	[Chatter~raw]
-Just a... flesh wound...	[Chatter~raw]
-Just go down already!	[Chatter~raw]
-Just gonna... keep my cool.	[Chatter~raw]
-Just gotta wait...	[Chatter~raw]
-Just me?	[Chatter~raw]
-Just what I needed... NOT!	[Chatter~raw]
-Just when I thought I had peace.	[Chatter~raw]
-Just you wait! You're done for!	[Chatter~raw]
-Just... a bullet wound...	[Chatter~raw]
-Kahahahahahah! HIIISSSSS!	[Chatter~raw]
-Katharsys - Erges	[MusicClip]
-Keep a formation! We can do this!	[Chatter~raw]
-Keep applying pressure!	[Chatter~raw]
-Keep fighting!	[Chatter~raw]
-Keep it down!	[Chatter~raw]
-Keep persisting!	[Chatter~raw]
-Keep things in check...	[Chatter~raw]
-Keep this clear!	[Chatter~raw]
-Keep this guy off me!	[Chatter~raw]
-Keep this snowball rollin'.	[GameManager~raw]
-Keep your eyes open.	[Chatter~raw]
-Keeping my gun ready now...	[Chatter~raw]
-Kick crates to break them and clear your way.	[SceneLoader~raw]
-Kick crates to break them.	[TMPro.TextMeshPro]
-Kick damage: 100%	[TMPro.TextMeshProUGUI]
-Kick dying enemies\nto finish them off.	[TMPro.TextMeshPro]
-Kick unconscious enemies to death to save on ammo.	[SceneLoader~raw]
-Kicked the bucket	[ErrorDetector~raw]
-Kill slow-mo	[TMPro.TextMeshProUGUI]
-Kill them! Bring them to me!	[Chatter~raw]
-Killing your time?	[GameManager~raw]
-Kills any living being that touches it	[LevelPartGame]
-Kills:  67/67	[TMPro.TextMeshProUGUI]
-konami code ingame	[TMPro.TextMeshProUGUI]
-Ladder left	[LevelPartGame]
-Ladder right	[LevelPartGame]
-Ladder. Climbmable from the left side	[LevelPartGame]
-Ladder. Climbmable from the right side	[LevelPartGame]
-LARGE SCALE\nGARBAGE DISPOSAL	[TMPro.TextMeshPro]
-Last Stop	[MusicClip]
-Laying... Off...	[Chatter~raw]
-Leaving Earth	[MusicClip]
-Let me guess, explosive barrel?	[Chatter~raw]
-Let's dance!	[Chatter~raw]
-Let's do this!	[Chatter~raw]
-Let's do this.	[GameManager~raw]
-Let's go!	[Chatter~raw]
-Let's go, hot stuff!	[Chatter~raw]
-Let's go, pansy!	[Chatter~raw]
-Let's go, tough guy!	[Chatter~raw]
-Let's have FUN!	[Chatter~raw]
-Let's not do this...	[Chatter~raw]
-Let's not idle too long.	[GameManager~raw]
-Let's play a game, little one...	[Chatter~raw]
-Let's wait	[GameManager~raw]
-Let's wait.	[TMPro.TextMeshProUGUI]
-Let's waste no time!	[Chatter~raw]
-Lethal amount of shenanigans	[ErrorDetector~raw]
-Lethal amount of shenanigans.	[Chatter~raw]
-Lets get this road on the show!	[Chatter~raw]
-Lets only one side through. Works with rotation	[LevelPartGame]
-Level editor	[TMPro.TextMeshProUGUI]
-LevelEditor, Assembly-CSharp	[TMPro.TMP_InputField,UnityEngine.UI.Button,UnityEngine.UI.Slider,UnityEngine.UI.Toggle]
-Levitation is high risk, high reward. Using it constantly is NOT a good idea.	[SceneLoader~raw]
-Liberation Sans	[TMPro.TMP_FontAsset]
-LiberationSans SDF	[TMPro.TMP_FontAsset]
-LiberationSans SDF - Fallback	[TMPro.TMP_FontAsset]
-Light color	[TMPro.TextMeshProUGUI]
-Light pistol	[WeaponPreset]
-Like that'll scare me!	[Chatter~raw]
-Limb from limb!~	[Chatter~raw]
-LIMB LOST	[Chatter~raw]
-Limits the FPS to your monitor's refresh rate, helps with screen tearing.	[TMPro.TextMeshProUGUI]
-Listen close...	[Chatter~raw]
-LMB to fire.\nR to reload.	[TMPro.TextMeshPro]
-Load distance	[TMPro.TextMeshProUGUI]
-Load from\nclipboard	[TMPro.TextMeshProUGUI]
-LOCK [A]	[TMPro.TextMeshPro]
-Lock Break	[MissionSelect]
-LOCK C	[TMPro.TextMeshPro]
-Look who shows their face!	[Chatter~raw]
-Looks like I found trouble!	[Chatter~raw]
-Lose no hope! Keep fighting!	[Chatter~raw]
-Losing ground!	[Chatter~raw]
-Loud as always.	[Chatter~raw]
-Loud noise!	[Chatter~raw]
-Loud noises... where?	[Chatter~raw]
-Lunch time?	[GameManager~raw]
-Lung capacity: 100%	[TMPro.TextMeshProUGUI]
-M-MY LIMB!!	[Chatter~raw]
-M... Medic...?	[Chatter~raw]
-Machine pistol	[WeaponPreset]
-Made by Orsoniks\nThis game is on an indefinite hiatus.\nThis version is not fully finished or polished.	[TMPro.TextMeshProUGUI]
-Mag out, mag in!	[Chatter~raw]
-Main menu	[TMPro.TextMeshProUGUI]
-MainMenuManager, Assembly-CSharp	[UnityEngine.UI.Button,UnityEngine.UI.Slider,UnityEngine.UI.Toggle]
-MAJOR TRAUMA DETECTED	[Chatter~raw]
-Make this easy, morsel...	[Chatter~raw]
-Make this easy, you waste!	[Chatter~raw]
-Make this simple...	[Chatter~raw]
-Makes all uncovered crates and such snow-covered. Use in snow levels	[LevelPartGame]
-Makes any entities within it slowly suffocate	[LevelPartGame]
-Makes bright objects more readable	[TMPro.TextMeshProUGUI]
-Makes the game generally much harder and more punishing.<color="red">*\nNot recommended for beginners.	[TMPro.TextMeshProUGUI]
-Makes the screen will be slightly blurred when underwater	[TMPro.TextMeshProUGUI]
-Makes the screen will lose saturation when close to death/drowning	[TMPro.TextMeshProUGUI]
-Makes very bright objects look glowy\nRecommended to keep on	[TMPro.TextMeshProUGUI]
-Makeshift rifle	[WeaponPreset]
-Man down!	[Chatter~raw]
-MAN DOWN! MAN DOWN!	[Chatter~raw]
-Man down, i repeat, MAN DOWN!	[Chatter~raw]
-Man! This is no good!	[Chatter~raw]
-Marksman rifle	[WeaponPreset]
-Maze Runner	[MusicClip]
-Meatshield! MOVE!	[Chatter~raw]
-Mere skill issue	[ErrorDetector~raw]
-Metal crate	[LevelPartGame]
-Might wanna report that...	[ErrorDetector~raw]
-Mini SMG	[WeaponPreset]
-Mission complete	[TMPro.TextMeshProUGUI]
-Mobile entity\nQuick but very fragile	[BodyScript]
-More dexterity when\nclose to death	[BodyScript]
-More for me!~	[Chatter~raw]
-More Human Than Human	[MusicClip]
-More trouble...	[Chatter~raw]
-Moron! Move!	[Chatter~raw]
-Mount Basins	[MissionSelect]
-Move (1)	[TMPro.TextMeshProUGUI]
-Move down/crouch	[TMPro.TextMeshProUGUI]
-Move idle	[LevelPartGame]
-Move left	[TMPro.TextMeshProUGUI]
-Move right	[TMPro.TextMeshProUGUI]
-Move slowly to camouflage	[BodyScript]
-Move speed: 100%	[TMPro.TextMeshProUGUI]
-Move up	[TMPro.TextMeshProUGUI]
-Moves anything lying on it. Set the speed X and Y to your desired move direction	[LevelPartGame]
-Moving Background	[LevelPartGame]
-Multiply with Mask	[UnityEngine.Experimental.Rendering.Universal.Renderer2DData]
-Music by Karl Casey @ White Bat Audio	[TMPro.TextMeshProUGUI]
-Music volume	[TMPro.TextMeshProUGUI]
-Must be something bad.	[Chatter~raw]
-My blood...	[Chatter~raw]
-MY BODY!	[Chatter~raw]
-MY CARDIOVASCULAR SYSTEM!!	[Chatter~raw]
-My day can't get any worse...	[Chatter~raw]
-MY GUN ISN'T SHOOTING.	[Chatter~raw]
-My gun's out!	[Chatter~raw]
-My head...	[Chatter~raw]
-MY LIMBS!!!	[Chatter~raw]
-My organs...	[Chatter~raw]
-My patience will outlast you!	[Chatter~raw]
-My poor organs!	[Chatter~raw]
-My skull...	[Chatter~raw]
-MY SPLEEN!	[Chatter~raw,ErrorDetector~raw]
-My time... has run out...	[Chatter~raw]
-My turn!~	[Chatter~raw]
-My! My LIMBS!	[Chatter~raw]
-My... blood...	[Chatter~raw]
-My... children...	[Chatter~raw]
-My... friend...	[Chatter~raw]
-My... Oh dear!...	[Chatter~raw]
-N-No... you...	[Chatter~raw]
-N... No...	[Chatter~raw]
-N... no...	[Chatter~raw]
-Nahhhggghhh! You'll PAY!	[Chatter~raw]
-Need ammunition...	[Chatter~raw]
-Need assistance.	[Chatter~raw]
-NEED BACKUP	[Chatter~raw]
-Need backup!	[Chatter~raw]
-Need help?	[TMPro.TextMeshPro]
-Need some assistance!	[Chatter~raw]
-Need some cover!	[Chatter~raw]
-Need some help here!	[Chatter~raw]
-Need some help.	[Chatter~raw]
-Need... backup...	[Chatter~raw]
-Need... more...	[Chatter~raw]
-Needs more lead...	[Chatter~raw]
-Nehh... Not my problem.	[Chatter~raw]
-New Beginnings	[MusicClip]
-New character unlocked!\n<alpha=#66><i><size=70%>Check out the character select in the main menu.	[TMPro.TextMeshProUGUI]
-New Text	[UnityEngine.UI.Text]
-Nice day, isn't it?	[GameManager~raw]
-Nice... moves...	[Chatter~raw]
-Nightly Scavenge	[MissionSelect]
-No more...	[Chatter~raw]
-No my.. that's my blood...	[Chatter~raw]
-No no no no NO!	[Chatter~raw]
-No one's jumping ME today.	[Chatter~raw]
-No way...	[Chatter~raw]
-No you're not!	[Chatter~raw]
-No! Getup!...	[Chatter~raw]
-No! My ammo!	[Chatter~raw]
-No! My bullets! Grrhhh!	[Chatter~raw]
-No! My innards!	[Chatter~raw]
-No! My ribs!	[Chatter~raw]
-No! No PLEASE! AAAHHH!!!	[Chatter~raw]
-NO! Not him!	[Chatter~raw]
-NO! PLEASE!	[Chatter~raw]
-No! Stop!	[Chatter~raw]
-No! Wait!	[Chatter~raw]
-No!... NO! NO!	[Chatter~raw]
-No, my men!	[Chatter~raw]
-No, not now.	[Chatter~raw]
-No- NO! MY DAMN FRIEND!	[Chatter~raw]
-No... But I...	[Chatter~raw]
-No... Not... now...	[Chatter~raw]
-No... please...	[Chatter~raw]
-No... WHY!	[Chatter~raw]
-Noisy numbskulls...	[Chatter~raw]
-Non-alert enemies can't see you behind them.	[SceneLoader~raw]
-Noo! Gahh!	[Chatter~raw]
-Not a challenge!	[Chatter~raw]
-Not again!	[Chatter~raw]
-Not again...	[Chatter~raw]
-Not another... No...	[Chatter~raw]
-Not binding anything	[TMPro.TextMeshProUGUI]
-Not enough...	[Chatter~raw]
-Not fair!	[Chatter~raw]
-Not good...	[Chatter~raw]
-Not good... Uh oh....	[Chatter~raw]
-Not them! No!	[Chatter~raw]
-Not worth it, pal!	[Chatter~raw]
-Not... enough...	[Chatter~raw]
-Not... fair...	[Chatter~raw]
-Not... Not you!	[Chatter~raw]
-Not... possible...	[Chatter~raw]
-Nothing here.	[TMPro.TextMeshPro]
-Nothing will be wasted!	[Chatter~raw]
-Noticeability: 100%	[TMPro.TextMeshProUGUI]
-Now I'm riled up!	[Chatter~raw]
-Number (X)	[LevelPartGame]
-Of all people...	[Chatter~raw]
-Oh dude!	[Chatter~raw]
-Oh fiddlesticks, what now?	[Chatter~raw]
-Oh for god's...	[Chatter~raw]
-Oh gosh! Look!	[Chatter~raw]
-Oh gosh...	[Chatter~raw]
-Oh great...	[Chatter~raw]
-Oh hell no!	[Chatter~raw]
-Oh hey! Stop!	[Chatter~raw]
-Oh man!	[Chatter~raw]
-Oh man, no! NO!	[Chatter~raw]
-Oh man...	[Chatter~raw]
-Oh my g- AAHHHHH!!!	[Chatter~raw]
-Oh my geez! OH MY GOD!!!	[Chatter~raw]
-Oh my god!	[Chatter~raw]
-Oh my god! No!	[Chatter~raw]
-Oh my god- OH MY GOD! AAHHHHG!!!	[Chatter~raw]
-Oh my gosh!	[Chatter~raw]
-Oh no you don't.	[Chatter~raw]
-Oh no! Dude!	[Chatter~raw]
-Oh no! No... NO!	[Chatter~raw]
-Oh no! Stay away!	[Chatter~raw]
-Oh no! Why?!	[Chatter~raw]
-Oh no!... Our game... It's broken!	[ErrorDetector~raw]
-OH NO- HELP! HELP! HHEELPP!!!	[Chatter~raw]
-Oh no...	[Chatter~raw]
-Oh no... Are you okay!?	[Chatter~raw]
-Oh teh noes!	[ErrorDetector~raw]
-Oh you...	[Chatter~raw]
-Oh you... Get over here!	[Chatter~raw]
-Oh! You're here~	[Chatter~raw]
-Oh, come on!	[Chatter~raw]
-Oh, come on.	[GameManager~raw]
-Oh, damn it!	[Chatter~raw]
-Oh, is someone hurt?	[Chatter~raw]
-Oh, no! Help!	[Chatter~raw]
-Oh, that was loud...	[Chatter~raw]
-Oh, YOU'VE DONE IT NOW!	[Chatter~raw]
-Oh... Man...	[Chatter~raw]
-Oh... no...	[Chatter~raw]
-Oh... Not good.	[Chatter~raw]
-Oh... oh no!	[Chatter~raw]
-Oh... Oh no...	[Chatter~raw]
-OHH! AAHH! MY- AHHHGH!!!	[Chatter~raw]
-Ohhhhh... okay.	[Chatter~raw]
-Oh~? Who's this?	[Chatter~raw]
-Ok now...	[Chatter~raw]
-Ok, what was that?	[Chatter~raw]
-Okay, actually give me a second...	[Chatter~raw]
-Okay, here we go!	[Chatter~raw]
-Okay, I got this!... yeah...	[Chatter~raw]
-Okay, this won't be easy!	[Chatter~raw]
-Okay... Laying... O-off...	[Chatter~raw]
-Okay... now, where...	[Chatter~raw]
-Okay... now...	[Chatter~raw]
-Old rifle	[WeaponPreset]
-On standby.	[Chatter~raw]
-One down!	[Chatter~raw]
-One step at a time...	[Chatter~raw]
-One thing at a time...	[Chatter~raw]
-One way platform	[LevelPartGame]
-Oopsie daisy	[ErrorDetector~raw]
-open desert level	[MissionSelect]
-Ouchies! That hurt.\nHold S while hitting the ground\nfrom heights to roll.	[TMPro.TextMeshPro]
-Our crusade for territory is far from over and we have recently obtained intel of a peculiar set of towers... of course, captured by our enemy.\nYou will need to go through these towers and clear them out for capture, revaluation and renovation, but beware.\nThe structure of the towers don't follow the standard building structures, in fact, they're highly irregular.\nWhat is inside those towers and how they were made, is both a mystery to us, and something to be careful about.\nStay careful and observant and watch where you move, and who you fight.\nThis is the beginning of the corporate war, and we will not be stomped out.\nGood luck.\n- Y	[MissionSelect]
-Our tactics are faltering!	[Chatter~raw]
-Out of my way!	[Chatter~raw]
-Out of the way!	[Chatter~raw]
-Overall music volume (also affected by game volume)	[TMPro.TextMeshProUGUI]
-Overall sound volume of the game	[TMPro.TextMeshProUGUI]
-Ow!... ow...	[Chatter~raw]
-Ow!... that... hurts...	[Chatter~raw]
-Ow... Ohhh...	[Chatter~raw]
-Owwh! Ahhg!	[Chatter~raw]
-Oxygen-less zone	[LevelPartGame]
-P-plan... B...	[Chatter~raw]
-Pain Sounds	[TMPro.TextMeshProUGUI]
-Paper note	[LevelPartGame]
-Paths have crossed.	[Chatter~raw]
-Pause menu	[GameManager~raw]
-Personally, not too bad!	[GameManager~raw]
-Pick up weapon	[TMPro.TextMeshProUGUI]
-Pile of steel\nMissing soul	[BodyScript]
-Pistols are effective at all ranges.\nSMG's and Shotguns are\nvery effective at close range.	[TMPro.TextMeshPro]
-Pixel Operator	[TMPro.TMP_FontAsset]
-Place over a friendly enemy to make them follow you	[LevelPartGame]
-Player spawn point	[LevelPartGame]
-Playing hard to get?~	[Chatter~raw]
-Playtest level	[TMPro.TextMeshProUGUI]
-Playtime's over!	[Chatter~raw]
-Please get up!	[Chatter~raw]
-Please give me cover!	[Chatter~raw]
-Please help me!	[Chatter~raw]
-Please no!	[Chatter~raw]
-PLEASE STOP\nFALLING HERE	[TMPro.TextMeshPro]
-Please work...	[Chatter~raw]
-Please... Don't...	[Chatter~raw]
-Please... no...	[Chatter~raw]
-Please... retreat...	[Chatter~raw]
-Please... Stay with me!	[Chatter~raw]
-Please... stop...	[Chatter~raw]
-Points to the level exit trigger	[LevelPartGame]
-pooed our pants.	[ErrorDetector~raw]
-POSSIBLE BREAK-IN	[Chatter~raw]
-POSSIBLE ISSUE	[Chatter~raw]
-PostProcess Profile	[UnityEngine.Rendering.VolumeProfile]
-Powerful entity\nMassive health pool\nStrong kicks	[BodyScript]
-Precision and headshots are the key to getting good ranks.	[SceneLoader~raw]
-Prepare thyself!	[Chatter~raw]
-Press 0 to restart quickly.	[SceneLoader~raw]
-Press any key to acknowledge	[TMPro.TextMeshProUGUI]
-Press E to use buttons.	[TMPro.TextMeshPro]
-Press ENTER to\ngo to the next\nlevel	[TMPro.TextMeshProUGUI]
-Press F to kick.	[TMPro.TextMeshPro]
-Press G to enter vehicles	[TMPro.TextMeshPro]
-Press Q	[TMPro.TextMeshPro]
-Press S to drop\nfrom a ledge.	[TMPro.TextMeshPro]
-Press S to drop from ledges.	[SceneLoader~raw]
-Press SPACE to jump.	[TMPro.TextMeshPro]
-Press SPACE to start	[TMPro.TextMeshProUGUI]
-Press TAB to view your spare ammo.\nYou can only reload if you have\nammo of the type that your held\nweapon uses.\n\nPress 1-3 to switch weapons.	[TMPro.TextMeshPro]
-Press V to pick\nup new weapons.\n\n1-3 to switch\nweapons.	[TMPro.TextMeshPro]
-Press V to pick up\nnew weapons.	[TMPro.TextMeshPro]
-Press W to extend tongue\nSlow reloads	[BodyScript]
-Press W,A,S,D\nto move in water.	[TMPro.TextMeshPro]
-Protocol 7.	[Chatter~raw]
-Prove yourself to me!~	[Chatter~raw]
-Push zone	[LevelPartGame]
-Push... a bit more...	[Chatter~raw]
-Pushes any objects that enter it with the selected force	[LevelPartGame]
-Put on an enemy to set their starting weapon. Set the team to the weapon name, set armed to 0 to make them unarmed	[LevelPartGame]
-Put this on a Move Idle 1 enemy to make them face left	[LevelPartGame]
-Put up a better fight, now!	[Chatter~raw]
-PUT YOUR PAWS UP	[Chatter~raw]
-Quick but frail\n<color="green">Moving slowly allows you to camouflage	[MainMenuManager]
-Quick... C'mon...	[Chatter~raw]
-Quite loud...	[Chatter~raw]
-R... run...	[Chatter~raw]
-Rain setter	[LevelPartGame]
-Raise your dukes!	[Chatter~raw]
-Ran out again!	[Chatter~raw]
-Ran out again... Drat...	[Chatter~raw]
-Rapid-fire revolver	[WeaponPreset]
-Reality trembles...	[ErrorDetector~raw]
-Rectangle Gun	[WeaponPreset]
-Red barrel = dangerous.	[TMPro.TextMeshPro]
-Refer to the\nprevious warning.	[TMPro.TextMeshPro]
-Refer to the\nprevious warning.\nAgain.	[TMPro.TextMeshPro]
-Refer to the previous sign.	[TMPro.TextMeshPro]
-Reload speed: 100%	[TMPro.TextMeshProUGUI]
-Reload this...	[Chatter~raw]
-Reload... Now...	[Chatter~raw]
-Reload... reload...	[Chatter~raw]
-Reloading my gun!	[Chatter~raw]
-Reloading this!	[Chatter~raw]
-Reloading, guys!	[Chatter~raw]
-REPAIR NEEDED	[Chatter~raw]
-Report this!	[ErrorDetector~raw]
-Requesting 03 protocol...	[Chatter~raw]
-Requesting room clear.	[Chatter~raw]
-Reset campaign	[TMPro.TextMeshProUGUI]
-Reset to defaults	[TMPro.TextMeshProUGUI]
-Resets\n- Campaign progress\n- Character unlocks	[TMPro.TextMeshProUGUI]
-Resizable damaging tile	[LevelPartGame]
-Resizable window if off, borderless fullscreen when on	[TMPro.TextMeshProUGUI]
-Respawn Pro	[TMPro.TMP_FontAsset]
-Respect shotgunners. Seriously.	[SceneLoader~raw]
-Restart (0)	[TMPro.TextMeshProUGUI]
-Resume (Esc)	[TMPro.TextMeshProUGUI]
-Retro Gaming	[TMPro.TMP_FontAsset]
-Rex\nInactive Enemy	[TMPro.TextMeshProUGUI]
-Rifles and pistols are good at any range.\nSMGs are great at short range, but less effective at longer ranges.\nShotguns are point-blank-instakills, but are useless any further.	[TMPro.TextMeshPro]
-Rocket Launcher	[WeaponPreset]
-Roll pounce.	[TMPro.TextMeshPro]
-Rolling after a fall makes you unable to ragdoll from it.	[SceneLoader~raw]
-Roof vent	[LevelPartGame]
-Rotate (2)	[TMPro.TextMeshProUGUI]
-Run force: 100%	[TMPro.TextMeshProUGUI]
-Run, pansy, run!	[Chatter~raw]
-Running out!	[Chatter~raw]
-Safety railing	[LevelPartGame]
-SAVE ME!!	[Chatter~raw]
-Save to\nclipboard	[TMPro.TextMeshProUGUI]
-Sawed Off	[WeaponPreset]
-Scalable background element	[LevelPartGame]
-Scalable liquid with configurable damage. Only editable in background mode	[LevelPartGame]
-Scalable liquid. Only editable in background mode	[LevelPartGame]
-Scalable, slippery ground	[LevelPartGame]
-Scalable, walkable ground	[LevelPartGame]
-Scale (3)	[TMPro.TextMeshProUGUI]
-Scarf end color	[TMPro.TextMeshProUGUI]
-Scarf start color	[TMPro.TextMeshProUGUI]
-Scream at Orson	[ErrorDetector~raw]
-Scroll swapping	[TMPro.TextMeshProUGUI]
-Seasonal hats	[TMPro.TextMeshProUGUI]
-Secret Door	[LevelPartGame]
-Sector... overrun.	[Chatter~raw]
-Seeking cover!	[Chatter~raw]
-Semi-auto shotgun	[WeaponPreset]
-Sends an activation signal to all objects with the selected ID when an entity with the selected team enters it. Leave the team blank for all teams	[LevelPartGame]
-Serial killer	[TMPro.TextMeshProUGUI]
-Seriously! What the hell!	[Chatter~raw]
-Sets the target position of all doors with the selected Target ID to the selected position	[LevelPartGame]
-SEVERE DAMAGE	[Chatter~raw]
-Shoot 'em!	[GameManager~raw]
-Shoot already!	[Chatter~raw]
-Shoot at it!	[Chatter~raw]
-Shooting while ragdolled won't get you far. Crouch and get comfortable.	[SceneLoader~raw]
-Shotguns are instant kills at point blank range. Beware of them.	[SceneLoader~raw]
-Should've expected this.	[Chatter~raw]
-Should've seen your face!	[GameManager~raw]
-Should've stayed hiding!	[Chatter~raw]
-Shoulda' moved!	[Chatter~raw]
-Shouldn't be anything to worry about... right?	[Chatter~raw]
-Show ammo	[TMPro.TextMeshProUGUI]
-Show me a good fight!	[Chatter~raw]
-Show me what you got!	[Chatter~raw]
-Show me your honor!	[Chatter~raw]
-Show me your might!	[Chatter~raw]
-Show me your moves!	[Chatter~raw]
-SHUTTING DOWN	[Chatter~raw]
-Sick em, guys!	[Chatter~raw]
-Silence down ova' there!	[Chatter~raw]
-Simple camera	[TMPro.TextMeshProUGUI]
-Simple lighting	[TMPro.TextMeshProUGUI]
-Simple Music	[TMPro.TextMeshProUGUI]
-Simple weather	[TMPro.TextMeshProUGUI]
-Simplifies lighting rendering, minorly improving performance\nRecommended to keep off	[TMPro.TextMeshProUGUI]
-Situation is dire.	[Chatter~raw]
-Skip song	[TMPro.TextMeshProUGUI]
-Slot 1	[TMPro.TextMeshProUGUI]
-Slot 2	[TMPro.TextMeshProUGUI]
-Slot 3	[TMPro.TextMeshProUGUI]
-Slow fall\nMid-air jumps	[BodyScript]
-Slow motion	[TMPro.TextMeshProUGUI]
-Slow motion is a good tool for making easy kills and getting out of sticky situations.	[SceneLoader~raw]
-Slow reloads\n<color="green">Press W to tongue and grapple	[MainMenuManager]
-Small crate	[LevelPartGame]
-Smash Orson to death with an anvil	[ErrorDetector~raw]
-Smiling face with smiling eyes	[TMPro.TMP_SpriteAsset]
-Smooths out the movement of crates/dropped guns	[TMPro.TextMeshProUGUI]
-Sneaky entity\nAgile and frail\nHas camouflage	[BodyScript]
-Sniper rifle	[WeaponPreset]
-Snow setter	[LevelPartGame]
-Snowy tile	[LevelPartGame]
-So hungry...	[Chatter~raw]
-So much for that!	[Chatter~raw]
-So much... for that...	[Chatter~raw]
-So... cruel...	[Chatter~raw]
-So... drowsy...	[Chatter~raw]
-So... strong...	[Chatter~raw]
-SOMEONE CALL THE FIRE DEPARTMENT\nWE JUST NUKED THE BUILDING	[TMPro.TextMeshPro]
-Someone cover me!	[Chatter~raw]
-Someone dropped something.	[Chatter~raw]
-Someone help me!	[Chatter~raw]
-Someone just shot their foot, I think.	[Chatter~raw]
-Someone! Help!	[Chatter~raw]
-Someone's breaking in.	[Chatter~raw]
-Someone, give me cover!	[Chatter~raw]
-Something broke	[ErrorDetector~raw]
-Something's in my web...	[Chatter~raw]
-Something's off.	[Chatter~raw]
-Something's up.	[Chatter~raw]
-Something's wrong...	[Chatter~raw]
-Sound Volume	[TMPro.TextMeshProUGUI]
-Sounds by quicksounds.com\n(and Valve)	[TMPro.TextMeshProUGUI]
-Sounds, unwell...	[Chatter~raw]
-Spawn time (X)	[LevelPartGame]
-Spawns a weapon. Set the name to your desired weapons name (case insensitive)	[LevelPartGame]
-Spawns small crates. Set the X of the spawn time to your desired spawn cooldown	[LevelPartGame]
-Spec-ops rifle	[WeaponPreset]
-Special trigger	[LevelPartGame]
-Species: Unknown	[TMPro.TextMeshProUGUI]
-Spilt the beans	[ErrorDetector~raw]
-Spinning blade that damages anything that touches it	[LevelPartGame]
-Splatter amount	[TMPro.TextMeshProUGUI]
-Sprite Assets/	[TMPro.TMP_Settings]
-Squad... is...	[Chatter~raw]
-SQUADMATE DOWN	[Chatter~raw]
-Squadmate down!	[Chatter~raw]
-Starting weapon:	[TMPro.TextMeshProUGUI]
-Stat boosts underwater	[BodyScript]
-Stay back, fiend!	[Chatter~raw]
-Stay still, doofus!	[Chatter~raw]
-Stay still, moron!	[Chatter~raw]
-Stay there!	[Chatter~raw]
-Stay there! Away from me!	[Chatter~raw]
-Stay with me, buddy!	[Chatter~raw]
-Steel barrel	[LevelPartGame]
-Stench Gun	[WeaponPreset]
-Still alive?	[GameManager~raw]
-Stop crying!	[Chatter~raw]
-STOP FIGHTING	[Chatter~raw]
-Stop in your tracks!	[Chatter~raw]
-Stop making this so hard!	[Chatter~raw]
-Stop struggling...	[Chatter~raw]
-Stop there, doofus!	[Chatter~raw]
-Stop there, man!	[Chatter~raw]
-Straight pipe	[LevelPartGame]
-Stranded On Europa	[MusicClip]
-Strange noises...	[Chatter~raw]
-Striped Door	[LevelPartGame]
-Strong impacts will\ntemporarily slow\nyou down	[TMPro.TextMeshPro]
-Strong... prey...	[Chatter~raw]
-Stupid gun! C'mon!	[Chatter~raw]
-Stupid, stupid gun!	[Chatter~raw]
-Sturdy and resistant	[BodyScript]
-Such a struggle...~	[Chatter~raw]
-Such a... waste...	[Chatter~raw]
-Surrender already!	[Chatter~raw]
-Surrender while you can, idiot!	[Chatter~raw]
-Surrender! Now!	[Chatter~raw]
-Surrender, immediately!	[Chatter~raw]
-Surrender, prey!	[Chatter~raw]
-SWAP ALPHA	[TMPro.TextMeshProUGUI]
-Swim speed: 100%	[TMPro.TextMeshProUGUI]
-Swims very fast\n<color="green">Massive stat boosts in water	[MainMenuManager]
-Switching mag!	[Chatter~raw]
-T-They got him!	[Chatter~raw]
-Tactical rifle	[WeaponPreset]
-Tactical SMG	[WeaponPreset]
-Take a breather.	[GameManager~raw]
-Take a chill pill!	[Chatter~raw]
-Take a look at the top left corner.\n\nThe big number is your health.\nThe smaller number is your stamina.\n\nIf stamina goes below 0, you get K/O'd.	[TMPro.TextMeshPro]
-Take a look at the upper left corner.\nThe big number is your health, the smaller, stamina.\nIf stamina goes below 0, you get knocked out.	[TMPro.TextMeshPro]
-Take it down.	[Chatter~raw]
-TAKE ME INSTEAD!	[Chatter~raw]
-Take things slowly and carefully. This is a tactical game.	[SceneLoader~raw]
-Take this slow, darling~	[Chatter~raw]
-Taking a break?	[GameManager~raw]
-Tanky, but sluggish	[MainMenuManager]
-Tanky, with bad weapon handling\n<color="green">Hold CTRL/LMB to spit out cobweb	[MainMenuManager]
-Target ID	[TMPro.TextMeshProUGUI]
-Target pos	[LevelPartGame]
-Tch!... Watch and learn!	[Chatter~raw]
-Tch... typical...	[Chatter~raw]
-Tch... Useless.	[Chatter~raw]
-TEAMMATE DOWN	[Chatter~raw]
-Teleport zone	[LevelPartGame]
-Tell Orsoniks	[ErrorDetector~raw]
-Tell... My d-dad...	[Chatter~raw]
-Tell... My dad...	[Chatter~raw]
-Thank you for\nyour travels!	[TMPro.TextMeshPro]
-Thank you for playing.	[TMPro.TextMeshProUGUI]
-Thanks to you, our foothold on territory has nearly returned in full, but we are still lacking control of the ground.\nOur enemies are swarming the grounds below our lookout towers where the snow is deep. This will not do.\nA set of military forts built down in the canyon of a mountain and at the base of a lake has caught our attention.\nWe require this to acquire a strong ground foothold, along with the overwatch you have helped us establish.\nThe conjoined forts themselves are unremarkable.\nOne is suspected to be a set of checkpoints, and the other a military vehicle storage.\nBoth buildings will be remarkably useful for building up our forces and containing our weaponry.\nYou know what to do, Assassin. Make it nice and clean, and we'll handle the rest.\n-Y	[MissionSelect]
-That didn't sound like our own...	[Chatter~raw]
-That does not sound fun.	[Chatter~raw]
-That doesn't sound nice.	[Chatter~raw]
-That doesn't sound too cool.	[Chatter~raw]
-THAT HURT	[Chatter~raw]
-THAT HURTS! ALOT! LIKE! OH MY GOD!	[Chatter~raw]
-That scared me...	[Chatter~raw]
-That sounds unsightly.	[Chatter~raw]
-That startled me...	[Chatter~raw]
-THAT WAS MY FRIEND!	[Chatter~raw]
-That was painful to watch.	[GameManager~raw]
-That was... a real... humdinger...	[Chatter~raw]
-That was... no picnic...	[Chatter~raw]
-That was... oddly loud.	[Chatter~raw]
-That wasn't one of our own... Right?	[Chatter~raw]
-That won't be enough!	[Chatter~raw]
-That won't stop me!	[Chatter~raw]
-That wont matter!	[Chatter~raw]
-That yoinkity did not sploink.	[ErrorDetector~raw]
-That'll get you nowhere!	[Chatter~raw]
-That's enough out of you!	[Chatter~raw]
-That's gotta hurt...	[ErrorDetector~raw]
-That's just pathetic!	[Chatter~raw]
-That's no picnic...	[Chatter~raw]
-That's not all!	[Chatter~raw]
-That's not enough!	[Chatter~raw]
-That's not good...	[Chatter~raw]
-That's the guy!	[Chatter~raw]
-That's trouble!	[Chatter~raw]
-That's.. My blood...	[Chatter~raw]
-That's... A lotta holes...	[Chatter~raw]
-That's... e-enough...	[Chatter~raw]
-That's... it...	[Chatter~raw]
-That's... ow...	[Chatter~raw]
-THAT... hurt...	[Chatter~raw]
-Thats not good, at all...	[Chatter~raw]
-The base for all other creatures	[TMPro.TextMeshProUGUI]
-The base for almost all other species	[MainMenuManager]
-The Chase	[MusicClip]
-The clock stopped ticking.	[GameManager~raw]
-The color of the crosshair, dot and deviation line	[TMPro.TextMeshProUGUI]
-The Disciple	[MusicClip]
-the endless void's\nto the right!	[TMPro.TextMeshPro]
-The Engineer	[MusicClip]
-The Final Chapter	[MusicClip]
-The general thickness of the crosshair	[TMPro.TextMeshProUGUI]
-The hell!?	[Chatter~raw]
-The intruder, is here!	[Chatter~raw]
-The players spawn point. If there is none, the player spawns at the world origin	[LevelPartGame]
-The Possesed One	[MusicClip]
-The Ultimate Drug	[MusicClip]
-The Wait	[MusicClip]
-The Watcher	[MusicClip]
-The... hell?...	[Chatter~raw]
-There goes another...	[Chatter~raw]
-There goes my peace and quiet...	[Chatter~raw]
-There goes, another...	[Chatter~raw]
-There you are!	[Chatter~raw]
-There you are! C'mere!	[Chatter~raw]
-There you are...	[Chatter~raw]
-There's no excuse for that!	[Chatter~raw]
-They're here!	[Chatter~raw]
-They're here...	[Chatter~raw]
-They're on me!	[Chatter~raw]
-Think you're safe?!	[Chatter~raw]
-Think you're tough? I'll fold you!	[Chatter~raw]
-Think you're tough??	[Chatter~raw]
-Thinning the masses.	[Chatter~raw]
-This can't get worse.	[Chatter~raw]
-This darn gun!	[Chatter~raw]
-This editor is very, VERY janky and unfinished.\nWhile it works, expect weirdness to happen.\n\nHave fun!	[TMPro.TextMeshProUGUI]
-This ends here!	[Chatter~raw]
-This game contains scenes of explicit violence and gore.	[TMPro.TextMeshProUGUI]
-This is a hard prototype\nlevel.\nExpect unfairness.\n\nGood luck!	[TMPro.TextMeshPro]
-This is a problem!	[Chatter~raw]
-This is absurd!	[Chatter~raw]
-This is easy!	[Chatter~raw]
-This is going to heck!	[Chatter~raw]
-This is going to hell!	[Chatter~raw]
-This is not going to plan...	[Chatter~raw]
-This is NOT over!	[Chatter~raw]
-This is terrible!	[Chatter~raw]
-This is troubling.	[Chatter~raw]
-This is... my fault...	[Chatter~raw]
-This is... not...	[Chatter~raw]
-This isn't going to calculation!	[Chatter~raw]
-This isn't good.	[Chatter~raw]
-This isn't over!	[Chatter~raw]
-This isn't right...	[Chatter~raw]
-This isn't WORKING!	[Chatter~raw]
-This isn't... working...	[Chatter~raw]
-This job sucks!	[Chatter~raw]
-This job's workplace regulations are terrible.	[Chatter~raw]
-This thing's jammed!	[Chatter~raw]
-This will be FUN!	[Chatter~raw]
-This will be violent...	[Chatter~raw]
-This won't be pretty...	[Chatter~raw]
-This won't stop me!	[Chatter~raw]
-This world ain't big enough for the two of us!	[Chatter~raw]
-This'll be easy!	[Chatter~raw]
-This'll be fun...	[Chatter~raw]
-This... damn gun!	[Chatter~raw]
-Those idiots...	[Chatter~raw]
-Those nimrods...	[Chatter~raw]
-Throw yourself\nover this wall\nusing levitation.	[TMPro.TextMeshPro]
-Throw yourself over\nthis wall using\nlevitation.	[TMPro.TextMeshPro]
-Tick, tock, tick, tock...	[GameManager~raw]
-Time for action!	[Chatter~raw]
-Time is stopped	[GameManager~raw]
-Time to die!	[Chatter~raw]
-Time to slow down!	[Chatter~raw]
-timeScale is zero	[GameManager~raw]
-Tinnitus volume	[TMPro.TextMeshProUGUI]
-Tip of the day:\nPay attention to what's happening at all times!\nCarelesness is what will kill you most of the time.\nDon't show off.	[TMPro.TextMeshProUGUI]
-Tired yet?	[GameManager~raw]
-Tis but a scratch!	[Chatter~raw]
-TMP Settings	[TMPro.TMP_Settings]
-TMPro.TMP_Text, Unity.TextMeshPro	[UnityEngine.UI.Button]
-To hell with you!	[Chatter~raw]
-Today ain't your day, pal!	[Chatter~raw]
-Toggle timer	[TMPro.TextMeshProUGUI]
-Toggle UI	[TMPro.TextMeshProUGUI]
-Toggles whether or not the slow-mo effect plays on kill	[TMPro.TextMeshProUGUI]
-Tomfoolery overload	[ErrorDetector~raw]
-Too dark...	[Chatter~raw]
-Too loud?	[GameManager~raw]
-Too scared?	[GameManager~raw]
-Too... much...	[Chatter~raw]
-Took you long enough.	[GameManager~raw]
-Took you long enough...	[Chatter~raw]
-Total performance:\n100%	[TMPro.TextMeshProUGUI]
-Tough and sluggish	[BodyScript]
-Tough and sluggish\na	[TMPro.TextMeshPro]
-Trash Containment	[MissionSelect]
-Trench Sweeper	[WeaponPreset]
-Tripped and fell!	[ErrorDetector~raw]
-Try and get me!	[Chatter~raw]
-Try giving THIS a lore explanaton.	[GameManager~raw]
-Try harder!	[Chatter~raw]
-Try NOT getting shot next time!	[Chatter~raw]
-Tsk tsk tsk...	[Chatter~raw]
-Turbo Cop	[MusicClip]
-Turn down the volume!	[Chatter~raw]
-Uh oh.	[Chatter~raw]
-Uh oh...	[Chatter~raw]
-Uh, is that a problem?	[Chatter~raw]
-Uh... Whoops...	[Chatter~raw]
-Uhh... Well...	[Chatter~raw]
-Uhm... uh... darn.	[Chatter~raw]
-Uhm... Was that just me?	[Chatter~raw]
-Uhm... Well then...	[Chatter~raw]
-Unconscious enemies drop their weapons. Don't let them pick them back up!	[SceneLoader~raw]
-Underwater blur	[TMPro.TextMeshProUGUI]
-Unhandled exception	[ErrorDetector~raw]
-UnityEngine.GameObject, UnityEngine	[UnityEngine.UI.Button]
-UnityEngine.Object, UnityEngine	[TMPro.TMP_InputField,UnityEngine.UI.Button,UnityEngine.UI.Slider,UnityEngine.UI.Toggle]
-UnityEngine.Rendering.DebugUI+BitField, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+BoolField, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+Button, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+ColorField, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+Container, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+EnumField, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+FloatField, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+Foldout, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+HBox, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+HistoryBoolField, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+HistoryEnumField, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+IntField, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+Table+Row, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+Table, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+UIntField, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+Value, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+VBox, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+Vector2Field, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+Vector3Field, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-UnityEngine.Rendering.DebugUI+Vector4Field, Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null	[UnityEngine.Rendering.UI.DebugUIHandlerCanvas]
-Unknown presence...	[Chatter~raw]
-Unwise of you to show up!	[Chatter~raw]
-Urrrhh... I'll wait.	[Chatter~raw]
-Use W,A,S,D to swim.	[TMPro.TextMeshPro]
-Useless gun!	[Chatter~raw]
-Useless pawn!	[Chatter~raw]
-Useless... weapon!	[Chatter~raw]
-Vanished Forts	[MissionSelect]
-Very agile, but very frail\nCan infinitely chain roll pounces	[MainMenuManager]
-VISUAL ABNORMALITY	[Chatter~raw]
-VISUAL ANOMALY	[Chatter~raw]
-Visual on target.	[Chatter~raw]
-Visual Studio Editor Package version 2.0.17 is available, we strongly encourage you to update from the Unity Package Manager for a better Visual Studio integration	[TMPro.TextMeshProUGUI]
-Void Gaze	[MusicClip]
-Volume of the high-pitched tinnitus effect heard after explosions	[TMPro.TextMeshProUGUI]
-W-why... I...	[Chatter~raw]
-Wah wah wah.	[Chatter~raw]
-Wait a minute!	[Chatter~raw]
-Wait! Brb.	[Chatter~raw]
-Wait! It's YOU!	[Chatter~raw]
-Wait, what was that?	[Chatter~raw]
-Waiting confrontation.	[Chatter~raw]
-Waits the set delay after its ID gets activated, then sends a signal to all objects with the selected Target ID	[LevelPartGame]
-Walk over weapons with an ammo\nicon above them to unload get their ammo.\nRemember this.	[TMPro.TextMeshPro]
-Wall button. Activates all objects with the same id. Set activate once to 1 to make it a one-time use	[LevelPartGame]
-Wall script	[LevelPartGame]
-Wanna dance?!	[Chatter~raw]
-Warning!\nFalling may result in:	[TMPro.TextMeshPro]
-WARNING:\n\nLOW OXYGEN LEVELS	[TMPro.TextMeshPro]
-Was that thunder, or...?	[Chatter~raw]
-Was' that?	[Chatter~raw]
-Wasted potential...	[Chatter~raw]
-Watch out! Enemy goon!	[Chatter~raw]
-Wave your goodbyes\nto this body.	[TMPro.TextMeshPro]
-We almost...	[Chatter~raw]
-WE ARE LOSING	[Chatter~raw]
-We blew a fuse	[ErrorDetector~raw]
-We can d... do it...	[Chatter~raw]
-We can do this!	[Chatter~raw]
-We can do this...	[Chatter~raw]
-We can win this...	[Chatter~raw]
-We can't hold them off!	[Chatter~raw]
-We got a man down!	[Chatter~raw]
-We got a problem!	[Chatter~raw]
-we have been trying to reach you about your car's extended warranty	[GameManager~raw]
-We have secured a route into a water processing plant ran by our opposition.\nTaking control of it will be a serious advantage to our operation.\nThe facility is quite vertical compared to previous outposts.\nWatch where you drop down, we would be highly disappointed if we lose you to falling to your death.\nGet it done.\n- Y	[MissionSelect]
-We have uncovered the entrance to an underground refinery under enemy control.\nScouting has shown us it is suffering from water failures, and is partially flooded. This is a good time for you to strike.\nEnter the facility through the opened entrance and clear it out.\nThe refinery is still in full production, and as such crushing hazards are to be alert of.\nEnemy force is estimated to be higher than typical. Another type of enemy has been spotted moving in and out of the facility.\nGet to work.\n- Y	[MissionSelect]
-We lost another...	[Chatter~raw]
-We lost one!	[Chatter~raw]
-We must keep going!	[Chatter~raw]
-We must keep this up!	[Chatter~raw]
-We need help, pronto.	[Chatter~raw]
-We're compromised!	[Chatter~raw]
-We're doomed...	[Chatter~raw]
-WE'RE LOSING FRIENDS!	[Chatter~raw]
-We're losing here!	[Chatter~raw]
-We're losing numbers! Apply pressure!	[Chatter~raw]
-We're losing!	[Chatter~raw]
-We're not making it!	[Chatter~raw]
-We're not upholding!...	[Chatter~raw]
-We're... we're losing...	[Chatter~raw]
-We've been attacking a particular set of outposts, one ontop of a cliff, and one near a lake under the cliffside.\nWith tales of advanced, invaluable technology from the stars located inside, we've sent a raiding party to 'borrow' it, get me?\nWe've prepared the team to go in after you scout the outposts. Pretty please, clear them if possible.\nThe surrounding outposts have been captured, so don't worry about harm to us. Worry about the harm to you.\n- Z	[MissionSelect]
-We've been looking for you...	[Chatter~raw]
-We've lost one.	[Chatter~raw]
-We've recently had eyes on a series of sewer systems that have significant activity in them. It wouldn't be particularly noteworthy...\n...if it wasn't for some seriously messed up energy signals there, erratic pulses at very high signatures.\nWe thought it was issues with our scanner hardware, but it's consistent in that area, nowhere else comes close to it.\nTake a look into the site. Clear out the tunnels, and look into the source of the anomalous energy.\nSeen as it's sewer systems, it'll likely be full of water in alot of areas, so it's very likely they'll have moved some water based species there, so be prepared to get your feet wet.\nStay safe, yeah?\n- Z	[MissionSelect]
-We.. Almost did it.	[Chatter~raw]
-We... are losing...	[Chatter~raw]
-Weak! Haha!	[Chatter~raw]
-Weak! Useless!	[Chatter~raw]
-Weak! You were weak!	[Chatter~raw]
-Weapon chest	[LevelPartGame]
-Weapon knockback can be used to your advantage in movement.	[SceneLoader~raw]
-Weapon on spawn	[LevelPartGame]
-Weapon's hot!	[Chatter~raw]
-Weapons with an ammo icon\nabove them have ammo you\ncan pick up inside them.	[TMPro.TextMeshPro]
-Weather's looking excessively green, but that's no excuse, we've got another job to do.\nA few outposts around a small water body nearby. Hope you don't mind getting your feet wet.\nThat telekinesis of yours might help to get across the water a little quicker.\nResistance might be ramping up a bit now, take care out there.\n- Z	[MissionSelect]
-Weird Technology	[MissionSelect]
-WELCOME TO THE\nOBJECT TEST LEVEL	[TMPro.TextMeshPro]
-Welcome to the training\nmission!\n\nPress A and D to move.	[TMPro.TextMeshPro]
-Welcome.\n\nPress A/D to move.\nProceed to the right.	[TMPro.TextMeshPro]
-Well done... prey...	[Chatter~raw]
-Well, uh, okay...	[Chatter~raw]
-Welp! We're dead!	[Chatter~raw]
-Wh.... Whoops...	[Chatter~raw]
-What a waste of ammo!	[Chatter~raw]
-What a world...	[Chatter~raw]
-What an encounter!	[Chatter~raw]
-What did you do!?	[ErrorDetector~raw]
-What foolishness is this?	[Chatter~raw]
-What of that?	[Chatter~raw]
-What of this?!	[Chatter~raw]
-What the hay!	[Chatter~raw]
-What the hay?!	[Chatter~raw]
-WHAT THE HELL! GAAAHHHHH!	[Chatter~raw]
-WHAT THE HELL?!	[Chatter~raw]
-WHAT WAS THAT	[Chatter~raw]
-What was that?	[Chatter~raw]
-What! But... they...	[Chatter~raw]
-What's that noise?	[Chatter~raw]
-What's that!? Trouble...	[Chatter~raw]
-What... a battle...	[Chatter~raw]
-What... was that?	[Chatter~raw]
-Whatever you are, you'll meet your end.	[Chatter~raw]
-Wheel pallet	[LevelPartGame]
-When it's ID is activated, teleports any bodies inside of it to the position specified in Telepos	[LevelPartGame]
-When its ID gets called, starts sending activation signals to the Target ID every X seconds. Stops when its ID gets called again	[LevelPartGame]
-Where are you...	[Chatter~raw]
-Where are youuuuu?~	[Chatter~raw]
-Where did that come from?	[Chatter~raw]
-Where is this god damn...	[Chatter~raw]
-Who are you?!	[Chatter~raw]
-Who cut the cheese?	[ErrorDetector~raw]
-Who dares?	[Chatter~raw]
-Who goes there?!	[Chatter~raw]
-Who messed up this time?	[Chatter~raw]
-Who needs being set straight?	[Chatter~raw]
-Who's asking to get knocked?	[Chatter~raw]
-Who's being so loud?	[Chatter~raw]
-Who's gonna show up now?!	[Chatter~raw]
-Who's shooting!?	[Chatter~raw]
-WHY ARE YOU DOING THIS!?	[Chatter~raw]
-Why don't these things go faster!	[Chatter~raw]
-Why me!?	[Chatter~raw]
-Why! WHY!	[Chatter~raw]
-Why... me?	[Chatter~raw]
-Why... me?...	[Chatter~raw]
-Why... Why you...	[Chatter~raw]
-Within the Shadows	[MusicClip]
-Woah, wait a minute!	[Chatter~raw]
-Wobbly fence	[LevelPartGame]
-Wobbly fence. But short	[LevelPartGame]
-Won't go down without a fight?~	[Chatter~raw]
-Wood crate	[LevelPartGame]
-Working a sweat?	[GameManager~raw]
-Wow, another workplace incident...	[Chatter~raw]
-Writing these is fun	[GameManager~raw]
-X crosshair	[TMPro.TextMeshProUGUI]
-You all fight like morons!	[Chatter~raw]
-You always start out with\nonly a pistol\n\nGrab more weapons on the way.	[TMPro.TextMeshPro]
-You and me, here and now :33	[Chatter~raw]
-You automatically unload\nany weapons closeby,\nand add the ammo\ninto your spare.	[TMPro.TextMeshPro]
-You broke it!	[ErrorDetector~raw]
-You call this a fight?!	[Chatter~raw]
-You can hang onto lamps like ledges.	[SceneLoader~raw]
-You can hold RMB on a physics\nobject to levitate it.\nDirect line of sight is needed\nto levitate	[TMPro.TextMeshPro]
-You can lose your arms/legs and still survive. Continue on for an extra challenge!	[SceneLoader~raw]
-You can only switch\n2 times before\nyou have to retry the mission.	[TMPro.TextMeshPro]
-You can swap bodies\nafter dying.	[TMPro.TextMeshPro]
-You can use fences\nand poles as hooks\nfor levitation	[TMPro.TextMeshPro]
-You can use levitation while K/O'd. If not in  brutal mode.	[SceneLoader~raw]
-You can't hide, doofus!	[Chatter~raw]
-You can't... win...	[Chatter~raw]
-You died.\nSwap charge: 0%\nPress 0 to restart.	[TMPro.TextMeshProUGUI]
-YOU DON'T NEED THAT NECK TO BREATHE.	[Chatter~raw]
-You found a bug!	[ErrorDetector~raw]
-You get pushed in the opposite\ndirection of the object you're\nlevitating.\nIn short, <color="black"><i>crate go down,\nyou go up.	[TMPro.TextMeshPro]
-You get pushed in the opposite\ndirection of the object you're levitating.\nIn short, <color="black"><i>crate go down,\nyou go up.	[TMPro.TextMeshPro]
-You goober!	[Chatter~raw]
-You got blood on my suit.	[GameManager~raw]
-You got me...	[Chatter~raw]
-You guys need help!?	[Chatter~raw]
-You idiot!	[Chatter~raw]
-You like making this hard, dont you?~	[Chatter~raw]
-You like this!?	[Chatter~raw]
-You look... delicious!	[Chatter~raw]
-You mistake!	[Chatter~raw]
-YOU MONSTER	[Chatter~raw]
-You moronic brute!	[Chatter~raw]
-You need to die!	[Chatter~raw]
-You regenerate more health the longer you haven't been damaged for.	[SceneLoader~raw]
-You sadly, will regret this.	[Chatter~raw]
-You scared? Ha!	[Chatter~raw]
-You shall not last.	[Chatter~raw]
-You Shouldn't Be Here	[NewMusicManager]
-You stand not a chance!	[Chatter~raw]
-You suck!	[ErrorDetector~raw]
-You there! prepare to be... died!	[Chatter~raw]
-You think I'm done?	[Chatter~raw]
-You think you can hide??	[Chatter~raw]
-You think you scare me!?	[Chatter~raw]
-You think you're done?	[GameManager~raw]
-You think you're sly?	[Chatter~raw]
-You want a piece of me!?	[Chatter~raw]
-You were such a mouse!	[Chatter~raw]
-You were weak!	[Chatter~raw]
-You weren't cut for the work!	[Chatter~raw]
-You will not prevail!	[Chatter~raw]
-You will pay for that!	[Chatter~raw]
-You will regret this.	[Chatter~raw]
-You won't get away with this!	[Chatter~raw]
-You won't get me this time...	[Chatter~raw]
-You won't hide for long.	[Chatter~raw]
-You won't last~	[Chatter~raw]
-You won't... make it...	[Chatter~raw]
-You! Come here!	[Chatter~raw]
-You! You...	[Chatter~raw]
-You'll be put to good use...	[Chatter~raw]
-You'll bleed!	[Chatter~raw]
-You'll die under my foot!	[Chatter~raw]
-You'll do nicely~	[Chatter~raw]
-You'll feed my children nicely...	[Chatter~raw]
-You'll never get me alive!	[Chatter~raw]
-You'll pay for that!	[Chatter~raw]
-You'll pay for this!	[Chatter~raw]
-You'll pay for what you've done!	[Chatter~raw]
-YOU'LL PAY! YOU'LL DIE!	[Chatter~raw]
-You'll regret showing yourself!	[Chatter~raw]
-You'll regret this!	[Chatter~raw]
-You'll regret this, moron!	[Chatter~raw]
-You'll regret this...	[Chatter~raw]
-You'll suffer for that!	[Chatter~raw]
-You'll... pay...	[Chatter~raw]
-You're a real challenge!...	[Chatter~raw]
-You're close...	[Chatter~raw]
-You're dead!	[Chatter~raw]
-You're done for!	[Chatter~raw]
-You're done for.	[Chatter~raw]
-You're done, buster!	[Chatter~raw]
-You're getting knocked!	[Chatter~raw]
-You're goin' down... town!...	[Chatter~raw]
-You're going down!	[Chatter~raw]
-You're going down, buster!	[Chatter~raw]
-You're gonna PAY for this!	[Chatter~raw]
-You're good at this!...	[Chatter~raw]
-You're in aboslute trouble!	[Chatter~raw]
-You're in TROUBLE!	[Chatter~raw]
-You're in trouble!	[Chatter~raw]
-You're just what I need...	[Chatter~raw]
-You're making me upset!	[Chatter~raw]
-You're making this look easy!	[Chatter~raw]
-You're making this, difficult!	[Chatter~raw]
-You're mine! Mine!	[Chatter~raw]
-You're next!	[Chatter~raw]
-You're not getting away!	[Chatter~raw]
-You're not getting out of this!	[Chatter~raw]
-You're not getting past me, idiot!	[Chatter~raw]
-You're not going anywhere, morsel!	[Chatter~raw]
-You're not gonna win this!	[Chatter~raw]
-You're not playing an action shooter.	[SceneLoader~raw]
-You're not taking me alive!	[Chatter~raw]
-You're not the first one to suck.	[GameManager~raw]
-You're nothing!	[Chatter~raw]
-You're over!	[Chatter~raw]
-You're pathetic!	[Chatter~raw]
-You're putting up a fight.	[Chatter~raw]
-You're really pissing me off!	[Chatter~raw]
-you're so nosey!	[TMPro.TextMeshPro]
-You're terrible! Ha!	[Chatter~raw]
-You're the last thing I wanted to see!	[Chatter~raw]
-You're tough prey...	[Chatter~raw]
-You're trouble!	[Chatter~raw]
-You're weak!	[Chatter~raw]
-You're... strong...	[Chatter~raw]
-YOU'VE DONE IT NOW!	[Chatter~raw]
-You've got me...	[Chatter~raw]
-You've made your last mistake!	[Chatter~raw]
-You've made, a bad choice.	[Chatter~raw]
-YOU- GRRRRRRH!	[Chatter~raw]
-You- You BRUTE! Ahhhnn!	[Chatter~raw]
-You... brute...	[Chatter~raw]
-You... Fought great...	[Chatter~raw]
-You... got me...	[Chatter~raw]
-You... idiot...	[Chatter~raw]
-You... Jerk...	[Chatter~raw]
-You... monster...	[Chatter~raw]
-You... R-rude...	[Chatter~raw]
-You... won't... last...	[Chatter~raw]
-You.... gahhh...	[Chatter~raw]
-Your character slows down greatly when close to drowning.	[SceneLoader~raw]
-Your character's scarf start/end color, gradiented	[TMPro.TextMeshProUGUI]
-Your turn!~	[Chatter~raw]
-Zone's hot!	[Chatter~raw]
-#0051ff	[LevelPartGame]
-(A)	[TMPro.TextMeshProUGUI]
-(D)	[TMPro.TextMeshProUGUI]
-*</size></b></color>	[TMPro.TMP_StyleSheet]
-*BUZZ*	[Chatter~raw]
-*chatter*	[Chatter~raw]
-*cheddar*	[Chatter~raw]
-*chitter*	[Chatter~raw]
-*chutter*	[Chatter~raw]
-*SPARKS*	[Chatter~raw]
--HP/s	[LevelPartGame]
-...Rude.	[Chatter~raw]
-...Showtime?	[Chatter~raw]
-.notdef	[TMPro.TMP_SpriteAsset]
-1f601	[TMPro.TMP_SpriteAsset]
-1f603	[TMPro.TMP_SpriteAsset]
-1f604	[TMPro.TMP_SpriteAsset]
-1f605	[TMPro.TMP_SpriteAsset]
-1f606	[TMPro.TMP_SpriteAsset]
-1f609	[TMPro.TMP_SpriteAsset]
-1f60b	[TMPro.TMP_SpriteAsset]
-1f60d	[TMPro.TMP_SpriteAsset]
-1f60e	[TMPro.TMP_SpriteAsset]
-1f618	[TMPro.TMP_SpriteAsset]
-1f923	[TMPro.TMP_SpriteAsset]
-263a	[TMPro.TMP_SpriteAsset]
-50MillionYearTrip	[MusicClip]
-60FPS	[TMPro.TextMeshProUGUI]
-66abad85c8f3cfb4691acbf5701a862f	[TMPro.TMP_FontAsset]
-7a2569b626fc459418419358f3cdd316	[TMPro.TMP_FontAsset]
-87.4s	[TMPro.TextMeshProUGUI]
-8f586378b4e144a9851e7b34d9b748ee	[TMPro.TMP_FontAsset]
-9896ac24714a02a45819948e8a6bcaa3	[TMPro.TMP_FontAsset]
-</color>	[TMPro.TMP_StyleSheet]
-</color></b>	[TMPro.TMP_StyleSheet]
-</color></size>	[TMPro.TMP_StyleSheet]
-</i></size></width></margin>	[TMPro.TMP_StyleSheet]
-</size></b></align>	[TMPro.TMP_StyleSheet]
-</size></b></color>	[TMPro.TMP_StyleSheet]
-</u></color></link>	[TMPro.TMP_StyleSheet]
-<color=#80A0FF><b>	[TMPro.TMP_StyleSheet]
-<color=#ff40FF><size=125%>	[TMPro.TMP_StyleSheet]
-<color=#ffff40>	[TMPro.TMP_StyleSheet]
-<i><size=75%><margin=10%>	[TMPro.TMP_StyleSheet]
-<size=1.17em><b><#FF8040>	[TMPro.TMP_StyleSheet]
-<size=1.5em><b><#4080FF>	[TMPro.TMP_StyleSheet]
-<size=125%><b><align=center>	[TMPro.TMP_StyleSheet]
-<size=2em><b><#40ff80>*	[TMPro.TMP_StyleSheet]
-<u><#40a0ff><link="ID_01">	[TMPro.TMP_StyleSheet]
-[Gunsaw]	[TMPro.TextMeshProUGUI]
-[OBSERVED]	[NewMusicManager]
-[Reload!]	[TMPro.TextMeshProUGUI]
-AAAAHHH!!	[Chatter~raw]
-AAAHHHHGGG!!!	[Chatter~raw]
-Aaahhhhn!	[Chatter~raw]
-Aahhhg!	[Chatter~raw]
-Aahhhhh!	[Chatter~raw]
-AAHHHHHHHH!!	[Chatter~raw]
-Achievements	[TMPro.TextMeshProUGUI]
-Acid	[LevelPartGame]
-Acidic	[TMPro.TMP_FontAsset]
-Action	[LevelPartGame]
-Action!	[Chatter~raw]
-actualLevel1	[MissionSelect]
-Additive	[UnityEngine.Experimental.Rendering.Universal.Renderer2DData]
-ae629acb44dedaa4092e1fc067ac7940	[TMPro.TMP_FontAsset]
-af9e3cf36fd34b44e89264daa97e9efc	[TMPro.TMP_FontAsset]
-Agent471	[MusicClip]
-Aghh!	[Chatter~raw]
-Ah!	[Chatter~raw]
-Ahh!	[Chatter~raw]
-AHH!	[Chatter~raw]
-Ahhhg!	[Chatter~raw]
-Ahhhgg!	[Chatter~raw]
-Ahhhhggnn!	[Chatter~raw]
-Ahhhn!	[Chatter~raw]
-AK47	[WeaponPreset]
-Ambience	[MusicClip]
-Ammo	[LevelPartGame]
-Amusing!	[Chatter~raw]
-Anima	[MusicClip]
-ANOMALY	[Chatter~raw]
-Argh!	[Chatter~raw]
-ARGH!	[Chatter~raw]
-Armed	[LevelPartGame]
-Asphalt	[LevelPartGame]
-Attack!	[Chatter~raw]
-Audio	[TMPro.TextMeshProUGUI]
-AUG	[WeaponPreset]
-AutoReloadToggled	[UnityEngine.UI.Toggle]
-Auuhh!	[Chatter~raw]
-Auuhhg!	[Chatter~raw]
-b-bad...	[Chatter~raw]
-B.F.G.	[MusicClip]
-Background	[LevelPartGame,TMPro.TextMeshProUGUI]
-BackToEditor	[UnityEngine.UI.Button]
-BackToMenu	[UnityEngine.UI.Button]
-Bad!	[GameManager~raw]
-badguy	[BodyScript]
-badguys	[BodyScript,DroneScript,LevelPartGame,SpecialTrigger]
-Banshee	[WeaponPreset]
-Baron	[LevelPartGame,MainMenuManager]
-baron	[BodyScript]
-base	[BodyScript]
-bddeb7f85511c6c439550d38a7e03572	[TMPro.TMP_FontAsset]
-beautyLevel	[MissionSelect]
-BeQuickOrBeDead	[MusicClip]
-bf750a9b8490318438cbf75f2e267e14	[TMPro.TMP_FontAsset]
-BFG	[MusicClip]
-BigRifle	[WeaponPreset]
-BindObject	[UnityEngine.UI.Button]
-BitField	[UnityEngine.UI.Text]
-BlackRainbow	[MusicClip]
-Bleed...	[Chatter~raw]
-BloodChanged	[UnityEngine.UI.Slider]
-Bloom	[TMPro.TextMeshProUGUI,UnityEngine.Rendering.Universal.Bloom]
-BloomToggled	[UnityEngine.UI.Toggle]
-Bruh.	[GameManager~raw]
-BrutalModeToggled	[UnityEngine.UI.Toggle]
-Building/Acid	[LevelPartGame]
-Building/Asphalt	[LevelPartGame]
-Building/Background/BACKExitSign	[LevelPartGame]
-Building/Background/BACKGirder	[LevelPartGame]
-Building/Background/BACKLocker	[LevelPartGame]
-Building/Background/BACKPaperNote	[LevelPartGame]
-Building/Background/BACKPipe	[LevelPartGame]
-Building/Background/BACKPipeStraight	[LevelPartGame]
-Building/Background/BACKRoofVent	[LevelPartGame]
-Building/Background/BACKVent	[LevelPartGame]
-Building/Background/BACKWallScript	[LevelPartGame]
-Building/Background/Grass	[LevelPartGame]
-Building/Background/GrassSnow	[LevelPartGame]
-Building/Button	[LevelPartGame]
-Building/CamFinishPoint	[LevelPartGame]
-Building/ChainlinkFence	[LevelPartGame]
-Building/ColorLamp	[LevelPartGame]
-Building/Crate	[LevelPartGame]
-Building/DistortionZone	[LevelPartGame]
-Building/Drone	[LevelPartGame]
-Building/EditorWepSpawn	[LevelPartGame]
-Building/ExitSign	[LevelPartGame]
-Building/ExplodingBarrel	[LevelPartGame]
-Building/GoKart	[LevelPartGame]
-Building/GolfCart	[LevelPartGame]
-Building/GroundPoint	[LevelPartGame]
-Building/HotPlate	[LevelPartGame]
-Building/Ice	[LevelPartGame]
-Building/Incinerator	[LevelPartGame]
-Building/InfoScreen	[LevelPartGame]
-Building/Ladder	[LevelPartGame]
-Building/LadderAlt	[LevelPartGame]
-Building/Lamp	[LevelPartGame]
-Building/MakeFollower	[LevelPartGame]
-Building/MetalCrate	[LevelPartGame]
-Building/MilitaryCrate	[LevelPartGame]
-Building/MovingBackground	[LevelPartGame]
-Building/MovingBelt	[LevelPartGame]
-Building/MovingDoor	[LevelPartGame]
-Building/MovingDoorSecret	[LevelPartGame]
-Building/MovingDoorWarn	[LevelPartGame]
-Building/NoNoZone	[LevelPartGame]
-Building/OneWayPlatform	[LevelPartGame]
-Building/Pallet	[LevelPartGame]
-Building/PlayerSpawn	[LevelPartGame]
-Building/SafetyRailing	[LevelPartGame]
-Building/Saw	[LevelPartGame]
-Building/SmallCrate	[LevelPartGame]
-Building/SmallCrateSpawner	[LevelPartGame]
-Building/SteelBarrel	[LevelPartGame]
-Building/Triggers/ActivateZone	[LevelPartGame]
-Building/Triggers/DeathZone	[LevelPartGame]
-Building/Triggers/DelayTrigger	[LevelPartGame]
-Building/Triggers/DoorPosChanger	[LevelPartGame]
-Building/Triggers/FogChanger	[LevelPartGame]
-Building/Triggers/GravityTrigger	[LevelPartGame]
-Building/Triggers/OxygenlessZone	[LevelPartGame]
-Building/Triggers/PushZone	[LevelPartGame]
-Building/Triggers/RainChanger	[LevelPartGame]
-Building/Triggers/SnowChanger	[LevelPartGame]
-Building/Triggers/Snowifier	[LevelPartGame]
-Building/Triggers/SpecialTrigger	[LevelPartGame]
-Building/Triggers/TeleportZone	[LevelPartGame]
-Building/Triggers/TimedTrigger	[LevelPartGame]
-Building/TurnAround	[LevelPartGame]
-Building/Water	[LevelPartGame]
-Building/WepChanger	[LevelPartGame]
-Building/WheelPallet	[LevelPartGame]
-Building/WhiteTile	[LevelPartGame]
-Building/WhiteTileBackground	[LevelPartGame]
-Building/WhiteTileSnow	[LevelPartGame]
-Button	[LevelPartGame,UnityEngine.UI.Text]
-ButtonPressed	[UnityEngine.UI.Button]
-C'mere!	[Chatter~raw]
-C1	[TMPro.TMP_StyleSheet]
-C2	[TMPro.TMP_StyleSheet]
-C3	[TMPro.TMP_StyleSheet]
-CameraToggled	[UnityEngine.UI.Toggle]
-campaign10	[MissionSelect]
-campaign11	[MissionSelect]
-campaign12	[MissionSelect]
-campaign13	[MissionSelect]
-campaign14	[MissionSelect]
-campaign3	[MissionSelect]
-campaign4	[MissionSelect]
-campaign5	[MissionSelect]
-campaign6	[MissionSelect]
-campaign7	[MissionSelect]
-campaign8	[MissionSelect]
-campaign9	[MissionSelect]
-Cancel	[TMPro.TextMeshProUGUI,UnityEngine.EventSystems.StandaloneInputModule]
-Canndc	[TMPro.TextMeshProUGUI]
-Carbine	[WeaponPreset]
-Carver\nBaron\nAvelyn\nCrystal\nAngler\nG4-A	[TMPro.TextMeshProUGUI]
-Casualty	[MusicClip]
-CEASE	[Chatter~raw]
-Character	[TMPro.TextMeshProUGUI]
-CHARACTER\nSELECT	[TMPro.TextMeshProUGUI]
-Cheater!	[GameManager~raw]
-Chik	[LevelPartGame,MainMenuManager]
-chik	[BodyScript]
-Chloe	[TMPro.TMP_FontAsset]
-Chompy	[LevelPartGame,MainMenuManager]
-chompy	[BodyScript]
-ChromaticAberration	[UnityEngine.Rendering.Universal.ChromaticAberration]
-ChromeSkull	[MusicClip]
-Clear\nall	[TMPro.TextMeshProUGUI]
-ClearAll	[UnityEngine.UI.Button]
-Clever...	[Chatter~raw]
-Climb	[BodyScript]
-Close	[TMPro.TextMeshProUGUI,UnityEngine.UI.Button]
-Cmon!	[Chatter~raw]
-Color	[UnityEngine.UI.Text]
-ColorAdjustments	[UnityEngine.Rendering.Universal.ColorAdjustments]
-COMBAT	[Chatter~raw]
-Controls	[TMPro.TextMeshProUGUI]
-CopyToClipboard	[UnityEngine.UI.Button]
-Covenant	[MusicClip]
-Coward.	[GameManager~raw]
-Craipe!	[Chatter~raw]
-CRAP	[Chatter~raw]
-Crap!	[Chatter~raw]
-CRAP!	[Chatter~raw]
-Crap.	[Chatter~raw,ErrorDetector~raw]
-Crap...	[Chatter~raw]
-CrashSite	[MusicClip]
-Crawling	[MusicClip]
-CREATURES	[TMPro.TextMeshPro]
-Credits	[TMPro.TextMeshProUGUI]
-CRITICAL	[Chatter~raw]
-Crosshair	[TMPro.TextMeshProUGUI]
-CrossHueChanged	[UnityEngine.UI.Slider]
-CrossSatChanged	[UnityEngine.UI.Slider]
-CrossSizeChanged	[UnityEngine.UI.Slider]
-Crumbs.	[Chatter~raw]
-crystal	[BodyScript]
-Crystal	[LevelPartGame,MainMenuManager]
-Damn!	[Chatter~raw]
-Damnit..	[Chatter~raw]
-Darn...	[Chatter~raw]
-DeathHasComeToYourSleepyTown	[MusicClip]
-Decorations	[UnityEngine.UI.Button]
-Delete	[TMPro.TextMeshProUGUI]
-DeleteObject	[UnityEngine.UI.Button]
-DepthOfField	[UnityEngine.Rendering.Universal.DepthOfField]
-Derringer	[WeaponPreset]
-Desaturation	[TMPro.TextMeshProUGUI]
-DIE	[Chatter~raw]
-Die!	[Chatter~raw]
-DimensionShifter	[MusicClip]
-Disabled	[TMPro.TMP_InputField,UnityEngine.Rendering.UI.UIFoldout,UnityEngine.UI.Button,UnityEngine.UI.Scrollbar,UnityEngine.UI.Slider,UnityEngine.UI.Toggle]
-Dissapointing.	[GameManager~raw]
-Distance	[LevelPartGame]
-DistortVolume	[UnityEngine.Rendering.VolumeProfile]
-Door	[LevelPartGame]
-Downdrops	[MissionSelect]
-Drat!	[Chatter~raw]
-Dude!	[Chatter~raw]
-dune	[BodyScript]
-Dune	[LevelPartGame,MainMenuManager]
-Dust	[MusicClip]
-e04b6bb5ef862ec42bc7c7bc3b6059de	[TMPro.TMP_FontAsset]
-e3265ab4bf004d28a9537516768c1c75	[TMPro.TMP_FontAsset]
-Eepy...	[Chatter~raw]
-Ehuhuhu!	[Chatter~raw]
-EmojiOne	[TMPro.TMP_SpriteAsset]
-END	[Chatter~raw]
-Enemies	[UnityEngine.UI.Button]
-Enemies/AlbinoEnemy	[LevelPartGame]
-Enemies/BaronEnemy	[LevelPartGame,MainMenuManager]
-Enemies/BaseEnemy	[LevelPartGame,MainMenuManager]
-Enemies/ChikEnemy	[LevelPartGame,MainMenuManager]
-Enemies/ChompyEnemy	[LevelPartGame,MainMenuManager]
-Enemies/CrystalEnemy	[LevelPartGame,MainMenuManager]
-Enemies/DuneEnemy	[LevelPartGame,MainMenuManager]
-Enemies/IckeEnemy	[LevelPartGame,MainMenuManager]
-Enemies/LeapyEnemy	[LevelPartGame,MainMenuManager]
-Enemies/MilkyEnemy	[LevelPartGame,MainMenuManager]
-Enemies/OrangeEnemy	[LevelPartGame,MainMenuManager]
-Enemies/RobotEnemy	[LevelPartGame]
-Enemies/RozaEnemy	[LevelPartGame,MainMenuManager]
-Enemies/ShellyEnemy	[LevelPartGame,MainMenuManager]
-Enemies/VelvetEnemy	[LevelPartGame,MainMenuManager]
-Enemies/VoyagerEnemy	[LevelPartGame,MainMenuManager]
-ENEMY	[Chatter~raw]
-Enemy!	[Chatter~raw]
-Engaging.	[Chatter~raw]
-Enough!	[Chatter~raw]
-Enough!...	[Chatter~raw]
-Enough...	[Chatter~raw]
-EnterCharacterSelect	[UnityEngine.UI.Button]
-EnterCredits	[UnityEngine.UI.Button]
-EnterLevelSelect	[UnityEngine.UI.Button]
-EnterSettings	[UnityEngine.UI.Button]
-EnterTitle	[UnityEngine.UI.Button]
-Erges	[MusicClip]
-Error	[ErrorDetector~raw]
-ExitGame	[UnityEngine.UI.Button]
-Experiment	[LevelPartGame,MainMenuManager,TMPro.TextMeshProUGUI]
-experiment	[BodyScript]
-Experiment\nOrange\nMilky\nLeapy\nChompy\nRoza\nVelvet	[TMPro.TextMeshProUGUI]
-f7678a2c17b315741a925a196a378732	[TMPro.TMP_FontAsset]
-FAMAS	[WeaponPreset]
-fartballs	[ErrorDetector~raw]
-FFFFFFFFFFUHHH!	[Chatter~raw]
-FIGHT	[Chatter~raw]
-FilmGrain	[UnityEngine.Rendering.Universal.FilmGrain]
-FilmToggled	[UnityEngine.UI.Toggle]
-Fire	[TMPro.TextMeshProUGUI]
-Fists	[WeaponPreset]
-Foldout	[UnityEngine.UI.Text]
-Fool!	[Chatter~raw]
-Foolish!	[Chatter~raw]
-Force	[TMPro.TextMeshProUGUI]
-Formidable.	[Chatter~raw]
-Frozen	[LevelPartGame]
-FullscreenToggled	[UnityEngine.UI.Toggle]
-Fuuuhh...	[Chatter~raw]
-G36C	[WeaponPreset]
-G4-A	[LevelPartGame]
-g4a	[BodyScript]
-Gaaahhhhh!	[Chatter~raw]
-Gaahhhhg!	[Chatter~raw]
-Gah!	[Chatter~raw]
-Gahhh!	[Chatter~raw]
-Gahhhn!	[Chatter~raw]
-Game	[TMPro.TextMeshProUGUI]
-Gameplay	[TMPro.TextMeshProUGUI]
-Garand	[EnemyWeaponChanger,LevelPartGame,WeaponPreset]
-GARBAGE	[TMPro.TextMeshPro]
-GARBAGE\nDROPOFF	[TMPro.TextMeshPro]
-Gauuhhhggnn!!!	[Chatter~raw]
-gay	[TMPro.TextMeshPro]
-Gelatik	[TMPro.TMP_FontAsset]
-GetOut	[MusicClip]
-Gh...	[Chatter~raw]
-Ghaahhhhh!	[Chatter~raw]
-Ghosts	[MusicClip]
-Girder	[LevelPartGame]
-Glock	[WeaponPreset]
-Go-Kart	[LevelPartGame,VehicleBase]
-God...	[Chatter~raw]
-Golly...	[Chatter~raw]
-Goodbye...	[Chatter~raw]
-goodguys	[ActivateZoneScript,BodyScript,LevelPartGame,SpecialTrigger,TMPro.TMP_InputField]
-goodguys​	[TMPro.TextMeshProUGUI]
-Gored<color=#00FFFF>+50	[TMPro.TextMeshProUGUI]
-Gotcha!	[Chatter~raw]
-Governor	[WeaponPreset]
-GRAAHHH!!	[Chatter~raw]
-Graahhhggg!	[Chatter~raw]
-Grah!	[Chatter~raw]
-GRAHHHGH!!!	[Chatter~raw]
-Grass	[LevelPartGame]
-GravelProfile	[UnityEngine.U2D.SpriteShape]
-Gravity	[LevelPartGame]
-GrenadeLauncher	[WeaponPreset]
-Grrnnhhhgg!	[Chatter~raw]
-Grrr!	[ErrorDetector~raw]
-Grrrrrh...	[Chatter~raw]
-Gruh!	[Chatter~raw]
-Guhhhghhh!	[Chatter~raw]
-GUUHUHHGHGGN!!!	[Chatter~raw]
-H1	[TMPro.TMP_StyleSheet]
-H2	[TMPro.TMP_StyleSheet]
-H3	[TMPro.TMP_StyleSheet]
-Hah!	[Chatter~raw]
-Halt!	[Chatter~raw]
-Headache...	[Chatter~raw]
-HeavyRevolver	[WeaponPreset]
-Hello!	[GameManager~raw]
-Help...	[Chatter~raw]
-Hey!	[Chatter~raw,GameManager~raw,TMPro.TextMeshProUGUI]
-HEY!	[Chatter~raw]
-HHHIIIISSSSSSS!!!	[Chatter~raw]
-hi	[GameManager~raw,TMPro.TextMeshPro]
-Highlighted	[TMPro.TMP_InputField,UnityEngine.Rendering.UI.UIFoldout,UnityEngine.UI.Button,UnityEngine.UI.Scrollbar,UnityEngine.UI.Slider,UnityEngine.UI.Toggle]
-HighPipeline	[UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset]
-HighRender	[UnityEngine.Experimental.Rendering.Universal.Renderer2DData]
-Hisshshhhh!	[Chatter~raw]
-Hissss!	[Chatter~raw]
-Hisssss!...	[Chatter~raw]
-Hissssss!	[Chatter~raw]
-Hisssssss...	[Chatter~raw]
-Hm?...	[Chatter~raw]
-Hmmm?...	[Chatter~raw]
-Hmph!...	[Chatter~raw]
-Hngh....	[Chatter~raw]
-Horizontal	[UnityEngine.EventSystems.StandaloneInputModule]
-Hostile!	[Chatter~raw]
-HOW!?	[Chatter~raw]
-Hrhhng...	[Chatter~raw]
-HRRNGH!	[Chatter~raw]
-Hrrnng!	[Chatter~raw]
-Hrrnnhh!	[Chatter~raw]
-Hrrnnhnhhng...	[Chatter~raw]
-Hue	[TMPro.TextMeshProUGUI]
-Huh...	[Chatter~raw]
-Huh?	[Chatter~raw]
-Huh?!	[Chatter~raw]
-Huurrnnn...	[Chatter~raw]
-Ice	[LevelPartGame]
-icke	[BodyScript]
-Icke	[LevelPartGame,MainMenuManager]
-Icke\nShelly	[TMPro.TextMeshProUGUI]
-ID	[TMPro.TextMeshProUGUI]
-Identifying...	[Chatter~raw]
-Identity	[MusicClip]
-Idiot!	[Chatter~raw]
-Impossible!	[Chatter~raw]
-Impossible...	[Chatter~raw]
-Impressive...	[Chatter~raw]
-Inadequate!	[Chatter~raw]
-Inadequate...	[Chatter~raw]
-Incinerator	[LevelPartGame]
-Indestructible	[LevelPartGame]
-IndustrialTileProfile	[UnityEngine.U2D.SpriteShape]
-Intensity	[TMPro.TextMeshProUGUI]
-InterdimensionalHorrors	[MusicClip]
-Interpolation	[TMPro.TextMeshProUGUI]
-InterpToggled	[UnityEngine.UI.Toggle]
-Intruder!	[Chatter~raw]
-Intruder...	[Chatter~raw]
-INVESTIGATING	[Chatter~raw]
-Investigating...	[Chatter~raw]
-Jeepers...	[Chatter~raw]
-Jeez.	[Chatter~raw]
-Jump	[TMPro.TextMeshProUGUI]
-Katana	[MusicClip]
-KeyPromptsToggled	[UnityEngine.UI.Toggle]
-Kick	[TMPro.TextMeshProUGUI]
-KrisVector	[WeaponPreset]
-Krkrkrkrkrkrr...	[Chatter~raw]
-Krrk...	[Chatter~raw]
-Krrrk...	[Chatter~raw]
-Ksshhh...	[Chatter~raw]
-Kyaahhg!	[Chatter~raw]
-Lamp	[LevelPartGame]
-LastStop	[MusicClip]
-Lazy!!!	[GameManager~raw]
-leapy	[BodyScript]
-Leapy	[LevelPartGame,MainMenuManager]
-LeavingEarth	[MusicClip]
-LensDistortion	[UnityEngine.Rendering.Universal.LensDistortion]
-Level\nsettings	[TMPro.TextMeshProUGUI]
-Levitate	[TMPro.TextMeshProUGUI]
-Lighting	[TMPro.TextMeshProUGUI]
-LightingToggled	[UnityEngine.UI.Toggle]
-Link	[TMPro.TMP_StyleSheet]
-LoadDistChanged	[UnityEngine.UI.Slider]
-LoadFromClipboard	[UnityEngine.UI.Button]
-Loading!	[Chatter~raw]
-Locker	[LevelPartGame]
-Loser!	[Chatter~raw]
-LowPipeline	[UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset]
-LowRender	[UnityEngine.Experimental.Rendering.Universal.Renderer2DData]
-m%	[GameManager~raw]
-M16	[WeaponPreset]
-M1918	[WeaponPreset]
-MADDeagle	[WeaponPreset]
-Magnum	[WeaponPreset]
-MainMenu	[UnityEngine.UI.Button]
-MasterVolumeChanged	[UnityEngine.UI.Slider]
-MazeRunner	[MusicClip]
-MEAN	[Chatter~raw]
-Meanie!	[Chatter~raw]
-Meanie...	[Chatter~raw]
-MEDICCC!!!	[Chatter~raw]
-Milky	[LevelPartGame,MainMenuManager]
-milky	[BodyScript]
-Miscellaneous	[UnityEngine.UI.Button]
-More...	[Chatter~raw]
-MoreHumanThanHuman	[MusicClip]
-MOVE!	[Chatter~raw]
-MoveLeft	[UnityEngine.UI.Button]
-MP5	[WeaponPreset]
-MP7	[WeaponPreset]
-Multiply	[UnityEngine.Experimental.Rendering.Universal.Renderer2DData]
-Murderer	[TMPro.TextMeshProUGUI]
-MUSHROOM!	[Chatter~raw]
-Music	[TMPro.TextMeshProUGUI]
-MusicVolumeChanged	[UnityEngine.UI.Slider]
-N-nope...	[Chatter~raw]
-Nah	[TMPro.TextMeshProUGUI]
-NAHHHHGG!!!	[Chatter~raw]
-Nevermind.	[Chatter~raw]
-NewBeginnings	[MusicClip]
-no	[TMPro.TextMeshPro]
-NO!	[Chatter~raw]
-No!	[Chatter~raw]
-NO!!	[Chatter~raw]
-No.	[TMPro.TextMeshPro]
-No...	[Chatter~raw]
-Noo!	[Chatter~raw]
-Nooo!...	[Chatter~raw]
-NOOOOO!	[Chatter~raw]
-Noooooo...!	[Chatter~raw]
-NOOOOOOHH!!!	[Chatter~raw]
-Normal	[TMPro.TMP_FontAsset,TMPro.TMP_InputField,TMPro.TMP_StyleSheet,UnityEngine.Rendering.UI.UIFoldout,UnityEngine.UI.Button,UnityEngine.UI.Scrollbar,UnityEngine.UI.Slider,UnityEngine.UI.Toggle]
-Now...	[Chatter~raw]
-O-ow...	[Chatter~raw]
-O-Ren	[MusicClip]
-Obstacles	[UnityEngine.UI.Button]
-Oh...	[Chatter~raw]
-Ohh...	[Chatter~raw]
-Ohhhh...	[Chatter~raw]
-Okay...	[Chatter~raw]
-Oops...	[Chatter~raw]
-Oopsies!	[ErrorDetector~raw]
-Operator	[WeaponPreset]
-Orange	[LevelPartGame,MainMenuManager]
-orange	[BodyScript]
-Oren	[MusicClip]
-Orsoniks	[TMPro.TextMeshProUGUI]
-OUCH	[Chatter~raw]
-OUCH!	[Chatter~raw]
-Ouch!	[ErrorDetector~raw]
-Ouch...	[Chatter~raw]
-OUUCH!!	[Chatter~raw]
-OW!	[Chatter~raw]
-Ow...	[Chatter~raw]
-Owch!	[Chatter~raw]
-Oww!...	[Chatter~raw]
-P90	[WeaponPreset]
-Pallet	[LevelPartGame]
-Pansy...	[Chatter~raw]
-Papasha	[WeaponPreset]
-Pathetic.	[Chatter~raw]
-Paused	[GameManager~raw]
-PbAmbience	[MusicClip]
-PDW	[WeaponPreset]
-Perfect!...	[Chatter~raw]
-Perfect...	[Chatter~raw]
-PERPETRATOR	[Chatter~raw]
-Pistol	[TMPro.TextMeshProUGUI,WeaponPreset]
-Pistol\nadwewe	[TMPro.TextMeshProUGUI]
-PixelOperator	[TMPro.TMP_FontAsset]
-PixelOperatorOutline	[TMPro.TMP_FontAsset]
-Play	[TMPro.TextMeshProUGUI]
-PlayTest	[UnityEngine.UI.Button]
-Please...	[Chatter~raw]
-Position	[LevelPartGame,TMPro.TextMeshProUGUI]
-PostProcessData	[UnityEngine.Rendering.Universal.PostProcessData]
-PPSH	[WeaponPreset]
-Pray!	[Chatter~raw]
-Pressed	[TMPro.TMP_InputField,UnityEngine.Rendering.UI.UIFoldout,UnityEngine.UI.Button,UnityEngine.UI.Scrollbar,UnityEngine.UI.Slider,UnityEngine.UI.Toggle]
-Prey...	[Chatter~raw]
-PRICK!!!	[Chatter~raw]
-PROBLEM	[Chatter~raw]
-Prototype	[WeaponPreset]
-Puncture	[MusicClip]
-PUSH	[Chatter~raw]
-Push!	[Chatter~raw]
-Quick...	[Chatter~raw]
-Quit	[TMPro.TextMeshProUGUI]
-Quote	[TMPro.TMP_StyleSheet]
-Ragdoll	[TMPro.TextMeshProUGUI]
-Rank	[TMPro.TextMeshProUGUI]
-READY	[Chatter~raw]
-Really?	[Chatter~raw]
-REFRESHING	[Chatter~raw]
-Regular	[TMPro.TMP_FontAsset]
-Reload	[TMPro.TextMeshProUGUI]
-Reload...	[Chatter~raw]
-RELOADING	[Chatter~raw]
-Reloading!	[Chatter~raw]
-Reloading...	[Chatter~raw]
-Requesting.	[Chatter~raw]
-ResetBinds	[UnityEngine.UI.Button]
-ResetProgress	[UnityEngine.UI.Button]
-respawn-pro	[TMPro.TMP_FontAsset]
-Restart	[TMPro.TextMeshProUGUI,UnityEngine.UI.Button]
-Revolver	[WeaponPreset]
-Rooftops	[MissionSelect]
-Rotation	[TMPro.TextMeshProUGUI]
-Roza	[LevelPartGame,MainMenuManager,TMPro.TMP_FontAsset]
-roza	[BodyScript]
-RPG	[WeaponPreset]
-Sacrifice	[MusicClip]
-Saiga	[WeaponPreset]
-SampleScene	[MissionSelect]
-Sansation	[TMPro.TMP_FontAsset]
-Sansation_Regular	[TMPro.TMP_FontAsset]
-Saturation	[TMPro.TextMeshProUGUI]
-SaturationToggled	[UnityEngine.UI.Toggle]
-SaveLevel	[UnityEngine.UI.Button]
-Sawblade	[LevelPartGame]
-SawedOff	[WeaponPreset]
-ScEnHueChanged	[UnityEngine.UI.Slider]
-ScEnSatChanged	[UnityEngine.UI.Slider]
-ScEnValChanged	[UnityEngine.UI.Slider]
-ScrollToggled	[UnityEngine.UI.Toggle]
-ScStHueChanged	[UnityEngine.UI.Slider]
-ScStSatChanged	[UnityEngine.UI.Slider]
-ScStValChanged	[UnityEngine.UI.Slider]
-SeasonalToggled	[UnityEngine.UI.Toggle]
-Selected	[TMPro.TMP_InputField,UnityEngine.UI.Button,UnityEngine.UI.Scrollbar,UnityEngine.UI.Slider,UnityEngine.UI.Toggle]
-SelectMode	[UnityEngine.UI.Button]
-set_text	[UnityEngine.UI.Button]
-SetActive	[UnityEngine.UI.Button]
-Settings	[GameManager~raw,TMPro.TextMeshProUGUI]
-shelly	[BodyScript]
-Shelly	[LevelPartGame,MainMenuManager]
-Shotgun	[WeaponPreset]
-Showtime!	[Chatter~raw]
-Silent-er!	[Chatter~raw]
-SimpleMusicToggled	[UnityEngine.UI.Toggle]
-Size	[TMPro.TextMeshProUGUI]
-Skorpion	[WeaponPreset]
-SliderUpdated	[UnityEngine.UI.Slider,UnityEngine.UI.Toggle]
-SlowmoToggled	[UnityEngine.UI.Toggle]
-SMG	[WeaponPreset]
-SMGun	[WeaponPreset]
-Sniper	[WeaponPreset]
-Snowifier	[LevelPartGame]
-SnowProfile	[UnityEngine.U2D.SpriteShape]
-SnubNose	[WeaponPreset]
-Soma	[MusicClip]
-Someone...	[Chatter~raw]
-Sorry.	[ErrorDetector~raw]
-SpaceSpecial	[UnityEngine.Rendering.VolumeProfile]
-Spawnables/HalfPallet	[LevelPartGame]
-Speed	[LevelPartGame]
-SplitToning	[UnityEngine.Rendering.Universal.SplitToning]
-Spotted.	[Chatter~raw]
-SR25	[WeaponPreset]
-Sten	[WeaponPreset]
-STG	[WeaponPreset]
-Stinky...	[ErrorDetector~raw]
-STOP	[Chatter~raw]
-Stop!	[Chatter~raw]
-STOP!!!	[Chatter~raw]
-StrandedOnEuropa	[MusicClip]
-Strange...	[Chatter~raw]
-Submit	[UnityEngine.EventSystems.StandaloneInputModule]
-Switching!	[Chatter~raw]
-SwitchWallMode	[UnityEngine.UI.Button]
-Tch...	[Chatter~raw]
-Team	[TMPro.TextMeshProUGUI]
-Telepos	[LevelPartGame]
-TEST	[UnityEngine.UI.Text]
-TestClimb	[BodyScript]
-TestGun	[WeaponPreset]
-TheChase	[MusicClip]
-TheDisciple	[MusicClip]
-TheEngineer	[MusicClip]
-TheFinalChapter	[MusicClip]
-TheGuardian	[MusicClip]
-ThePossesedOne	[MusicClip]
-TheRealon3	[TMPro.TextMeshProUGUI]
-TheUltimateDrug	[MusicClip]
-TheWait	[MusicClip]
-TheWatcher	[MusicClip]
-Tile	[LevelPartGame,TMPro.TextMeshProUGUI]
-TinnitusVolumeChanged	[UnityEngine.UI.Slider]
-Title	[TMPro.TMP_StyleSheet]
-ToggleLighting	[UnityEngine.UI.Button]
-ToLevelEditor	[UnityEngine.UI.Button]
-TommyGun	[WeaponPreset]
-Tonemapping	[TMPro.TextMeshProUGUI,UnityEngine.Rendering.Universal.Tonemapping]
-ToneToggled	[UnityEngine.UI.Toggle]
-TOUGH	[Chatter~raw]
-Triggers	[UnityEngine.UI.Button]
-TurboCop	[MusicClip]
-tutorial1	[MissionSelect]
-Uh-oh.	[Chatter~raw]
-Unarmed	[TMPro.TextMeshProUGUI,WeaponPreset]
-UnderBlurToggled	[UnityEngine.UI.Toggle]
-UNFAIR	[Chatter~raw]
-UnPause	[UnityEngine.UI.Button]
-UpdatePart	[TMPro.TMP_InputField]
-Use	[TMPro.TextMeshProUGUI]
-Useless!	[Chatter~raw]
-Useless.	[ErrorDetector~raw]
-Useless...	[Chatter~raw]
-V-Sync	[TMPro.TextMeshProUGUI]
-Value	[TMPro.TextMeshProUGUI]
-Vector2	[UnityEngine.UI.Text]
-Vector4	[UnityEngine.UI.Text]
-Velvet	[LevelPartGame,MainMenuManager]
-velvet	[BodyScript]
-Vent	[LevelPartGame]
-Vertical	[UnityEngine.EventSystems.StandaloneInputModule]
-Victor	[TMPro.TMP_FontAsset]
-Video	[TMPro.TextMeshProUGUI]
-Vignette	[UnityEngine.Rendering.Universal.Vignette]
-Violence	[MusicClip]
-Vitya	[WeaponPreset]
-Vityaz	[WeaponPreset]
-VoidGaze	[MusicClip]
-Voyager	[LevelPartGame,MainMenuManager]
-voyager	[BodyScript]
-VSyncToggled	[UnityEngine.UI.Toggle]
-Wait!	[Chatter~raw]
-Waiting.	[GameManager~raw]
-Walk/drop/spit	[TMPro.TextMeshProUGUI]
-Water	[LevelPartGame]
-WBA|Soma	[TMPro.TextMeshProUGUI]
-Weak.	[Chatter~raw]
-WEAKLING	[Chatter~raw]
-Weapon	[LevelPartGame]
-WeatherToggled	[UnityEngine.UI.Toggle]
-Welcome!	[TMPro.TextMeshProUGUI]
-What's...	[Chatter~raw]
-What?!	[ErrorDetector~raw]
-WhinesToggled	[UnityEngine.UI.Toggle]
-WhiteBalance	[UnityEngine.Rendering.Universal.WhiteBalance]
-Whoops!	[ErrorDetector~raw]
-Windowed/Borderless	[TMPro.TextMeshProUGUI]
-WithinTheShadows	[MusicClip]
-XCrossToggled	[UnityEngine.UI.Toggle]
-Yeouch!!!	[Chatter~raw]
-You!	[Chatter~raw]
-YOU??	[Chatter~raw]
-Zigzag	[MissionSelect]
-{"lightIntensity":1.0,"lightColor":{"r":1.0,"g":0.0,"b":0.0,"a":0.0},"hasBackground":true,"parts":[{"pos":{"x":-2.75,"y":-2.5},"rot":0.0,"path":"Building/WhiteTile","id":0,"activId":0,"team":"","size":{"x":2.0,"y":2.0}},{"pos":{"x":-0.5,"y":-2.5},"rot":0.0,"path":"Building/WhiteTile","id":0,"activId":0,"team":"","size":{"x":2.0,"y":2.0}},{"pos":{"x":2.25,"y":0.0},"rot":15.000009536743164,"path":"Building/WhiteTile","id":0,"activId":0,"team":"","size":{"x":2.0,"y":2.0}},{"pos":{"x":2.25,"y":-2.25},"rot":0.0,"path":"Building/WhiteTile","id":0,"activId":0,"team":"","size":{"x":2.0,"y":2.0}}]}	[LevelLoader]

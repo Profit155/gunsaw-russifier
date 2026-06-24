@@ -54,7 +54,7 @@ DICTS = {
  },
 }
 
-# Догружаем секции из tools/names_data/<section>.json (генерит gen_names_from_workflow.py).
+# Догружаем секции из tools/names_data/<section>.json (генерит gen_names.py).
 # Файлы с ведущим '_' — служебные (не словари секций).
 import json, glob
 _DATADIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'names_data')

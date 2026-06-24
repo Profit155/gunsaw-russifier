@@ -71,7 +71,7 @@ namespace GunsawRusFonts
 
         /// <summary>
         /// Unity's FreeType returns garbage advances for a few glyphs of some fonts.
-        /// Re-apply reference metrics emitted from the ttf (см. emit_metrics.py).
+        /// Re-apply reference metrics emitted from the ttf.
         /// </summary>
         public static int ApplyReferenceMetrics(TMP_FontAsset fa, string metricsPath)
         {

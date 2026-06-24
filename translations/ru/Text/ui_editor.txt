@@ -1,4 +1,4 @@
-// Объекты и описания редактора уровней Gunsaw (workflow Opus). Стиль: функциональный, без em-dash.
+// Объекты и описания редактора уровней Gunsaw. Стиль: функциональный, без em-dash.
 
 A moving background tile. Moves when its ID gets activated. Set the target pos to your desired position=Подвижный фоновый тайл. Двигается, когда активируется его ID. Задайте целевую позицию в нужную точку
 A moving tile. Moves when its ID gets activated. Set the target pos to your desired position=Подвижный тайл. Двигается, когда активируется его ID. Задайте целевую позицию в нужную точку

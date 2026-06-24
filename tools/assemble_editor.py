@@ -36,7 +36,7 @@ for r in records:
         emdash.append((key, ru))
     pairs.append((key, ru))
 
-lines = ["// Объекты и описания редактора уровней Gunsaw (workflow Opus). Стиль: функциональный, без em-dash."]
+lines = ["// Объекты и описания редактора уровней Gunsaw. Стиль: функциональный, без em-dash."]
 lines.append("")
 for key, ru in pairs:
     lines.append(key + "=" + ru)

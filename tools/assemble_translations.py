@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Собирает результаты workflow (docs/wf_out/out_*.json) в финальные файлы перевода.
+"""Собирает промежуточные результаты перевода в финальные файлы.
 - translate -> BepInEx/Translation/ru/Text/ui_game.txt (секции по тегу-источнику)
 - doubtful  -> docs/translation_review.txt (на проверку человеком)
 - skip      -> только счётчики
@@ -169,7 +169,7 @@ def segment_pairs(eng, rus):
 def detag(s):
     return re.sub(r'[ \t]{2,}', ' ', re.sub(r'<[^>]*>', '', s))
 
-lines = ["// Авто-перевод текста игры (workflow Opus). Сомнительное вынесено в docs/translation_review.txt.",
+lines = ["// Авто-перевод текста игры. Сомнительное вынесено в docs/translation_review.txt.",
          "// Ключи-главы (ведущий //) -> regex. Tagged-строки (<color=...>) РАЗБИТЫ на текст-фрагменты",
          "// между тегами (XUnity переводит их по отдельности; полную строку не матчит — проверено в игре).", ""]
 regex_lines = []
